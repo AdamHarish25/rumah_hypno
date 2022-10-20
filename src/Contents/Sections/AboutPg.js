@@ -1,5 +1,6 @@
 import { AboutPageDataEN } from "../EN/DataEN";
 import { FaMinus, FaPlus } from "react-icons/fa";
+import DropdownList from "../Components/DropdownList";
 
 const AboutPg = () => {
   const className = {
@@ -115,19 +116,11 @@ const AboutPg = () => {
             <ul className={className.listBox}>
               {AboutPageDataEN.content3.lists.map((data) => {
                 return (
-                  <li key={data.id} className={className.lists}>
-                    <div className={className.innerList}>
-                      <div className={className.deepInnerList}>
-                        <span>
-                          <div className={className.listDots}></div>
-                        </span>
-                        {data.list}
-                      </div>
-                      <FaPlus className="group-hover:hidden block" />
-                      <FaMinus className="group-hover:block hidden" />
-                    </div>
-                    <div className={className.dropdownBox}>{data.content}</div>
-                  </li>
+                  <DropdownList
+                    title={data.list}
+                    content={data.content}
+                    key={data.id}
+                  />
                 );
               })}
             </ul>
