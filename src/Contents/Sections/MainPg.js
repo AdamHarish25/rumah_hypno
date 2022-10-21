@@ -1,10 +1,10 @@
 import hypnosis from "../Attachments/Images/hypnosis.png";
 import { MainPageDataEN } from "../EN/DataEN";
 
-const MainPg = () => {
+const MainPg = ({ language = "en" }) => {
   const className = {
     Container: `h-auto lg:h-screen w-screen flex-col flex lg:flex-row items-center justify-between bg-gradient-to-br from-white to-[#D4E7FE] py-10`,
-    innerContainer: "space-y-5 p-20 font-inter order-2 lg:order-1",
+    innerBox: "space-y-5 p-20 font-inter order-2 lg:order-1",
     title: "text-xl text-center lg:text-start",
     title_line1: "text-5xl font-bold",
     quote: "text-center lg:text-start",
@@ -13,7 +13,7 @@ const MainPg = () => {
 
   return (
     <div className={className.Container}>
-      <div className={className.innerContainer}>
+      <div className={className.innerBox}>
         <h1 className={className.title}>
           <strong className={className.title_line1}>
             {MainPageDataEN.title} <br />

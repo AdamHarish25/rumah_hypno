@@ -13,7 +13,9 @@ module.exports = {
         SL: "auto 1fr",
       },
       backgroundImage: {
-        MainPg: "url('./Contents/Attachments/Images/Doctors.webp')",
+        adultBook: "url('./Contents/Attachments/Images/adultBooking.jpg')",
+        childrenBook:
+          "url('./Contents/Attachments/Images/childrenBooking.jpg')",
       },
     },
   },

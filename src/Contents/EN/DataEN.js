@@ -1,9 +1,10 @@
 /* eslint-disable import/no-anonymous-default-export */
 
 import Content1 from "../Attachments/Images/Content1.png";
-import ProfilePhoto from "../Attachments/Images/profilePhotoOri.jpg";
-import Content2 from "../Attachments/Images/hypnosis1.png";
-import Content3 from "../Attachments/Images/image5.png";
+import ProfilePhoto from "../Attachments/Images/ProfilePhoto.jpg";
+import Content2 from "../Attachments/Images/Content2.png";
+import Content3 from "../Attachments/Images/Content3.png";
+import Content5 from "../Attachments/Images/Content5.png";
 
 const MainPageDataEN = {
   title: "Rumah Hypno",
@@ -112,20 +113,24 @@ const AboutPageDataEN = {
 
   content5: {
     title: "How Effective is Hypnotherapy",
+    image: Content5,
     description:
       "The effectiveness and impact of hypnotherapy can vary based on the individual and how the treatment is used. Hypnotherapy has been shown to have some degree of efficacy for certain applications, particularly:",
     list: [
       {
+        id: 1,
         title:
           "Pain reduction and control during dental procedures and childbirth.",
       },
       {
+        id: 2,
         title:
           "Reduction in nausea and vomiting in individuals being treated for cancer with chemotherapy.",
       },
       {
+        id: 3,
         title:
-          "Pain reduction and control during dental procedures and childbirth.",
+          "Reduction in the severity of symptoms associated with irritable bowel syndrome (IBS)",
       },
     ],
     addition1:
@@ -135,4 +140,128 @@ const AboutPageDataEN = {
   },
 };
 
-export { MainPageDataEN, AboutPageDataEN };
+const BookingPageDataEN = {
+  adultUrl: {
+    title: "Intake for Adult",
+    url: "https://forms.gle/uvoNYgY1J8DAAzQr8",
+    image: "bg-adultBook",
+  },
+  childrenUrl: {
+    title: "Intake for Children",
+    url: "https://forms.gle/FZv12AxZGsV79e3t8",
+    image: "bg-childrenBook",
+  },
+};
+
+const TreatmentsPageDataEN = {
+  section: "Treatments",
+  list1: [
+    {
+      title: "Couple Therapy",
+    },
+    {
+      title: "Hypno Slimming",
+    },
+    {
+      title: "Hypno Parenting",
+    },
+    {
+      title: "Hypnosis For Students",
+    },
+    {
+      title: "Anger Management",
+    },
+    {
+      title: "Soul Retrieval",
+    },
+    {
+      title: "Inner Child",
+    },
+    {
+      title: "Grief",
+    },
+    {
+      title: "Abandonment",
+    },
+    {
+      title: "Phobias",
+    },
+  ],
+  list2: [
+    {
+      title: "Trauma",
+    },
+    {
+      title: "Smoking Cessation",
+    },
+    {
+      title: "Anxiety",
+    },
+    {
+      title: "Stress",
+    },
+    {
+      title: "Deep Sadness",
+    },
+    {
+      title: "Depression",
+    },
+    {
+      title: "Addictions (Alcohol, Sex, Etc.)",
+    },
+    {
+      title: "Confidence",
+    },
+    {
+      title: "Public Speaking",
+    },
+  ],
+  list3: [
+    {
+      title: "Abuse issues",
+    },
+    {
+      title: "Sexual Issues",
+    },
+    {
+      title: "Releasing Negative Energy",
+    },
+    {
+      title: "Spirit Release",
+    },
+    {
+      title: "Motivation",
+    },
+    {
+      title: "Obsessive Behaviour",
+    },
+    {
+      title: "Insomnia",
+    },
+    {
+      title: "Fear of Flying",
+    },
+    {
+      title: "Panic Attack",
+    },
+    {
+      title: "Other Psychometric Disorder",
+    },
+  ],
+};
+
+const FaqPageDataEn = [
+  {
+    question: "IS HYPNOTHERAPY SAFE?",
+    answer:
+      "HYPNOTHERAPY IS 100% SAFE. IT IS A HEALING METHOD BY USING THE POWER OF THE SUBCONSCIOUS MIND. HYPNOTHERAPY IS A SELF-HEALING, IT RESTRUCTURE THE CLIENT’S MINDSET. THE FIRST REQUIREMENT OF HYPNOTHERAPY IS THE CLIENT’S WILL TO DO THE THERAPY. THE SAFER ALTERNATIVE TECHNIQUE WILL BE APPLIED FOR CLIENTS WITH CERTAIN CONDITION SUCH AS BEING A PREGNANT WOMAN OR HAVING A HEART PROBLEM.",
+  },
+];
+
+export {
+  MainPageDataEN,
+  AboutPageDataEN,
+  TreatmentsPageDataEN,
+  BookingPageDataEN,
+  FaqPageDataEn,
+};

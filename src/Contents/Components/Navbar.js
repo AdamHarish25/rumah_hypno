@@ -73,6 +73,9 @@ const Navbar = ({ language = "en" || "id" /* "id" or "en" */ }) => {
             <a href="#Faq">Faq</a>
           </li>
           <li>
+            <a href="#Articles">Articles</a>
+          </li>
+          <li>
             <a href="#ContactUs">
               {language.toLowerCase() === "en".toLowerCase()
                 ? "Contact"
