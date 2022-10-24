@@ -5,6 +5,7 @@ import BookingPg from "./Sections/BookingPg";
 import ContactPg from "./Sections/ContactPg";
 import FaqPg from "./Sections/FaqPg";
 import MainPg from "./Sections/MainPg";
+import PricingPg from "./Sections/PricingPg";
 import TreatmentsPg from "./Sections/TreatmentsPg";
 
 const Home = ({ language = "en" }) => {
@@ -34,6 +35,7 @@ const Home = ({ language = "en" }) => {
       <AboutPg language={homeLanguage} />
       <TreatmentsPg language={homeLanguage} />
       <BookingPg language={homeLanguage} />
+      <PricingPg language={homeLanguage} />
       <FaqPg language={homeLanguage} />
       <ContactPg language={homeLanguage} />
 

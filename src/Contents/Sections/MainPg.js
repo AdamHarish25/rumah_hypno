@@ -5,7 +5,7 @@ import { MainPageDataID } from "../ID/DataID";
 const MainPg = ({ language = "en" }) => {
   const className = {
     Container: `h-screen w-screen flex items-center justify-center xl:justify-between bg-gradient-to-br from-white to-[#9fcafe] py-10`,
-    innerBox: "space-y-5 text-center p-5 font-inter",
+    innerBox: "space-y-5 text-center p-5 xl:p-20 font-inter",
     title: "text-center xl:text-start",
     title_line1: "text-2xl md:text-4xl xl:text-5xl font-bold",
     quote: "text-center xl:text-start text-xs md:text-sm xl:text-base",

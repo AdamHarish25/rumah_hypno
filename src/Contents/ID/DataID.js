@@ -277,6 +277,37 @@ const TreatmentsPageDataID = {
   ],
 };
 
+const PricingPageDataID = {
+  pricing1: {
+    Title: "Ceria 1",
+    Price: "IDR 1,000,000",
+    Benefits: "Hanya 1 Sesi",
+  },
+  pricing2: {
+    Title: "Ceria 2",
+    Price: "IDR 1,800,000",
+    Benefits: "2 Sesi",
+  },
+  pricing3: {
+    Title: "Ceria 3",
+    NormalPrice: "IDR 2,500,000",
+    PriceNow: "IDR 1.000.000",
+    Benefits: (
+      <>
+        3 Sesi
+        <br />
+        Diskon untuk waktu yang terbatas
+      </>
+    ),
+  },
+
+  offer: {
+    Title: "PROMO UNTUK WAKTU TERBATAS!!",
+    content:
+      "Ajak siapa saja booking sesi di Rumah Hypno sebanyak 3 Orang, dan Dapatkan GRATIS 1X Sesi Hypnotherapy untuk Kamu!",
+  },
+};
+
 const FaqPageDataID = [
   {
     question: "Apakah Hipnoterapi Aman?",
@@ -395,6 +426,7 @@ export {
   AboutPageDataID,
   TreatmentsPageDataID,
   BookingPageDataID,
+  PricingPageDataID,
   FaqPageDataID,
   PostsPageDataID,
 };

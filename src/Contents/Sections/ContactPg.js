@@ -7,9 +7,10 @@ const ContactPg = ({ language = "en" }) => {
     titleBox: "h-fit w-full text-center font-inter",
     sectionTitle: "text-blue-500 font-bold text-sm",
     title: "text-3xl lg:text-4xl font-bold",
-    contactBox: "w-full h-fit p-10 grid grid-cols-1 lg:grid-cols-2 gap-10",
-    map: "w-full h-screen lg:w-[550px] lg:h-[400px] border-0",
-    ul: "space-y-5 text-xl",
+    contactBox:
+      "w-full h-full p-10 xl:p-20 grid grid-cols-1 lg:grid-cols-2 gap-10",
+    map: "w-full h-screen lg:h-full border-0",
+    ul: "space-y-5 text-xl lg:text-2xl",
     ulBox: "flex items-center",
     links: "flex gap-5  md:gap-10 text-sm lg:text-base items-center",
   };

@@ -1,4 +1,4 @@
-import ArticleDataEN from "../../ArticleDatas/ArticleDataEN";
+import ArticleDataEN from "../../ArticleDatas/EN/ArticleDataEN";
 
 const Section1 = () => {
   const className = {

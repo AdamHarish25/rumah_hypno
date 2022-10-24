@@ -276,6 +276,37 @@ const TreatmentsPageDataEN = {
   ],
 };
 
+const PricingPageDataEn = {
+  pricing1: {
+    Title: "Ceria 1",
+    Price: "$64.13",
+    Benefits: "Booking 1 Session Only",
+  },
+  pricing2: {
+    Title: "Ceria 2",
+    Price: "$115.47",
+    Benefits: "Booking for 2 Sessions",
+  },
+  pricing3: {
+    Title: "Ceria 3",
+    NormalPrice: "$160.29",
+    PriceNow: "$64.11",
+    Benefits: (
+      <>
+        Booking 3 Sessions
+        <br />
+        Discount for a "Limited" Time
+      </>
+    ),
+  },
+
+  offer: {
+    Title: "LIMITED TIME PROMO!!",
+    content:
+      "Invite anyone to book a session at the RumahHypno for 3 people, and get a FREE 1X Hypnotherapy Session for you!",
+  },
+};
+
 const FaqPageDataEn = [
   {
     question: "Is Hypnotherapy Safe?",
@@ -395,6 +426,7 @@ export {
   AboutPageDataEN,
   TreatmentsPageDataEN,
   BookingPageDataEN,
+  PricingPageDataEn,
   FaqPageDataEn,
   PostsPageDataEn,
 };
