@@ -35,8 +35,17 @@ const AboutPageDataID = {
   profile: {
     title: "Profile",
     name: "MELANIE IVONE S.Kom CH.,CHt.,CPHt",
-    description1:
-      "dilahirkan dan dibesarkan Di Jakarta, lulus dari Universitas Indonesia di tahun 2006. Keteretarikannya di bidang Psikologi Manusia dan keinginan yang kuat untuk membantu sesama manusia dalam menyelesaikan berbagai masalah psikis maupun fisik, membuat Melanie mendalami ilmu Psikologi Manusia. Pengalaman sebagai Trainer:",
+    description1: (
+      <>
+        dilahirkan dan dibesarkan Di Jakarta, lulus dari Universitas Indonesia
+        di tahun 2006. Ketertarikannya mengenai Psikologi Manusia dan keinginan
+        yang kuat untuk membantu sesama dalam menyelesaikan berbagai masalah
+        psikis maupun fisik, membuat Melanie menjadi seorang psikologi manusia
+        enthusiast. <br />
+        <br />
+        <strong>Pengalaman sebagai Trainer:</strong>
+      </>
+    ),
     listDescription: [
       {
         list: "1. Trainer STIFIn di 2017 untuk Wilayah Nasional. STIFIn adalah singkatan dari Sensing, Thinking, Intuiting, Feeling and Insting yang merupakan sebuah konsep untuk mengindentifikasi kecerdasan manusia berdasarkan sistem operasi otak yang dominan dan dapat diketahui dengan memindai sidik jari.",
@@ -48,13 +57,21 @@ const AboutPageDataID = {
         list: "3. Trainer Motivasi & Entrepreneurship di Singapura Tahun 2019.",
       },
     ],
-    description2:
-      "Kini Melanie telah tersertifikasi oleh IBH (The Indonesian Board of Hypnotherapy) sebagai Professional Hipnoterapis dan Hipnotis,  yang akan dengan senang hati membantu mengatasi masalah anda, serta menjadikan versi lebih baik dari diri anda.",
+    description2: (
+      <>
+        <br />
+        Kini Melanie telah tersertifikasi oleh{" "}
+        <strong>IBH (The Indonesian Board of Hypnotherapy)</strong> sebagai
+        Professional Hipnoterapis dan Hipnotis, yang akan dengan senang hati
+        membantu mengatasi masalah anda, serta menjadikan versi lebih baik dari
+        diri anda.
+      </>
+    ),
     image: ProfilePhoto,
   },
 
   content2: {
-    title: "Apa itu Hypnotherapy?",
+    title: "Apa itu Hipnoterapi?",
     description: `Hipnoterapi terdiri dari dua kata, hipnosis dan terapi, yang berarti terapi klinis dengan menggunakan teknik khusus dalam hipnosis.
       Hipnosis adalah keadaan kesadaran yang rileks. Anda akan rileks secara fisik tetapi waspada secara mental. Dalam keadaan ini, pikiran bawah sadar Anda dengan sangat mudah menerima sugesti hipnosis. Anda memegang kendali penuh selama Hipnosis berlangsung.
       HIPNOSIS telah diPRAKTEKKAN dalam berbagai penelitian dan penelitian ilmiah di seluruh dunia selama beberapa dekade sebagai CARA yang efektif untuk berbagai masalah SEPERTI TRAUMA MASA KECIL, KONFLIK DIRI DAN PASANGAN, MANAJEMEN STRESS, DLL.`,
@@ -62,7 +79,7 @@ const AboutPageDataID = {
   },
 
   content3: {
-    title: "Teknik apa yang biasa dipakai untuk Hypnotherapy?",
+    title: "Teknik apa yang biasa dipakai untuk Hipnoterapi?",
     description:
       "Selama sesi hipnoterapi, klien dipandu melalui proses untuk menginduksi keadaan seperti trance yang membantu mereka memfokuskan pikiran mereka, lebih siap menanggapi saran, dan menjadi sangat santai. Hipnoterapi memanfaatkan kesadaran tinggi dari keadaan hipnosis untuk membantu Anda fokus pada masalah lebih dalam.",
     image: Content3,
@@ -122,7 +139,7 @@ const AboutPageDataID = {
   },
 
   content5: {
-    title: "Seberapa efektif kah Hypnotherapy?",
+    title: "Seberapa efektif kah Hipnoterapi?",
     image: Content5,
     description:
       "Efektivitas dan dampak hipnoterapi dapat bervariasi berdasarkan individu dan bagaimana perawatan digunakan. Hipnoterapi telah terbukti memiliki beberapa tingkat kemanjuran untuk aplikasi tertentu, terutama:",
@@ -262,9 +279,9 @@ const TreatmentsPageDataID = {
 
 const FaqPageDataID = [
   {
-    question: "Apakah Hypnotherapy Aman?",
+    question: "Apakah Hipnoterapi Aman?",
     answer:
-      "Hypnotherapy Adalah 100% Aman. Itu Adalah Metode Penyembuhan Dengan Menggunakan Kekuatan Pikiran Bawah Sadar. Hypnotherapy Adalah Penyembuhan Diri, Hipnoterapi Merestrukturisasi Pikiran Klien. Persyaratan Hypnotherapy Pertama Adalah Keinginan Klien Untuk Melakukan Terapi. Teknik Alternatif Yang Lebih Aman Diterapkan Untuk Klien Dengan Kondisi Tertentu Seperti Wanita Hamil Atau Memiliki Masalah Jantung.",
+      "Hipnoterapi Adalah 100% Aman. Itu Adalah Metode Penyembuhan Dengan Menggunakan Kekuatan Pikiran Bawah Sadar. Hipnoterapi Adalah Penyembuhan Diri, Hipnoterapi Merestrukturisasi Pikiran Klien. Persyaratan Hipnoterapi Pertama Adalah Keinginan Klien Untuk Melakukan Terapi. Teknik Alternatif Yang Lebih Aman Diterapkan Untuk Klien Dengan Kondisi Tertentu Seperti Wanita Hamil Atau Memiliki Masalah Jantung.",
   },
   {
     question: "Apakah Klien Kehilangan Kontrolnya Dan Mengungkap Rahasianya?",
@@ -280,10 +297,10 @@ const FaqPageDataID = [
     question:
       "Apakah Hypnosis Berkinerja Sama Seperti Tv Show Dimana Klien Menjadi Tidur Atau Terhipnotis?",
     answer:
-      "Berbeda. Hypnotherapy Adalah Memberikan Penyembuhan Untuk Pikiran Alam Bawah Sadar Ketika Klien Dalam Kesadaran Relaks Dan Kontrol Penuh.",
+      "Berbeda. Hipnoterapi Adalah Memberikan Penyembuhan Untuk Pikiran Alam Bawah Sadar Ketika Klien Dalam Kesadaran Relaks Dan Kontrol Penuh.",
   },
   {
-    question: "Kasus Apa Saja Yang Dapat Diatasi Dengan Hypnotherapy?",
+    question: "Kasus Apa Saja Yang Dapat Diatasi Dengan Hipnoterapi?",
     answer:
       "Pada Dasarnya Semua Psikosomatik (Yang Disebabkan Oleh Pikiran Atau Pikiran) Atau Emosi Negatif Seperti: Sedih, Marah, Frustrasi, Kecewa, Dendam, Patah Hati, Takut, Khawatir, Tidak Percaya Diri, Dll. Dapat Membantu Mengatasi Masalah Hubungan Keluarga (Seperti Sebagai Pasangan, Orang Tua, Anak-anak, Remaja). Hipnoterapi Juga Dapat Menyembuhkan Insomnia, Trauma, Fobia, Kecanduan Gadget, Merokok Dan Kebiasaan Buruk Lainnya.",
   },
@@ -303,7 +320,7 @@ const FaqPageDataID = [
       "Hipnoterapi Memiliki Keunggulan Yaitu Kita Dapat Berkomunikasi Dua Arah Dengan Pikiran Bawah Sadar Kita. Sedangkan Sugesti Biasa Tidak Memfasilitasi Respon Dari Pikiran Bawah Sadar.",
   },
   {
-    question: "Apakah Hypnotherapy Mengubah Kepribadian Dasar Seseorang?",
+    question: "Apakah Hipnoterapi Mengubah Kepribadian Dasar Seseorang?",
     answer:
       "Jawabannya Adalah Tidak. Prosesnya Hanya Akan Fokus Pada Isu Spesifik Yang Dibutuhkan Klien.",
   },
@@ -313,61 +330,61 @@ const PostsPageDataID = [
   {
     image: Post1,
     postTitle:
-      "Depression, Insecurity & many more are able to be Eliminated with Hypnotherapy",
+      "Depresi, Ketidakamanan & masih banyak lagi yang bisa Dihilangkan dengan Hipnoterapi",
     id: 1,
     link: "../section_1",
   },
   {
     image: Post2,
-    postTitle: "Anger Management",
+    postTitle: "Mengatur amarah",
     id: 2,
     link: "../section_2",
   },
   {
     image: Post3,
-    postTitle: "Phobia",
+    postTitle: "Fobia",
     id: 3,
     link: "../section_3",
   },
   {
     image: Post4,
-    postTitle: "Couple Therapy",
+    postTitle: "Terapi Pasangan",
     id: 4,
     link: "../section_4",
   },
   {
     image: Post5,
-    postTitle: "Hypnoslimming",
+    postTitle: "Hipnoslimming",
     id: 5,
     link: "../section_5",
   },
   {
     image: Post6,
-    postTitle: "Addiction (Smoking, Drugs, Alcoholism, Etc.)",
+    postTitle: "Kecanduan (Merokok, Narkoba, Alkoholisme, Dll)",
     id: 6,
     link: "../section_6",
   },
   {
     image: Post7,
-    postTitle: "Inner Child Hypnosis",
+    postTitle: "Hipnosis Batin Anak",
     id: 7,
     link: "../section_7",
   },
   {
     image: Post8,
-    postTitle: "Cessation of Smoking",
+    postTitle: "Berhenti Merokok",
     id: 8,
     link: "../section_8",
   },
   {
     image: Post9,
-    postTitle: "Insomnia Hypnotherapy",
+    postTitle: "Hipnoterapi insomnia",
     id: 9,
     link: "../section_9",
   },
   {
     image: Post10,
-    postTitle: "Does Hypnotherapy works?",
+    postTitle: "Apakah Hipnoterapi berhasil?",
     id: 10,
     link: "../section_10",
   },

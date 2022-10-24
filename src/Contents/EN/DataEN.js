@@ -35,8 +35,17 @@ const AboutPageDataEN = {
   profile: {
     title: "Profile",
     name: "MELANIE IVONE S.Kom CH.,CHt.,CPHt",
-    description1:
-      "Born and raised in Jakarta, graduated from the University of Indonesia in 2006. Her interest in Human Psychology and a strong desire to help fellow humans in solving various psychological and physical problems, make Melanie studies Human Psychology. Experience as a Trainer:",
+    description1: (
+      <>
+        Born and raised in Jakarta, graduated from the University of Indonesia
+        in 2006. Her interest in Human Psychology and a strong desire to help
+        fellow humans in solving various psychological and physical problems,
+        make Melanie studies Human Psychology.
+        <br />
+        <br />
+        <strong>Experience as a Trainer:</strong>
+      </>
+    ),
     listDescription: [
       {
         list: "1. STIFIn Trainer in 2017 for the National Region. STIFIn stands for Sensing, Thinking, Intuiting, Feeling and Insting which is a concept to identify human intelligence based on the dominant brain operating system and can be identified by scanning fingerprints.",
@@ -48,8 +57,15 @@ const AboutPageDataEN = {
         list: "3. Motivation & Entrepreneurship Trainer in Singapore in 2019.",
       },
     ],
-    description2:
-      "Now Melanie has been certified by IBH (The Indonesian Board of Hypnotherapy) as a Professional Hypnotherapist and Hypnosis, who will be happy to help overcome your problems, and make a better version of yourself.",
+    description2: (
+      <>
+        <br />
+        Now Melanie has been certified by{" "}
+        <strong>IBH (The Indonesian Board of Hypnotherapy)</strong> as a
+        Professional Hypnotherapist and Hypnosis, who will be happy to help
+        overcome your problems, and make a better version of yourself.
+      </>
+    ),
     image: ProfilePhoto,
   },
 
@@ -94,7 +110,7 @@ const AboutPageDataEN = {
   },
 
   content4: {
-    title: "Benefits Of  Hypnotherapy",
+    title: "Benefits Of Hypnotherapy",
     description:
       "Some people may experience dramatic results with hypnotherapy. In other cases, people may simply feel very relaxed. Some of the benefits of hypnotherapy may include:",
     lists: [
