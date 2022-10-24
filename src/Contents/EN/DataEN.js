@@ -1,7 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 
 import Content1 from "../Attachments/Images/Content1.png";
-import ProfilePhoto from "../Attachments/Images/ProfilePhoto.jpg";
+import ProfilePhoto from "../Attachments/Images/ProfilePhoto.jpeg";
 import Content2 from "../Attachments/Images/Content2.png";
 import Content3 from "../Attachments/Images/Content3.png";
 import Content5 from "../Attachments/Images/Content5.png";

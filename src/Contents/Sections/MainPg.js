@@ -4,12 +4,12 @@ import { MainPageDataID } from "../ID/DataID";
 
 const MainPg = ({ language = "en" }) => {
   const className = {
-    Container: `h-screen w-screen flex items-center justify-between bg-gradient-to-br from-white to-[#9fcafe] py-10`,
-    innerBox: "space-y-5 p-20 font-inter",
-    title: "text-xl text-center lg:text-start",
-    title_line1: "text-3xl lg:text-5xl font-bold",
-    quote: "text-center lg:text-start text-sm lg:text-base",
-    image: "hidden lg:block w-[677px] h-[483px]",
+    Container: `h-screen w-screen flex items-center justify-center xl:justify-between bg-gradient-to-br from-white to-[#9fcafe] py-10`,
+    innerBox: "space-y-5 text-center p-5 font-inter",
+    title: "text-center xl:text-start",
+    title_line1: "text-2xl md:text-4xl xl:text-5xl font-bold",
+    quote: "text-center xl:text-start text-xs md:text-sm xl:text-base",
+    image: "hidden xl:block w-[677px] h-[483px]",
   };
 
   return (

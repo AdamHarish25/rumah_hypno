@@ -9,8 +9,8 @@ const FaqPg = ({ language = "en" }) => {
     titleBox:
       "w-fit h-fit p-10 rounded-tl-[80px] rounded-br-[80px] bg-white text-center text-black",
     sectionTitle: "font-medium text-blue-500",
-    title: "font-bold text-4xl",
-    listBox: "space-y-5",
+    title: "font-bold text-2xl md:text-3xl lg:text-4xl",
+    listBox: "space-y-5 text-sm md:text-base",
   };
   return (
     <div className={className.container}>

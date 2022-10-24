@@ -6,12 +6,12 @@ const ContactPg = ({ language = "en" }) => {
     container: "w-screen h-[150vh] lg:h-screen pt-10",
     titleBox: "h-fit w-full text-center font-inter",
     sectionTitle: "text-blue-500 font-bold text-sm",
-    title: "text-4xl font-bold",
+    title: "text-3xl lg:text-4xl font-bold",
     contactBox: "w-full h-fit p-10 grid grid-cols-1 lg:grid-cols-2 gap-10",
     map: "w-full h-screen lg:w-[550px] lg:h-[400px] border-0",
     ul: "space-y-5 text-xl",
     ulBox: "flex items-center",
-    links: "flex gap-10 items-center",
+    links: "flex gap-5  md:gap-10 text-sm lg:text-base items-center",
   };
 
   return (
@@ -44,7 +44,7 @@ const ContactPg = ({ language = "en" }) => {
                 className={className.links}
                 href="https://goo.gl/maps/nFqbCFcUzKBRu6936"
               >
-                <FaMap />{" "}
+                <FaMap />
                 <p>
                   Graha Mustika Ratu 6th Floor Gatot Subroto Street Kav.74-75
                   South Jakarta 12870

@@ -8,7 +8,7 @@ const AboutPg = ({ language = "en" }) => {
     spacing: "space-y-5 font-inter",
     spacingWlists: "space-y-9",
     sectionTitle: "font-medium text-blue-500",
-    title: "font-bold text-3xl lg:text-4xl",
+    title: "font-bold text-2xl md:text-3xl lg:text-4xl",
     description: "text-[#656464] text-sm lg:text-base",
     image: "w-fit h-fit",
     listBox: "list-none space-y-5",

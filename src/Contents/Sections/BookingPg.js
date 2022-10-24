@@ -16,7 +16,7 @@ const BookingPg = ({ language = "en" }) => {
     sectionTitle: "font-medium text-blue-500",
     titleBox:
       "text-start absolute top-5 inset-x-0 px-10 bg-white w-fit h-fit py-5 rounded-tr-[100px]",
-    title: "font-bold text-4xl",
+    title: "font-bold text-2xl md:text-3xl lg:text-4xl",
   };
 
   return (

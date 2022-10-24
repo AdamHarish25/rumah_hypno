@@ -14,14 +14,17 @@ import Logo from "../../Attachments/Images/RumahHypnoLogo.png";
 
 const Footer = ({ language = "en" }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [stateText, setStateText] = useState("Bahasa");
 
-  var dropdownTitle;
+  const dropdownEN = () => {
+    setDropdownOpen(!dropdownOpen);
+    setStateText("English");
+  };
 
-  if ((language = "en")) {
-    dropdownTitle = "English";
-  } else {
-    dropdownTitle = "Bahasa";
-  }
+  const dropdownID = () => {
+    setDropdownOpen(!dropdownOpen);
+    setStateText("Bahasa");
+  };
 
   const className = {
     container: "mt-10 w-screen h-fit bg-black text-white p-5 font-inter",
@@ -49,13 +52,13 @@ const Footer = ({ language = "en" }) => {
             onClick={() => setDropdownOpen(!dropdownOpen)}
             className={className.dropdownbutton}
           >
-            {dropdownTitle}
+            {stateText}
             {dropdownOpen ? <FaChevronDown /> : <FaChevronUp />}
           </button>
           <ul className={className.dropdownMenu}>
             <li>
               <Link
-                onClick={() => setDropdownOpen(!dropdownOpen)}
+                onClick={dropdownEN}
                 className={className.dropdownItem}
                 to="../en"
               >
@@ -64,7 +67,7 @@ const Footer = ({ language = "en" }) => {
             </li>
             <li>
               <Link
-                onClick={() => setDropdownOpen(!dropdownOpen)}
+                onClick={dropdownID}
                 className={className.dropdownItem}
                 to="../id"
               >
