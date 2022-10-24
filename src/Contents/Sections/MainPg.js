@@ -1,14 +1,15 @@
 import hypnosis from "../Attachments/Images/hypnosis.png";
 import { MainPageDataEN } from "../EN/DataEN";
+import { MainPageDataID } from "../ID/DataID";
 
 const MainPg = ({ language = "en" }) => {
   const className = {
-    Container: `h-auto lg:h-screen w-screen flex-col flex lg:flex-row items-center justify-between bg-gradient-to-br from-white to-[#D4E7FE] py-10`,
-    innerBox: "space-y-5 p-20 font-inter order-2 lg:order-1",
+    Container: `h-screen w-screen flex items-center justify-between bg-gradient-to-br from-white to-[#9fcafe] py-10`,
+    innerBox: "space-y-5 p-20 font-inter",
     title: "text-xl text-center lg:text-start",
-    title_line1: "text-5xl font-bold",
-    quote: "text-center lg:text-start",
-    image: "w-[677px] h-[483px] order-1 lg:order-2",
+    title_line1: "text-3xl lg:text-5xl font-bold",
+    quote: "text-center lg:text-start text-sm lg:text-base",
+    image: "hidden lg:block w-[677px] h-[483px]",
   };
 
   return (
@@ -16,14 +17,14 @@ const MainPg = ({ language = "en" }) => {
       <div className={className.innerBox}>
         <h1 className={className.title}>
           <strong className={className.title_line1}>
-            {MainPageDataEN.title} <br />
-            {MainPageDataEN.name}
+            {(language === "en" ? MainPageDataEN : MainPageDataID).title} <br />
+            {(language === "en" ? MainPageDataEN : MainPageDataID).name}
           </strong>
         </h1>
         <p className={className.quote}>
-          {MainPageDataEN.quote}
+          {(language === "en" ? MainPageDataEN : MainPageDataID).quote}
           <br />
-          {MainPageDataEN.quotePeople}
+          {(language === "en" ? MainPageDataEN : MainPageDataID).quotePeople}
         </p>
       </div>
       <img

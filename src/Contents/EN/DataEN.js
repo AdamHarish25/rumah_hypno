@@ -5,6 +5,16 @@ import ProfilePhoto from "../Attachments/Images/ProfilePhoto.jpg";
 import Content2 from "../Attachments/Images/Content2.png";
 import Content3 from "../Attachments/Images/Content3.png";
 import Content5 from "../Attachments/Images/Content5.png";
+import Post1 from "../Attachments/Images/post-1.jpg";
+import Post2 from "../Attachments/Images/post-2.jpg";
+import Post3 from "../Attachments/Images/post-3.jpg";
+import Post4 from "../Attachments/Images/post-4.jpg";
+import Post5 from "../Attachments/Images/post-5.jpg";
+import Post6 from "../Attachments/Images/post-6.jpg";
+import Post7 from "../Attachments/Images/post-7.jpg";
+import Post8 from "../Attachments/Images/post-8.jpg";
+import Post9 from "../Attachments/Images/post-9.jpg";
+import Post10 from "../Attachments/Images/post-10.jpg";
 
 const MainPageDataEN = {
   title: "Rumah Hypno",
@@ -252,9 +262,115 @@ const TreatmentsPageDataEN = {
 
 const FaqPageDataEn = [
   {
-    question: "IS HYPNOTHERAPY SAFE?",
+    question: "Is Hypnotherapy Safe?",
     answer:
-      "HYPNOTHERAPY IS 100% SAFE. IT IS A HEALING METHOD BY USING THE POWER OF THE SUBCONSCIOUS MIND. HYPNOTHERAPY IS A SELF-HEALING, IT RESTRUCTURE THE CLIENT’S MINDSET. THE FIRST REQUIREMENT OF HYPNOTHERAPY IS THE CLIENT’S WILL TO DO THE THERAPY. THE SAFER ALTERNATIVE TECHNIQUE WILL BE APPLIED FOR CLIENTS WITH CERTAIN CONDITION SUCH AS BEING A PREGNANT WOMAN OR HAVING A HEART PROBLEM.",
+      "Hypnotherapy Is 100% Safe. It Is A Healing Method By Using The Power Of The Subconscious Mind. Hypnotherapy Is A Self-healing, It Restructure The Client’s Mindset. The First Requirement Of Hypnotherapy Is The Client’s Will To Do The Therapy. The Safer Alternative Technique Will Be Applied For Clients With Certain Condition Such As Being A Pregnant Woman Or Having A Heart Problem.",
+  },
+  {
+    question: "Will The Client Lose His/Her Control And Expose His/Her Secret?",
+    answer:
+      "During The Therapy, The Client Will Be Aware And Realise What Happens During The Process. Therapist Will Guide The Client To Relax And Focus To Explore The Root Cause.",
+  },
+  {
+    question: "Is Hypnotherapy As Same As Brain Washing?",
+    answer:
+      "Of Course Not. Hypnotherapy Is Not A Brainwashing Process. The Therapist Needs The Client's Permission To Access Memory Data In The Subconscious Mind Which Allows To Open The Memory Data Needed In The Restructuring Process.",
+  },
+  {
+    question:
+      "Is Hypnosis Perform The Same As Tv Show Where The Client Becomes Unconscious Or Falls Sleep?",
+    answer:
+      "It’s Different. Hypnotherapy Is Providing Healing For The Subconscious Mind When The Client Is In Relax And Full Control Awareness.",
+  },
+  {
+    question: "What Kind Of Cases That Can Be Overcome By Hypnotherapy?",
+    answer:
+      "Basically All Psychosomatic (Which Are Caused By The Mind Or Thought) Or Negative Emotion Such As: Sad, Angry, Frustrated, Disappointed, Revenge, Broken Heart, Afraid, Worry, Unconfident, Etc. It Can Help To Address Family Relationship Issue (Such As Couples, Parents, Children, Teens). Hypnotherapy Can Also Cure Insomnia, Trauma, Phobia, Gadget Addiction, Smoking And Other Bad Habits.",
+  },
+  {
+    question: "Is There Any Guarantee That My Counseling Will Be Confidential?",
+    answer:
+      "The Client’s Information Will Be Documented Confidentially. The Therapist Must Follow The Ethical Rule From Awgi. Should Any Part Of Counseling Is To Be Shared For The Educational Purpose, Therapist Will Ask For Client’s Permission And Replace With Fictional Name.",
+  },
+  {
+    question: "Is There Any Guarantee That The Client Will Recover Instantly?",
+    answer:
+      "The Basic Of Hypnotherapy Is ‘Effort Oriented Contract’, Not ‘Result Oriented Contract’. Therapist Will Do Her Best Effort To Overcome Client’s Problem. Many Of Our Clients Has Experienced The Positive Changes In Life After The Hypnotherapy Session.",
+  },
+  {
+    question:
+      "What Is The Difference Between Hypnotherapy And Regular Suggestions?",
+    answer:
+      "Hypnotherapy Has The Advantage That We Can Communicate In Two Directions With Our Subconscious Mind. While Ordinary Suggestions Do Not Facilitate The Response Of The Subconscious Mind.",
+  },
+  {
+    question: "Can Hypnotherapy Change The Basic Personality Of A Person?",
+    answer:
+      "The Answer Is No. The Process Will Only Focus On Specific Issue The Client’s Need.",
+  },
+];
+
+const PostsPageDataEn = [
+  {
+    image: Post1,
+    postTitle:
+      "Depression, Insecurity & many more are able to be Eliminated with Hypnotherapy",
+    id: 1,
+    link: "../section_1",
+  },
+  {
+    image: Post2,
+    postTitle: "Anger Management",
+    id: 2,
+    link: "../section_2",
+  },
+  {
+    image: Post3,
+    postTitle: "Phobia",
+    id: 3,
+    link: "../section_3",
+  },
+  {
+    image: Post4,
+    postTitle: "Couple Therapy",
+    id: 4,
+    link: "../section_4",
+  },
+  {
+    image: Post5,
+    postTitle: "Hypnoslimming",
+    id: 5,
+    link: "../section_5",
+  },
+  {
+    image: Post6,
+    postTitle: "Addiction (Smoking, Drugs, Alcoholism, Etc.)",
+    id: 6,
+    link: "../section_6",
+  },
+  {
+    image: Post7,
+    postTitle: "Inner Child Hypnosis",
+    id: 7,
+    link: "../section_7",
+  },
+  {
+    image: Post8,
+    postTitle: "Cessation of Smoking",
+    id: 8,
+    link: "../section_8",
+  },
+  {
+    image: Post9,
+    postTitle: "Insomnia Hypnotherapy",
+    id: 9,
+    link: "../section_9",
+  },
+  {
+    image: Post10,
+    postTitle: "Does Hypnotherapy works?",
+    id: 10,
+    link: "../section_10",
   },
 ];
 
@@ -264,4 +380,5 @@ export {
   TreatmentsPageDataEN,
   BookingPageDataEN,
   FaqPageDataEn,
+  PostsPageDataEn,
 };

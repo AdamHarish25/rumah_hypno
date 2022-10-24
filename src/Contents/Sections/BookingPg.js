@@ -1,11 +1,17 @@
 import { BookingPageDataEN } from "../EN/DataEN";
+import { BookingPageDataID } from "../ID/DataID";
 
 const BookingPg = ({ language = "en" }) => {
   const className = {
     container:
-      "w-screen h-fit lg:h-screen grid grid-cols-2 relative my-10 font-inter",
-    link1: `${BookingPageDataEN.adultUrl.image} bg-cover h-full w-full flex justify-center items-center text-white text-3xl hover:font-bold`,
-    link2: `${BookingPageDataEN.childrenUrl.image} bg-cover h-full w-full flex justify-center items-center text-white text-3xl hover:font-bold`,
+      "w-screen h-fit lg:h-screen grid grid-cols-1 lg:grid-cols-2 relative mt-10 font-inter",
+    link1: `${
+      (language === "en" ? BookingPageDataEN : BookingPageDataID).adultUrl.image
+    } bg-cover h-[500px] lg:h-full w-full flex justify-center items-center text-white text-xl lg:text-3xl hover:font-bold transition-all duration-200`,
+    link2: `${
+      (language === "en" ? BookingPageDataEN : BookingPageDataID).childrenUrl
+        .image
+    } bg-cover h-[500px] lg:h-full w-full flex justify-center items-center text-white text-xl lg:text-3xl hover:font-bold transition-all duration-200`,
     spacing: "space-y-8",
     sectionTitle: "font-medium text-blue-500",
     titleBox:
@@ -14,26 +20,42 @@ const BookingPg = ({ language = "en" }) => {
   };
 
   return (
-    <div id="Booking" className={className.container}>
-      <div className={className.titleBox}>
-        <h1 className={className.sectionTitle}>Booking</h1>
-        <h2 className={className.title}>Book now!</h2>
+    <div className={className.container}>
+      <div id="Booking" className={className.titleBox}>
+        <h1 className={className.sectionTitle}>
+          {language === "en" ? "Booking" : "Pemesanan"}
+        </h1>
+        <h2 className={className.title}>
+          {language === "en" ? "Book now!" : "Pesan Sekarang!"}
+        </h2>
       </div>
       <a
         target={"_blank"}
         rel="noreferrer"
-        href={BookingPageDataEN.adultUrl.url}
+        href={
+          (language === "en" ? BookingPageDataEN : BookingPageDataID).adultUrl
+            .url
+        }
         className={className.link1}
       >
-        {BookingPageDataEN.adultUrl.title}
+        {
+          (language === "en" ? BookingPageDataEN : BookingPageDataID).adultUrl
+            .title
+        }
       </a>
       <a
         target={"_blank"}
         rel="noreferrer"
-        href={BookingPageDataEN.childrenUrl.url}
+        href={
+          (language === "en" ? BookingPageDataEN : BookingPageDataID)
+            .childrenUrl.url
+        }
         className={className.link2}
       >
-        {BookingPageDataEN.childrenUrl.title}
+        {
+          (language === "en" ? BookingPageDataEN : BookingPageDataID)
+            .childrenUrl.title
+        }
       </a>
     </div>
   );

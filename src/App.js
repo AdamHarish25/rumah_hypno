@@ -1,15 +1,17 @@
-import { Redirect, Route, Switch } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./Contents/Home";
+import Articles from "./Contents/Sections/Articles";
 
 function App() {
   return (
     <div id="App" className={`w-screen`}>
-      <Switch>
-        {window.location.pathname === "/" ? <Redirect to="/en" /> : ""}
-        <Route path="/id" render={() => <Home language="id" />} />
-        <Route path="/en" exact render={() => <Home language="en" />} />
-      </Switch>
+      <Routes>
+        <Route path="id" element={<Home language="id" />} />
+        <Route path="en" exact element={<Home language="en" />} />
+        <Route path="Articles/*" element={<Articles />} />
+        <Route path="" element={<Navigate to="en" replace />} />
+      </Routes>
     </div>
   );
 }

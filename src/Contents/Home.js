@@ -1,6 +1,9 @@
-import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer/Footer";
+import Navbar from "./Components/Navbar/Navbar";
 import AboutPg from "./Sections/AboutPg";
 import BookingPg from "./Sections/BookingPg";
+import ContactPg from "./Sections/ContactPg";
+import FaqPg from "./Sections/FaqPg";
 import MainPg from "./Sections/MainPg";
 import TreatmentsPg from "./Sections/TreatmentsPg";
 
@@ -31,6 +34,10 @@ const Home = ({ language = "en" }) => {
       <AboutPg language={homeLanguage} />
       <TreatmentsPg language={homeLanguage} />
       <BookingPg language={homeLanguage} />
+      <FaqPg language={homeLanguage} />
+      <ContactPg language={homeLanguage} />
+
+      <Footer language={homeLanguage} />
     </div>
   );
 };
