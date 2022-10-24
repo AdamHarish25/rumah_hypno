@@ -31,9 +31,13 @@ const TreatmentsPg = ({ language = "en" }) => {
   return (
     <div className={className.container}>
       <div className={className.titleBox}>
-        <h1 className={className.sectionTitle}>Layanan</h1>
+        <h1 className={className.sectionTitle}>
+          {language === "en" ? "Treatments" : "Layanan"}
+        </h1>
         <h2 id="Treatments" className={className.title}>
-          Layanan yang paling banyak digunakan
+          {language === "en"
+            ? "Treatments mostly used"
+            : "Layanan yang paling banyak digunakan"}
         </h2>
       </div>
       <div className={className.innerBox}>
