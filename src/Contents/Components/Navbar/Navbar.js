@@ -4,7 +4,7 @@ import { HiChevronDown } from "react-icons/hi";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Navbar = ({ language = "en" /* "id" or "en" */ }) => {
+const Navbar = ({ language = "en", setScrollTo /* "id" or "en" */ }) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [navbar, setNavbar] = useState(false);
 
@@ -23,6 +23,10 @@ const Navbar = ({ language = "en" /* "id" or "en" */ }) => {
       setNavbar(false);
     }
   };
+
+  const onclickScrollTo = (value) => {
+    setScrollTo(value)
+  }
 
   window.addEventListener("scroll", changeBackground);
 
@@ -56,11 +60,11 @@ const Navbar = ({ language = "en" /* "id" or "en" */ }) => {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="#About">
+            <div onClick={() => onclickScrollTo('About')}>
               {language.toLowerCase() === "en".toLowerCase()
                 ? "About"
                 : "Tentang Kami"}
-            </a>
+            </div>
           </li>
           <li>
             <a href="#Treatments">
