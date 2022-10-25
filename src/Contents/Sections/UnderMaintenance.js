@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import maintenance from "../Attachments/Images/maintenance.png";
 
-const MaintenancePage = () => {
+const MaintenancePage = ({ language = "en" }) => {
   const className = {
     container: "h-screen w-screen justify-center items-center font-Poppins",
     image: "w-[500px] h-[300px]",
@@ -22,9 +22,11 @@ const MaintenancePage = () => {
           />
         </div>
         <h1 className={className.h1}>
-          We are sorry but we are still under maintenance
+          {language === "en"
+            ? "We are sorry because we are still under maintenance"
+            : "Kami minta maaf atas ketidaknyamanan anda, karena kami masih dalam tahap perbaikan"}
         </h1>
-        <Link to="..">Go Back?</Link>
+        <Link to="..">{language === "en" ? "Go Back?" : "Kembali?"}</Link>
       </div>
     </div>
   );

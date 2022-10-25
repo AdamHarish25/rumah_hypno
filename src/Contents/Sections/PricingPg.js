@@ -42,7 +42,7 @@ const PricingPg = ({ language = "en" }) => {
             }
           </h1>
           <p>
-            Benefits: <br />
+            {language === "en" ? "Benefits:" : "Keuntungan:"} <br />
             <strong>
               {
                 (language === "en" ? PricingPageDataEn : PricingPageDataID)
@@ -65,7 +65,7 @@ const PricingPg = ({ language = "en" }) => {
             }
           </h1>
           <p>
-            Benefits: <br />
+            {language === "en" ? "Benefits:" : "Keuntungan:"} <br />
             <strong>
               {
                 (language === "en" ? PricingPageDataEn : PricingPageDataID)

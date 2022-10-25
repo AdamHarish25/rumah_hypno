@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaArrowRight, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { PostsPageDataEn } from "../EN/DataEN";
+import { PostsPageDataID } from "../ID/DataID";
 
 const PostsPg = ({ language = "en" }) => {
   const [expand, setExpand] = useState(false);
@@ -30,27 +31,42 @@ const PostsPg = ({ language = "en" }) => {
   return (
     <div className={className.container}>
       <div className={className.titleBox}>
-        <h1 className={className.sectionTitle}>Articles</h1>
-        <h2 className={className.title}>Articles you might want to know</h2>
+        <h1 className={className.sectionTitle}>
+          {language === "en" ? "Articles" : "Artikel"}
+        </h1>
+        <h2 className={className.title}>
+          {language === "en"
+            ? "Articles you might want to know"
+            : "Artikel yang mungkin ingin Anda baca"}
+        </h2>
       </div>
       <div className={className.innerBox}>
-        {PostsPageDataEn.map(({ image, postTitle, id, link }) => {
-          return (
-            <div key={id} className={className.post}>
-              <img src={image} alt="posts Img" className={className.image} />
-              <h1 className={className.postTitle}>
-                <div className={className.yellowLine} /> {postTitle}
-              </h1>
-              <Link className={className.link} to={link} >
-                Read this Article <FaArrowRight />{" "}
-              </Link>
-            </div>
-          );
-        })}
+        {(language === "en" ? PostsPageDataEn : PostsPageDataID).map(
+          ({ image, postTitle, id, link }) => {
+            return (
+              <div key={id} className={className.post}>
+                <img src={image} alt="posts Img" className={className.image} />
+                <h1 className={className.postTitle}>
+                  <div className={className.yellowLine} /> {postTitle}
+                </h1>
+                <Link className={className.link} to={link}>
+                  {language === "en" ? "Read This Article" : "Baca Artikel Ini"}{" "}
+                  <FaArrowRight />{" "}
+                </Link>
+              </div>
+            );
+          }
+        )}
       </div>
       <div className={className.buttonBox}>
         <button onClick={() => setExpand(!expand)} className={className.button}>
-          {expand ? "Expand Less" : "Expand More"}{" "}
+          {expand
+            ? language === "en"
+              ? "Expand Less"
+              : "Tutup"
+            : language === "en"
+            ? "Expand More"
+            : "Lihat lebih banyak"}{" "}
           {expand ? <FaChevronUp /> : <FaChevronDown />}
         </button>
       </div>

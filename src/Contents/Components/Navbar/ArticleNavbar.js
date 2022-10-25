@@ -62,10 +62,12 @@ const ArticleNavbar = ({ language = "en" || "id" /* "id" or "en" */ }) => {
         </Link>
         <ul className={className.ul1}>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">{language === "en" ? "Home" : "Beranda"}</Link>
           </li>
           <li>
-            <Link to="../Articles">Articles</Link>
+            <Link to="../Articles">
+              {language === "en" ? "Articles" : "Artikel"}
+            </Link>
           </li>
         </ul>
       </div>
@@ -86,14 +88,14 @@ const ArticleNavbar = ({ language = "en" || "id" /* "id" or "en" */ }) => {
         >
           <ul className={className.ul2}>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">{language === "en" ? "Home" : "Beranda"}</Link>
             </li>
             <li>
-              <Link to="../Articles">Articles</Link>
+              <Link to="../Articles">
+                {language === "en" ? "Articles" : "Artikel"}
+              </Link>
             </li>
-            <li>
-              
-            </li>
+            <li></li>
           </ul>
         </div>
       </div>
