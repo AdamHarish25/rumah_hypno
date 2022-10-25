@@ -53,7 +53,7 @@ const Navbar = ({ language = "en" /* "id" or "en" */ }) => {
         <img src={logo} alt="Logo Here" className={className.img} />
         <ul className={className.ul1}>
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
             <a href="#About">

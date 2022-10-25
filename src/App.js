@@ -7,8 +7,8 @@ function App() {
   return (
     <div id="App" className={`w-screen`}>
       <Routes>
-        <Route path="/id" exact element={<Home language="id" />} />
-        <Route path="/en" element={<Home language="en" />} />
+        <Route path="id" exact element={<Home language="id" />} />
+        <Route path="en" element={<Home language="en" />} />
         <Route path="Articles/*" element={<Articles language="id" />} />
         <Route path="Articles/en/*" element={<Articles language="en" />} />
         <Route path="Articles/id/*" element={<Articles language="id" />} />
