@@ -13,7 +13,7 @@ const MainPg = ({ language = "en" }) => {
   };
 
   return (
-    <div className={className.Container}>
+    <div id="main" className={className.Container}>
       <div className={className.innerBox}>
         <h1 className={className.title}>
           <strong className={className.title_line1}>

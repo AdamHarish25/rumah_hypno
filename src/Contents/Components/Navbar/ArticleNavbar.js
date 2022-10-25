@@ -3,7 +3,7 @@ import logo from "../../Attachments/Images/RumahHypnoLogo.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const ArticleNavbar = ({ language = "en" || "id" /* "id" or "en" */ }) => {
+const ArticleNavbar = ({ language = "en" /* "id" or "en" */ }) => {
   const [hover, setHover] = useState(false);
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [navbar, setNavbar] = useState(false);

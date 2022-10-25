@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import AboutPg from "./Sections/AboutPg";
@@ -10,6 +11,7 @@ import TreatmentsPg from "./Sections/TreatmentsPg";
 
 const Home = ({ language = "en" }) => {
   var homeLanguage;
+  const [scrollTo, setScrollTo] = useState("");
 
   if (
     language.toLowerCase() === "EN".toLowerCase() ||
@@ -27,9 +29,18 @@ const Home = ({ language = "en" }) => {
     homeLanguage = "id";
   }
 
+  useEffect(()=> {
+    const element = document.getElementById(scrollTo); 
+      if (element) {
+        window.scrollTo({
+          top:element.offsetTop - 40,
+          behavior:"smooth"
+        });
+      }
+  }, [scrollTo])
   return (
     <div className="w-screen h-auto overflow-x-hidden">
-      <Navbar language={homeLanguage} />
+      <Navbar language={homeLanguage } setScrollTo={setScrollTo} />
 
       <MainPg language={homeLanguage} />
       <AboutPg language={homeLanguage} />

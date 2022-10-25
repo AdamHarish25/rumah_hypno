@@ -4,7 +4,7 @@ import { HiChevronDown } from "react-icons/hi";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Navbar = ({ language = "en" /* "id" or "en" */ }) => {
+const Navbar = ({ language = "en", setScrollTo /* "id" or "en" */ }) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [navbar, setNavbar] = useState(false);
 
@@ -22,6 +22,10 @@ const Navbar = ({ language = "en" /* "id" or "en" */ }) => {
     } else {
       setNavbar(false);
     }
+  };
+
+  const onclickScrollTo = (value) => {
+    setScrollTo(value);
   };
 
   window.addEventListener("scroll", changeBackground);
@@ -53,41 +57,41 @@ const Navbar = ({ language = "en" /* "id" or "en" */ }) => {
         <img src={logo} alt="Logo Here" className={className.img} />
         <ul className={className.ul1}>
           <li>
-            <a href="/">Home</a>
+            <button onClick={() => onclickScrollTo("main")}>Home</button>
           </li>
           <li>
-            <a href="#About">
+            <button onClick={() => onclickScrollTo("About")}>
               {language.toLowerCase() === "en".toLowerCase()
                 ? "About"
                 : "Tentang Kami"}
-            </a>
+            </button>
           </li>
           <li>
-            <a href="#Treatments">
+            <button onClick={() => onclickScrollTo("Treatments")}>
               {language.toLowerCase() === "en".toLowerCase()
                 ? "Treatment"
                 : "Layanan"}
-            </a>
+            </button>
           </li>
           <li>
-            <a href="#Booking">
+            <button onClick={() => onclickScrollTo("Booking")}>
               {language.toLowerCase() === "en".toLowerCase()
                 ? "Book Now"
                 : "Buat Janji"}
-            </a>
+            </button>
           </li>
           <li>
-            <a href="#Faq">Faq</a>
+            <button onClick={() => onclickScrollTo("Faq")}>Faq</button>
           </li>
           <li>
             <Link to={`/Articles`}>Articles</Link>
           </li>
           <li>
-            <a href="#ContactUs">
+            <button onClick={() => onclickScrollTo("ContactUs")}>
               {language.toLowerCase() === "en".toLowerCase()
                 ? "Contact"
                 : "Hubungi Kami"}
-            </a>
+            </button>
           </li>
         </ul>
       </div>
@@ -108,41 +112,41 @@ const Navbar = ({ language = "en" /* "id" or "en" */ }) => {
         >
           <ul className={className.ul2}>
             <li>
-              <a href="#">Home</a>
+              <button onClick={() => onclickScrollTo("main")}>Home</button>
             </li>
             <li>
-              <a href="#About">
+              <button onClick={() => onclickScrollTo("About")}>
                 {language.toLowerCase() === "en".toLowerCase()
                   ? "About"
                   : "Tentang Kami"}
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#Treatments">
+              <button onClick={() => onclickScrollTo("Treatments")}>
                 {language.toLowerCase() === "en".toLowerCase()
                   ? "Treatment"
                   : "Layanan"}
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#Booking">
+              <button onClick={() => onclickScrollTo("Booking")}>
                 {language.toLowerCase() === "en".toLowerCase()
                   ? "Book Now"
                   : "Buat Janji"}
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#Faq">Faq</a>
+              <button onClick={() => onclickScrollTo("Faq")}>Faq</button>
             </li>
             <li>
               <Link to={`/Articles`}>Articles</Link>
             </li>
             <li>
-              <a href="#ContactUs">
+              <button onClick={() => onclickScrollTo("ContactUs")}>
                 {language.toLowerCase() === "en".toLowerCase()
                   ? "Contact"
                   : "Hubungi Kami"}
-              </a>
+              </button>
             </li>
           </ul>
         </div>

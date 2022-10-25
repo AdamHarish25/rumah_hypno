@@ -20,8 +20,8 @@ const BookingPg = ({ language = "en" }) => {
   };
 
   return (
-    <div className={className.container}>
-      <div id="Booking" className={className.titleBox}>
+    <div id="Booking" className={className.container}>
+      <div className={className.titleBox}>
         <h1 className={className.sectionTitle}>
           {language === "en" ? "Booking" : "Pemesanan"}
         </h1>

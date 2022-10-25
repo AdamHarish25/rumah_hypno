@@ -13,11 +13,9 @@ const FaqPg = ({ language = "en" }) => {
     listBox: "space-y-5 text-sm md:text-base",
   };
   return (
-    <div className={className.container}>
+    <div id="Faq" className={className.container}>
       <div className={className.titleBox}>
-        <h1 id="Faq" className={className.sectionTitle}>
-          FAQ
-        </h1>
+        <h1 className={className.sectionTitle}>FAQ</h1>
         <h2 className={className.title}>
           {language === "en"
             ? "Frequently asked question"

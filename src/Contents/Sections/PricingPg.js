@@ -20,7 +20,7 @@ const PricingPg = ({ language = "en" }) => {
   };
 
   return (
-    <div className={className.container}>
+    <div id="Pricing" className={className.container}>
       <div className={className.titleBox}>
         <h2 className={className.title}>
           {language === "en" ? "Pricing Deals" : "Penawaran Harga"}

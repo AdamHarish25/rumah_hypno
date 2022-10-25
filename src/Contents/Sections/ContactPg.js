@@ -16,9 +16,9 @@ const ContactPg = ({ language = "en" }) => {
   };
 
   return (
-    <div className={className.container}>
+    <div id="ContactUs" className={className.container}>
       <div className={className.titleBox}>
-        <h2 id="ContactUs" className={className.sectionTitle}>
+        <h2 className={className.sectionTitle}>
           {language === "en" ? "Contact" : "Kontak"}
         </h2>
         <h1 className={className.title}>
