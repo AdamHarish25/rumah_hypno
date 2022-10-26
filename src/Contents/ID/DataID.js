@@ -29,7 +29,7 @@ const AboutPageDataID = {
   content1: {
     title: "Siapa Kita?",
     description:
-      "Rumah hypno adalah klinik hipnoterapi keluarga yang berlokasi di Jakarta Selatan. Kami melayani terapi berbagai keluhan psikis maupun fisik ringan yang diakibatkan oleh ketidakseimbangan psikologis (psikosomatis). Seperti kecanduan gadget/ ALKOHOL/ Rokok, depresi, stress, sulit focus, HYPNOSLIMMING, Couple therapy, inner child, trauma, pengendalian emosi, atau gangguan psikometri lainnya. Bersama terapis yang professional, kami lakukan yang terbaik untuk anda.",
+      "Rumah Hypno adalah klinik hipnoterapi keluarga yang berlokasi di Jakarta Selatan. Kami melayani terapi berbagai keluhan psikis maupun fisik ringan yang diakibatkan oleh ketidakseimbangan psikologis (psikosomatis). Seperti kecanduan gadget/ alkohol/ rokok, depresi, stress, sulit focus, hypnoslimming, couple therapy, inner child, trauma, pengendalian emosi, atau gangguan psikometri lainnya. Bersama terapis yang professional, kami lakukan yang terbaik untuk anda.",
     image: Content1,
   },
   profile: {
@@ -72,9 +72,7 @@ const AboutPageDataID = {
 
   content2: {
     title: "Apa itu Hipnoterapi?",
-    description: `Hipnoterapi terdiri dari dua kata, hipnosis dan terapi, yang berarti terapi klinis dengan menggunakan teknik khusus dalam hipnosis.
-      Hipnosis adalah keadaan kesadaran yang rileks. Anda akan rileks secara fisik tetapi waspada secara mental. Dalam keadaan ini, pikiran bawah sadar Anda dengan sangat mudah menerima sugesti hipnosis. Anda memegang kendali penuh selama Hipnosis berlangsung.
-      HIPNOSIS telah diPRAKTEKKAN dalam berbagai penelitian dan penelitian ilmiah di seluruh dunia selama beberapa dekade sebagai CARA yang efektif untuk berbagai masalah SEPERTI TRAUMA MASA KECIL, KONFLIK DIRI DAN PASANGAN, MANAJEMEN STRESS, DLL.`,
+    description: `Hipnoterapi terdiri dari dua kata, hipnosis dan terapi, yang berarti terapi klinis dengan menggunakan teknik khusus dalam hipnosis. Hipnosis adalah keadaan kesadaran yang rileks. Anda akan rileks secara fisik tetapi waspada secara mental. Dalam keadaan ini, pikiran bawah sadar Anda dengan sangat mudah menerima sugesti hipnosis. Anda memegang kendali penuh selama Hipnosis berlangsung. Hipnosis telah digunakan dalam berbagai penelitian dan penelitian ilmiah di seluruh dunia selama beberapa dekade sebagai cara yang efektif untuk berbagai masalah seperti trauma masa kecil, konflik diri dan pasangan, pengendalian emosi, dll.`,
     image: Content2,
   },
 

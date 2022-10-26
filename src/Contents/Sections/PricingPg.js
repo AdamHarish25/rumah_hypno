@@ -111,7 +111,7 @@ const PricingPg = ({ language = "en" }) => {
             .Title
         }{" "}
         <br />
-        <br />
+        <br className="block lg:hidden" />
         {
           (language === "en" ? PricingPageDataEn : PricingPageDataID).offer
             .content

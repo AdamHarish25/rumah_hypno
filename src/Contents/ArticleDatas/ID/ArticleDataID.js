@@ -13,184 +13,321 @@ const ArticleDataID = {
   section_1: {
     image: Post1,
     title:
-      "Depression, Insecurity, Low Self-esteem, Excessive Emotions, Can Be Eliminated With Hypnosis Therapy",
-    opening: `If you are reading this, maybe this article is meant for you to read.
-        Because maybe you are going through several phases as written in the title above, or there are family, friends, co-workers or friends who are going through these phases.
-        Each of us must have experienced this phase and that is normal. All you need is help from someone who understands and can help remove that feeling from your mind, namely your subconscious mind.
-        Why is it called the subconscious mind? The human mind is divided into 2 parts, there is a conscious mind and a subconscious mind, the human conscious mind has a role only about 10-15% of the mindset and how we make decisions and how we act. The rest about 85-90% is controlled by our subconscious mind.
-        So there must be a moment in your life where you feel like a failure, heavy stress, depression, insecure and overthinking everything you have taken to get rid of that feeling, by seeing a psychologist, talking and changing ideas with friends, closest people, or religious leaders, but still you can't get out of those negative feelings.
-        `,
-    titleC1: "There is a story that might represent your story right now:",
+      "Depresi, Insecurity, Rendah Diri, Emosi Berlebih, Bisa Dihilangkan Dengan Terapi Hypnosis",
+    opening: `Ketika kamu  membaca ini mungkin artikel ini memang ditakdirkan untuk kamu baca. 
+    Karena mungkin kamu sedang mengalami beberapa fase seperti yang tertulis pada judul di atas, atau  ada keluarga, sahabat, rekan kerja atau teman yang mengalami fase tsb.
+    Setiap dari kita pasti pernah mengalami momen atau fase tersebut  dan itu wajar. Yang kamu butuhkan hanyalah pertolongan dari orang yang mengerti dan bisa membantu menghilangkan rasa itu dari dalam pikiran kamu, yakni pikiran bawah sadar kamu.
+    Mengapa dikatakan pikiran bawah sadar? Pikiran manusia dibagi menjadi 2 bagian ada pikiran sadar dan pikiran bawah sadar, pikiran sadar manusia memiliki peran hanya sekitar 10-15%dari pola pikir dan bagaimana kita mengambil keputusan dan bagaimana kita bertindak. Sisanya sekitar 85-90% dikendalikan oleh pikiran bawah sadar kita.
+    Sehingga pasti ada momen di dalam hidup kamu dimana kamu merasa gagal, stress berat ,depresi, insecure dan overthinking segala cara sudah kamu tempuh untuk bisa menghilangkan rasa itu, dengan menemui psikolog, berbicara dan bertukar pikiran dengan sahabat, orang terdekat, atau pemuka agama, namun tetap saja kamu  tidak dapat keluar dari perasaan- perasaan negatif tadi. 
+    kamu secara sadar tahu bahwa rasa itu tidak baik, rasa itu membuat hidup kamu nelangsa, tapi kamu secara tidak sadar memilih untuk tetap di fase itu dan sulit untuk keluar.
+    `,
+    titleC1: "Ada sebuah cerita yang mungkin mewakilkan kisah kamu sekarang:",
     C1: [
       {
-        A: `A: (crying) "Sist, I'm tired of my boyfriend, he's abusing me again, I feel like I'm not considered even a little bit when I talk he will get angry, sometimes hit me. I'm tired sist.. what should I do?"`,
-        B: `\nB: "I already told you, it's not worth you to maintain your relationship is not healthy anymore, you have to start thinking about yourself, are you happy or not?`,
+        A: `A: (sambil menangis) "sist, aku cape sama pacarku dia kasarin aku lagi, aku seperti sudah tidak dianggap sedikit saja aku berbicara dia akan marah, kadang main tangan. Aku cape sist... aku harus bagaimana?"`,
+
+        B: `\nB: "kan aku udah bilang, gak worthed kamu pertahankan hubungan kamu itu udah gak sehat, kamu harus mulai pikirin diri kamu sendiri, emang kamu bahagia engga kan?"`,
       },
       {
-        A: `\nA: (still crying) “No, but I'm afraid to lose him sist, I still love him, even though sometimes I think about breaking up because I really feel depressed too."`,
-        B: `\nB: "Well, why are you in a relationship if you have to be depressed?"`,
+        A: `\nA: (masih menangis) "Ya engga, tapi aku takut kehilangan dia sist, aku masih sayang, walau kadang aku kepikiran juga buat putus karna aku memang merasa tertekan juga."`,
+
+        B: `\nB:"Nah, kan ngapain jalanin hubungan. Kalo harus tertekan?"`,
       },
       {
         A: ` \n
-            A: "Yeah, right, I'll try, I hope I can forget him"\n
-            (Two weeks later, B contacted A again to ask how she is)`,
-        B: `\n B: "Sist how are you? How are you, have you broken up with him?"`,
+        "Iya sih, bener, aku coba ya semoga aku bs lupain dia"`,
+
+        B: `\n 
+        (Dua minggu kemudia, B menghubungi A kembali untuk menanyakan kabar)
+        B:"Sist apa kabar? Kamu gimana, udah putus sama dia?"`,
       },
       {
-        A: `\nA: "Hi sist, nope, I'm still with him, actually I'm tired sist but I don't think I can breakup."`,
-        B: `\nB: (While getting angry) "Tskckckckck, It’s not logical, after a long time I was tired of accompanying you to vent until the morning but my advice was never listened to, it's up to you but if there is something bad happen to you again, so please don't contact me anymore, okay? ".`,
+        A: `\nA: "Hi sist, engga sist aku masih sama dia, sebenarnya aku udah cape sist tapi rasanya aku g bs pisah dr dia."`,
+
+        B: `\nB: (Sambil marah) "Ckckckckck, gak habis pikir aku sama kamu ya, lama-lama aku yang cape nemenin kamu curhat sampe pagi mulu tapi saranku g pernah didengerin, terserah kamu deh tp kalo kenapa -kenapa, gak usah hubungin aku lagi ya".`,
       },
       {
-        A: `\n(Until one time, A got advice from someone to take hypnotherapy, and after 3 sessions, She talked to his therapist)
-            \nA: "Ma'am, how come I'm more relaxed now. Yesterday I finally broke my relationship with him, and I didn't feel heavy at all. The burden seemed to be gone. Even though yesterday I was dating for 5 years with him , even though my heart was tormented but I chose to struggle and I don't know why.`,
-        B: `\nB: "Yes, that's what hypnotherapy is for, we clean the trash that has weighed on you all this time that has caused you to tend to make wrong decisions those are not profitable for you. The values ​​that harm you are stored in your subconscious. that's what we clean and we remove, we replace it with new values ​​that are more profitable and help you to be able to take the right decision for yourself."`,
+        A: `\n
+        (Sampai satu saat, A mendapatkan saran dari seseorang untuk mengikuti terapi hypno, dan setelah 3 kali sesi, ia pun berbicara dengan terapisnya)
+        A: "Mba,kok aku sekarang lebih plong yah, lebih relaks. Kemarin akhirnya aku putuskan hubunganku dengan dia, dan aku tidak merasa berat sama sekali. Beban itu bagaikan hilang. Padahal aku kemarin bertahan sama dia pacaran 5 thn, walau batin tersiksa tapi saya pilih bertahan gak tahu kenapa".`,
+
+        B: `\nB: "Ya, memang itulah gunanya hipnoterapi, kita bersihkan sampah pikiran yang membebani diri kamu selama ini yang telah menyebabkan  kamu cenderung mengambil keputusan-keputusan yang salah dan tidak menguntungkan bagi kamu. Nilai- nilai yang merugikan kamu yang tersimpan di alam bawah sadar kamu itu yang kita bersihkan dan kita hilangkan, kita ganti dengan nilai nilai baru yang lebih menguntungkan dan membantu kamu untuk bisa mengambil kelutusan tepat bagi diri kamu."`,
       },
       {
-        A: `\nA: "Yes, even though I realize it's wrong, I choose to make wrong decisions which I don't really like without knowing why. But now I’m relieved, Ma'am. Thank you."`,
+        A: `\nA: "Ya benar mba, walau aku sadar itu salah tapi aku selalu mengambil keputusan yg sebenarnya aku gak suka tanpa aku jg tahu penyebabnya. Tapi sekarang aku sudah plong mba. Makasih ya"`,
       },
     ],
-    c2: `Hypnotherapy helps you to be able to get rid of the trash, clean thoughts or values ​​that are not beneficial to you that are stored in your subconscious.
-        How to? As the meaning of the word hypno, itself is to bring to a relaxed state. Relaxation is meant to make the whole body, especially the conscious mind, into a very relaxed state, making it easy to activate the subconscious mind and reset it.
-        Like a computer, our body is hardware and our mind is software.
-        Software needs to be updated or even reset or installed the latest operating system to stay productive. Because of corrupted software, the overall performance of the computer will also often have problems. Just like the mind, a corrupted mind can result in impaired body performance, disease, or stress, dizziness, and various other symptoms of physical illness.
-        Through hypnotherapy, it's easy to replace software that doesn't work well with the latest software, so you can become the best version of yourself in less time without hard drugs.
-        `,
+    c2: `
+    HIPNOTERAPI membantu kamu untuk bisa membuang sampah saplah pikiran atau nilai-nilai yang tidak menguntungkan bagi kamu yang tersimpan di alam bawah sadar kamu.
+    Bagaimana caranya? Sebagaimana arti dari kata hypno, sendiri adalah membawa kepada kondisi relaks. Rileks yang dimaksud adalah membuat seluruh tubuh khususnya pikiran sadar ke arah kondisi yang sangat relaks, sehingga mudah untuk mengaktifkan pikiran bawah sadar dan me-resetnya kembali.
+    Sebagaimana seperangkat komputer, tubuh kita adalah hardware dan pikiran kita adalah software.
+    Software perlu di update atau bahkan direset atau diinstal operating system terbaru agar tetap produktif. Karena software yang corrupt, performa komputer secara keseluruhan juga akan sering bermasalah., sebagaimana pikiran, pikiran yang corrupt bisa berakibat pada performa tubuh kita yang terganggu, mungkin terkena penyakit, atau gampang stress, gampang pusing, dan berbagai gejala penyakit fisik lainnya.
+    Melalui terapi hypno, memudahkan untuk mengganti software yang sudah tdk bekerja dengan baik dengan software terbaru, sehingga kamu bisa menjadi versi terbaik dari diri kamu dalam waktu yang lebih singkat tanpa obat keras.`,
   },
 
   section_2: {
     image: Post2,
-    title: "Anger Management",
-    opening: `Anger management problems often stem from past experiences. These experiences can shape your behavior and belief system. So, while you may think another person or situation is causing your anger, it may well come from yourself. Once this is understood, your hypnotherapist can begin work changing this.
-        To do so, your hypnotherapist will work on a conscious and unconscious level to help change your negative thought processes. Doing this may involve relaxation techniques and suggestions from your hypnotherapist to help control your anger.
-        The hope is that this will change your reaction to anger triggers. Instead of feeling overwhelmed and angry, you should feel calmer and more relaxed. Feeling calmer in stressful situations helps you to think more clearly so you can react in a more appropriate way.
-        Anger management hypnotherapy can also help with some of the symptoms of anger. For example, if you are suffering from anxiety, stress or depression, hypnotherapy can be helpful.`,
-    titleC1: "How to deal with anger: Self-help tips:",
-    c1: `1. Get to know your triggers
-        Understanding what situations make you feel angry is key. By recognizing when you are likely to feel angry, you can be prepared. To do this, start taking notes when you feel angry. Try to note the following:
-        -- What was the situation?
-        -- Was there another person involved?
-        -- What did they say/do to make you feel angry?
-        -- How did you feel at the time?
-        -- How did you behave?
-        -- How did you feel after the incident?
-        After a while, you should start to notice some patterns emerging. Perhaps you get angry when you feel belittled, or maybe you feel angrier after the situation because you couldn't express yourself at the time.
-        Talk through your notes with your hypnotherapist, as this can help them work with you to understand the underlying reason behind your anger. Just recognizing these patterns can be an enormous help.
-        `,
-    c2: `2. Give yourself some time
-        A simple way to help you manage your anger when a trigger situation arises is to give yourself some time before you react. This allows you to really think about how you react, rather than reacting instinctively. Try the following suggestions to see if they help:
-        -- Take some deep breaths - breathing out for longer than you breathe in can help to calm you.
-        -- Count to 10 - a simple act that can give you enough time to calm yourself before you react.
-        -- Do something else - instead of reacting, try to distract yourself by doing something else. If you can, try to channel that energy into something creative.
-        Listen to calming music/sounds - create a calming playlist and listen to it when you start to feel angry.
-        Try a few different distraction techniques and see what works best for you. Again, this is something you can discuss with your hypnotherapist as they may have some alternative suggestions.
-        `,
+    title: "MANAJEMEN AMARAH",
+    opening: `Masalah Mengendalikan Emosi sering berasal dari pengalaman masa lalu. Pengalaman-pengalaman ini dapat membentuk perilaku dan sistem kepercayaan Anda. Jadi, meskipun Anda mungkin berpikir orang atau situasi lain yang menyebabkan kemarahan Anda, itu mungkin berasal dari diri Anda sendiri. Setelah ini dipahami, hipnoterapis Anda dapat mulai bekerja mengubah ini.
+    Untuk melakukannya, hipnoterapi Anda akan bekerja pada tingkat Alam bawah sadar untuk membantu mengubah proses pemikiran negatif Anda. Melakukan hal ini mungkin melibatkan teknik relaksasi dan saran dari terapis Anda untuk membantu mengendalikan kemarahan Anda.
+    Harapannya adalah ini akan mengubah reaksi Anda terhadap pemicu kemarahan. Alih-alih merasa kewalahan dan marah, Anda harus merasa lebih tenang dan lebih rileks. Merasa lebih tenang dalam situasi stres membantu Anda untuk berpikir lebih jernih sehingga Anda dapat bereaksi dengan cara yang lebih tepat.
+    Hipnoterapi manajemen Amarah juga dapat membantu dengan beberapa gejala kemarahan. Misalnya, jika Anda menderita kecemasan, stres atau depresi, hipnoterapi dapat membantu.`,
+    titleC1: "TIPS MENGENDALIKAN EMOSI DIRI:",
+    c1: (
+      <>
+        1. Kenali pemicunya
+        <br />
+        Memahami situasi apa yang membuat Anda merasa marah adalah kuncinya.
+        Dengan mengenali kapan Anda cenderung merasa marah, Anda bisa bersiap.
+        Untuk melakukan ini, mulailah membuat catatan ketika Anda merasa marah.
+        Coba perhatikan hal-hal berikut:
+        <br />
+        <ul className="list-disc pl-10">
+          <li>Apa situasinya?</li>
+          <li>Apakah ada orang lain yang terlibat?</li>
+          <li>
+            Apa yang mereka katakan/lakukan untuk membuat Anda merasa marah?
+          </li>
+          <li>Bagaimana perasaan Anda saat itu?</li>
+          <li>Bagaimana Anda berperilaku?</li>
+          <li>Bagaimana perasaan Anda setelah kejadian itu?</li>
+        </ul>
+        <br />
+        Setelah beberapa saat, Anda akan mulai memperhatikan beberapa pola yang
+        muncul. Mungkin Anda marah ketika Anda merasa diremehkan, atau mungkin
+        Anda merasa lebih marah setelah situasi tersebut karena Anda tidak dapat
+        mengekspresikan diri Anda saat itu. Bicarakan catatan Anda dengan
+        hipnoterapis Anda, karena ini dapat membantu mereka bekerja dengan Anda
+        untuk memahami alasan yang mendasari kemarahan Anda. Mengenali pola-pola
+        ini saja bisa sangat membantu.
+      </>
+    ),
+    c2: (
+      <>
+        2. Beri diri Anda waktu
+        <br />
+        Cara sederhana untuk membantu Anda mengelola kemarahan saat situasi
+        pemicu muncul adalah dengan memberi diri Anda waktu sebelum bereaksi.
+        Ini memungkinkan Anda untuk benar-benar memikirkan bagaimana Anda
+        bereaksi, daripada bereaksi secara naluriah. Coba saran berikut untuk
+        melihat apakah itu membantu:
+        <br />
+        <ul className="list-disc pl-10">
+          <li>
+            Ambil napas dalam-dalam - bernapas lebih lama dari yang Anda hirup
+            dapat membantu menenangkan Anda.
+          </li>
+          <li>
+            Hitung sampai 10 - tindakan sederhana yang dapat memberi Anda cukup
+            waktu untuk menenangkan diri sebelum bereaksi.
+          </li>
+          <li>
+            Lakukan sesuatu yang lain - alih-alih bereaksi, cobalah mengalihkan
+            perhatian Anda dengan melakukan sesuatu yang lain. Kalau bisa, coba
+            salurkan energi itu menjadi sesuatu yang kreatif.
+          </li>
+          <li>
+            Dengarkan musik/suara yang menenangkan - buat daftar putar yang
+            menenangkan dan dengarkan saat Anda mulai merasa marah.
+          </li>
+        </ul>
+        <br />
+        Cobalah beberapa teknik pengalih perhatian yang berbeda dan lihat apa
+        yang paling cocok untuk Anda. Sekali lagi, ini adalah sesuatu yang dapat
+        Anda diskusikan dengan hipnoterapis Anda karena mereka mungkin memiliki
+        beberapa saran alternatif.
+      </>
+    ),
 
-    c3: `3. Try some relaxation techniques
-        Stress and anger tend to go hand in hand. Many people find reducing their stress levels helps them to keep their anger under control. Relaxation techniques challenge the physical aspects of stress and anger. This can help you refrain from lashing out or behaving violently when you get angry. Try some of the following techniques when you are feeling stressed:
-        -- Meditation
-        -- Visualization
-        -- Yoga
-        Breathing exercises
-        One of the ways hypnotherapy for anger can help is by triggering the body's relaxation response. During a hypnotherapy session, you will fall into a deeply relaxed state. It is at this point that the hypnotherapist offers suggestions to help control your anger.
-        `,
+    c3: (
+      <>
+        3. Cobalah beberapa teknik relaksasi
+        <br />
+        Stres dan kemarahan cenderung berjalan beriringan. Banyak orang
+        menemukan bahwa mengurangi tingkat stres membantu mereka mengendalikan
+        amarah. Teknik relaksasi menantang aspek fisik dari stres dan kemarahan.
+        Ini dapat membantu Anda menahan diri untuk tidak menyerang atau
+        berperilaku kasar saat Anda marah. Cobalah beberapa teknik berikut saat
+        Anda merasa stres:
+        <br />
+        <ul className="list-disc pl-10">
+          <li>Meditasi</li>
+          <li>Visualisasi</li>
+          <li>Yoga</li>
+          <li>Latihan pernapasan</li>
+        </ul>
+        <br />
+        Salah satu cara hipnoterapi untuk kemarahan dapat membantu adalah dengan
+        memicu respons relaksasi tubuh. Selama sesi hipnoterapi, Anda akan jatuh
+        ke dalam keadaan sangat santai. Pada titik inilah hipnoterapis
+        menawarkan saran untuk membantu mengendalikan kemarahan Anda.
+      </>
+    ),
   },
 
   section_3: {
     image: Post3,
-    title: "Phobia",
-    titleC1: "What are Phobias",
-    c1: `A phobia is an irrational and excessive fear of a specific activity, situation, or object that triggers a compelling desire to avoid that thing. If someone has a phobia, to everyone else it may seem silly, but to the person with the phobia it is a genuine fear. Having this phobia is not their fault and not something they can “get over it”.
-        Another way of looking at a phobia is as an unconscious automatic response to stimulus, which stems from a misperception of said stimulus. Scientists say that only two fears are hereditary or naturally instinctive: the fear of falling and the fear of loud noises. Everything else is learned. The good news is, that means it can be un-learned.
-        Phobias usually start while we are young. However, any traumatic experience we endure, such as serious accidents or injuries, can cause phobias in adulthood.
-        There are two main categories of phobias:
-        `,
-    c2: `Social Phobias – fears involving other people or situations such as:
-        -- Public speaking
-        -- Performance anxiety
-        -- Embarrassment in public, such as eating
-        -- General social phobia, known as social anxiety disorder
-        -- Specific social phobias, i.e. cases of anxiety triggered only in specific situations such as being unable to urinate in a public bathroom.
-        
-        Specific phobias – a fear of a single specific panic trigger such as:
-        -- Spiders
-        -- Dogs
-        -- Elevators
-        -- Water
-        -- Flying
-        -- Death
-        -- Many, many more
-        Phobias can be severe in some individuals while others can simply avoid their fear trigger and have mild anxiety over that fear. Most understand that they suffer from an irrational fear, but they feel powerless in being able to overcome their instinctual panic reaction.
-        `,
-    titleC3: "What are the 10 Most Common Phobias?",
-    c3: `
-        1. Arachnophobia – the fear of spiders.
-        2. Social Phobia – the fear of being evaluated negatively in social situations i.e. public speaking.
-        3. Aerophobia – the fear of flying.
-        4. Agoraphobia – the fear of any place or situation where escape is difficult.
-        5. Claustrophobia – the fear of being trapped in small confined spaces such as hallways or elevators.
-        6. Acrophobia – the fear of heights.
-        7. Emetophobia – the fear of vomit.
-        8. Carcinophobia – the fear of cancer.
-        9. Brontophobia – the fear of thunder and lightning.
-        10. Necrophobia – the fear of death.
-        `,
+    title: "FOBIA",
+    titleC1: "Apa Itu Fobia?",
+    c1: `
+    Fobia adalah ketakutan irasional dan berlebihan terhadap aktivitas, situasi, atau objek tertentu yang memicu keinginan kuat untuk menghindari hal itu. Jika seseorang memiliki fobia, bagi orang lain mungkin tampak konyol, tetapi bagi orang yang memiliki fobia itu adalah ketakutan yang sebenarnya. Memiliki fobia ini bukan kesalahan mereka dan bukan sesuatu yang bisa mereka "lupakan".
+    Cara lain untuk melihat fobia adalah sebagai respons otomatis yang tidak disadari terhadap stimulus, yang berasal dari persepsi yang salah tentang stimulus tersebut. Para ilmuwan mengatakan bahwa hanya dua ketakutan yang turun-temurun atau naluriah alami: takut jatuh dan takut suara keras. Segala sesuatu yang lain dipelajari. Kabar baiknya adalah, itu berarti itu bisa tidak dipelajari.
+    Fobia biasanya dimulai saat kita masih muda. Namun, pengalaman traumatis apa pun yang kita alami, seperti kecelakaan atau cedera serius, dapat menyebabkan fobia di masa dewasa.
+    Ada dua kategori utama fobia:`,
+    c2: (
+      <>
+        <br />
+        Fobia Sosial – ketakutan yang melibatkan orang lain atau situasi
+        seperti:
+        <ul className="list-disc">
+          <li>Berbicara di depan umum</li>
+          <li>Kecemasan kinerja</li>
+          <li>Malu di depan umum, seperti makan</li>
+          <li>
+            Fobia sosial umum, yang dikenal sebagai gangguan kecemasan sosial
+          </li>
+          <li>
+            Fobia sosial spesifik, yaitu kasus kecemasan yang dipicu hanya dalam
+            situasi tertentu seperti tidak dapat buang air kecil di kamar mandi
+            umum
+          </li>
+        </ul>
+        <br />
+        Fobia spesifik – ketakutan akan satu pemicu panik tertentu seperti:
+        <ul className="list-disc">
+          <li>Laba-laba</li>
+          <li>Anjing</li>
+          <li>Lift</li>
+          <li>Air</li>
+          <li>Penerbangan</li>
+          <li>Kematian</li>
+          <li>Banyak, banyak lagi</li>
+        </ul>
+        <br />
+        Fobia dapat menjadi parah pada beberapa individu sementara yang lain
+        hanya dapat menghindari pemicu ketakutan mereka dan memiliki kecemasan
+        ringan atas ketakutan itu. Kebanyakan memahami bahwa mereka menderita
+        ketakutan irasional, tetapi mereka merasa tidak berdaya untuk dapat
+        mengatasi reaksi panik naluriah mereka.
+      </>
+    ),
+    titleC3: "Apa 10 Fobia Paling Umum?",
+    c3: (
+      <ul className="list-decimal">
+        <li>Arachnophobia – takut pada laba-laba.</li>
+        <li>
+          Fobia Sosial – ketakutan akan dievaluasi secara negatif dalam situasi
+          sosial seperti berbicara di depan umum.
+        </li>
+        <li>Aerophobia – takut terbang.</li>
+        <li>
+          Agoraphobia – ketakutan akan tempat atau situasi di mana sulit untuk
+          melarikan diri.
+        </li>
+        <li>
+          Claustrophobia – takut terjebak di ruang terbatas kecil seperti lorong
+          atau lift.
+        </li>
+        <li>Acrophobia – takut ketinggian.</li>
+        <li>Emetophobia – takut muntah.</li>
+        <li>Carcinophobia – ketakutan akan kanker.</li>
+        <li>Brontophobia – takut akan guntur dan kilat.</li>
+        <li>Necrophobia – ketakutan akan kematian.</li>
+      </ul>
+    ),
 
-    titleC4: "Ending a Life Full of Irrational Fear is Possible",
+    titleC4: "Mengakhiri Hidup yang Penuh Ketakutan Irasional adalah Mungkin",
 
     c4: `
-        There is hope. Phobias can be treated. But when the fear trigger can be easily avoided (for the most part), a person may decide to try and ignore it rather than go for treatment. This can cause the phobia to manifest and cause disruption in one’s life in the future. A phobia may become present with no trigger or reason and it can be difficult to treat with standard psychotherapeutic techniques.
-        Many hypnotherapists may use “Parts Therapy” as a treatment to find the part of you that has the phobia. Parts therapy is based on the idea that our personalities are made up of a number of various parts which are aspects of the subconscious, each with a respective job or function in the inner mind.
-        Revert that part of you, that part of your personality, to the first time you were aware of the cause of the current phobia. Various hypnotherapy techniques can help to desensitize you, reframe the initial moment about the fear, which allows you to function freely without it. You may be taught self-hypnosis techniques to help reinforce your phobia-free life.
-        `,
+    Ada harapan. Fobia dapat diobati. Tetapi ketika pemicu rasa takut dapat dengan mudah dihindari (sebagian besar), seseorang mungkin memutuskan untuk mencoba dan mengabaikannya daripada pergi berobat. Hal ini dapat menyebabkan fobia terwujud dan menyebabkan gangguan dalam kehidupan seseorang di masa depan. Fobia dapat muncul tanpa pemicu atau alasan dan mungkin sulit untuk diobati dengan teknik psikoterapi standar.
+    Banyak hipnoterapis mungkin menggunakan "Terapi Bagian" sebagai pengobatan untuk menemukan bagian dari diri Anda yang memiliki fobia. Terapi bagian didasarkan pada gagasan bahwa kepribadian kita terdiri dari sejumlah bagian yang berbeda yang merupakan aspek alam bawah sadar, masing-masing dengan fungsi masing-masing dalam alam bawah sadar.
+    Kembalikan bagian diri Anda itu, bagian dari kepribadian Anda, ke saat pertama kali Anda menyadari penyebab fobia saat ini. Berbagai teknik hipnoterapi dapat membantu membuat Anda tidak peka, membingkai ulang momen awal tentang rasa takut, yang memungkinkan Anda untuk berfungsi secara bebas tanpa rasa takut. Anda mungkin akan diperkenalakan teknik self-hypnosis untuk membantu memperkuat kehidupan bebas fobia Anda.`,
   },
 
   section_4: {
     image: Post4,
     title: "Couple Therapy",
-    opening: `
-    The most common caused of Couple’s Argumentation :
-    1. Financial
-    2. Being Parents / Children
-    3. Housework
-    4. Affair 
-    5. Over Protective / Jealousy
-    6. Career
-    7. Snoring and other sleeping habits
-    
-    Even a simple matter such as leaving the wet towel can cause tension in a relationship. When couples should go to therapy together to cure the conflicts? 
-        `,
-    titleC1: `Signs you should go to couples therapy:`,
-    c1: `
-        -- Poor communication with your partner
-        -- Feelings of boredom or numbness about your relationship
-        -- Wanting to learn how to have healthy conflict
-        -- Having the same fight over and over again without resolution
-        -- A desire to improve your relationship
-        -- Feeling distant from your partner
-        -- Feeling like you're not getting something you need (for example, time or affection)
-        -- Tackling a big life event (like moving, a new job, or a tough decision)
-        -- Managing the transition from couple-hood to new parenthood
-        -- Managing the transition from parenthood to empty nesting
-        -- The presence of a betrayal (an affair or unfaithfulness)
-        -- Considering a divorce or wondering if you should break up
-        -- A desire to set a strong foundation before marriage (premarital counseling)
-        -- Feeling too attached to one another (codependency)
-        -- The presence of past traumas that show up in your relationship`,
+    opening: (
+      <>
+        Penyebab paling umum dari pertengkaran pasangan:
+        <br />
+        <ul className="list-decimal pl-10">
+          <li>Keuangan</li>
+          <li>Menjadi Orang Tua / Anak</li>
+          <li>Tugas rumah</li>
+          <li>Perselingkuhan</li>
+          <li>Terlalu Protektif / Cemburu</li>
+          <li>Karier</li>
+          <li>Mendengkur dan kebiasaan tidur lainnya</li>
+        </ul>
+        <br />
+        Bahkan Hal Sederhana Seperti Meninggalkan Handuk Basah Dapat Memicu
+        Ketegangan Dalam Suatu Hubungan. <br />
+        Kapan Pasangan Harus Pergi Ke Terapi Bersama Untuk Menyelesaikan
+        Konflik?
+      </>
+    ),
+    titleC1: `Tanda-tanda Anda harus pergi ke terapi pasangan:`,
+    c1: (
+      <>
+        <ul className="list-disc pl-10">
+          <li>Komunikasi yang buruk dengan pasangan Anda</li>
+          <li>Perasaan bosan atau mati rasa tentang hubungan Anda</li>
+          <li>Ingin belajar bagaimana memiliki konflik yang sehat</li>
+          <li>Memiliki pertarungan yang sama berulang-ulang tanpa resolusi</li>
+          <li>Keinginan untuk meningkatkan hubungan Anda</li>
+          <li>Merasa jauh dari pasangan</li>
+          <li>
+            Merasa seperti Anda tidak mendapatkan sesuatu yang Anda butuhkan
+            (misalnya, waktu atau kasih sayang)
+          </li>
+          <li>
+            Menangani peristiwa besar dalam hidup (seperti pindah, pekerjaan
+            baru, atau keputusan sulit)
+          </li>
+          <li>Mengelola transisi dari pasangan menjadi orang tua baru</li>
+          <li>Mengelola transisi dari menjadi orang tua ke sarang kosong</li>
+          <li>Kehadiran pengkhianatan (perselingkuhan atau ketidaksetiaan)</li>
+          <li>
+            Mempertimbangkan perceraian atau bertanya-tanya apakah Anda harus
+            putus
+          </li>
+          <li>
+            Keinginan untuk meletakkan dasar yang kuat sebelum menikah
+            (konseling pranikah)
+          </li>
+          <li>Merasa terlalu terikat satu sama lain (kodependensi)</li>
+          <li>Kehadiran trauma masa lalu yang muncul dalam hubungan Anda</li>
+        </ul>
+      </>
+    ),
 
-    c2: `By hypnosis, the point of view of both partners can be changed in order to enable the healing of their conflicts and  become a healthy and positive relationship.
-    
-        The use of couple hypnotherapy can allow both partners to re-evaluate major events, to see things from a different perspective, and to gain more respect for each other’s position. Hypnosis can help re-captivate lost feelings of love, romance, commitment, and friendship, making it possible for healing to happen.
-       `,
+    c2: `Dengan hipnosis, sudut pandang kedua pasangan dapat diubah untuk memungkinkan penyembuhan konflik mereka dan menjadi hubungan yang sehat dan positif.
+
+    Penggunaan hipnoterapi pasangan dapat memungkinkan kedua pasangan untuk mengevaluasi kembali peristiwa besar, untuk melihat sesuatu dari perspektif yang berbeda, dan untuk mendapatkan lebih banyak rasa hormat masing-masing. Hipnosis dapat membantu memikat kembali perasaan cinta, romansa, komitmen, dan persahabatan yang hilang, sehingga memungkinkan KEMBALINYA KEHARMONISAN PASANGAN.
+    `,
   },
 
   section_5: {
     image: Post5,
-    title: "Hypnoslimming",
-    opening: `You can keep eating your favorite foods/ drinks without worrying about making you fat. Don’t you believe?
-    
-        Hypnoslimming Change Your Mindset To Lose Weight Without A Strict Diet. It simply turning the wrong program your mind. So far, it has been embedded in our mindset that eating a lot can make us fat. Even though in fact we can still diet with a full stomach.
-        
-        Opposites of other diet ways that focus on calories intake, the hypnoslimming method uses Neuro Linguistic Programming (NLP) techniques to help the root of psychometric problems in the subconscious. Hypnoslimming is designed to instill more positive thinking and behavior, so you can separate food from emotional life. As a result, you become more disciplined in exercising, no longer feel the urge to snack frequently, and consciously choose a healthier diet even though you don't follow a certain diet pattern.`,
+    title: "Hipnoslimming",
+    opening: (
+      <>
+        `You can keep eating your favorite foods/ drinks without worrying about
+        making you fat. Don’t you believe? Hypnoslimming Change Your Mindset To
+        Lose Weight Without A Strict Diet. It simply turning the wrong program
+        your mind. So far, it has been embedded in our mindset that eating a lot
+        can make us fat. Even though in fact we can still diet with a full
+        stomach. Opposites of other diet ways that focus on calories intake, the
+        hypnoslimming method uses Neuro Linguistic Programming (NLP) techniques
+        to help the root of psychometric problems in the subconscious.
+        Hypnoslimming is designed to instill more positive thinking and
+        behavior, so you can separate food from emotional life. As a result, you
+        become more disciplined in exercising, no longer feel the urge to snack
+        frequently, and consciously choose a healthier diet even though you
+        don't follow a certain diet pattern.`
+      </>
+    ),
 
     titleC1: "Success Story of Losing Weight  by Hypnoslimming",
 
@@ -268,4 +405,4 @@ const ArticleDataID = {
   },
 };
 
-export default ArticleDataID;
+export { ArticleDataID };

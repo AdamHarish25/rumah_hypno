@@ -29,22 +29,23 @@ const Home = ({ language = "en" }) => {
     homeLanguage = "id";
   }
 
-  useEffect(()=> {
-    const element = document.getElementById(scrollTo); 
-      if (element) {
-        window.scrollTo({
-          top:element.offsetTop - 40,
-          behavior:"smooth"
-        });
-      }
-  }, [scrollTo])
+  useEffect(() => {
+    const element = document.getElementById(scrollTo);
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop - 40,
+        behavior: "smooth",
+      });
+    }
+  }, [scrollTo]);
+
   return (
     <div className="w-screen h-auto overflow-x-hidden">
-      <Navbar language={homeLanguage } setScrollTo={setScrollTo} />
+      <Navbar language={homeLanguage} setScrollTo={setScrollTo} />
 
       <MainPg language={homeLanguage} />
-      <AboutPg language={homeLanguage} />
-      <TreatmentsPg language={homeLanguage} />
+      <AboutPg language={homeLanguage} setScrollTo={setScrollTo} />
+      <TreatmentsPg language={homeLanguage} setScrollTo={setScrollTo} />
       <BookingPg language={homeLanguage} />
       <PricingPg language={homeLanguage} />
       <FaqPg language={homeLanguage} />

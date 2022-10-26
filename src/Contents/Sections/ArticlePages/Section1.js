@@ -1,6 +1,7 @@
-import ArticleDataEN from "../../ArticleDatas/EN/ArticleDataEN";
+import { ArticleDataEN } from "../../ArticleDatas/EN/ArticleDataEN";
+import { ArticleDataID } from "../../ArticleDatas/ID/ArticleDataID";
 
-const Section1 = () => {
+const Section1 = (language = "en") => {
   const className = {
     container: "w-screen h-auto font-inter mt-20 p-10 space-y-5",
     titleBox: "w-full h-fit flex justify-center text-center text-black",
@@ -12,31 +13,41 @@ const Section1 = () => {
     description: "w-fit lg:w-3/4",
   };
 
+  // var articleData;
+
+  // if (language === "en") {
+  //   articleData = ArticleDataEN;
+  //   console.log(articleData);
+  // } else {
+  //   articleData = ArticleDataID;
+  //   console.log(articleData);
+  // }
+
   return (
     <div className={className.container}>
       <div className={className.titleBox}>
         <div className={className.spacingBox}>
           <h2 className={className.section_1}>Section 1</h2>
-          <h1 className={className.title}>{ArticleDataEN.section_1.title}</h1>
+          <h1 className={className.title}>{ArticleDataID.section_1.title}</h1>
         </div>
       </div>
       <div className={className.imageBox}>
-        <img src={ArticleDataEN.section_1.image} alt="An Img by freepik" />
+        <img src={ArticleDataID.section_1.image} alt="An Img by freepik" />
       </div>
       <div className={className.descriptionsBox}>
         <p className={className.description}>
           <br />
-          {ArticleDataEN.section_1.opening}
+          {ArticleDataID.section_1.opening}
 
           <br />
           <br />
 
-          <strong>{ArticleDataEN.section_1.titleC1}</strong>
+          <strong>{ArticleDataID.section_1.titleC1}</strong>
 
           <br />
           <br />
 
-          {ArticleDataEN.section_1.C1.map((data) => (
+          {ArticleDataID.section_1.C1.map((data) => (
             <p>
               {data.A} <br />
               {data.B} <br />
@@ -46,7 +57,7 @@ const Section1 = () => {
           <br />
           <br />
 
-          {ArticleDataEN.section_1.c2}
+          {ArticleDataID.section_1.c2}
         </p>
       </div>
     </div>

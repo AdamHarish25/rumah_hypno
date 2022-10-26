@@ -3,7 +3,7 @@ import logo from "../../Attachments/Images/RumahHypnoLogo.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Navbar = ({ language = "en", setScrollTo /* "id" or "en" */ }) => {
+const Navbar = ({ language = "en", setScrollTo}) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [navbar, setNavbar] = useState(false);
 

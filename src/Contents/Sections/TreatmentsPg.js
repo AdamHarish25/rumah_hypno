@@ -3,7 +3,7 @@ import Dropdown from "../Components/Dropdown/Dropdown";
 import { useState } from "react";
 import { TreatmentsPageDataID } from "../ID/DataID";
 
-const TreatmentsPg = ({ language = "en" }) => {
+const TreatmentsPg = ({ language = "en", setScrollTo }) => {
   const [hover, setHover] = useState(false);
 
   const onMouseEnter = () => {
@@ -27,6 +27,10 @@ const TreatmentsPg = ({ language = "en" }) => {
         ? " p-10 shadow-lg rounded-br-[80px] rounded-tl-[80px] font-bold"
         : "p-8 rounded-tl-none rounded-br-none rounded-3xl font-normal"
     }`,
+  };
+
+  const onclickScrollTo = (value) => {
+    setScrollTo(value);
   };
 
   return (
@@ -68,14 +72,14 @@ const TreatmentsPg = ({ language = "en" }) => {
         />
       </div>
       <div className={className.buttonBox}>
-        <a
-          href="#Booking"
+        <button
+          onClick={() => onclickScrollTo("Booking")}
           onMouseEnter={onMouseEnter}
           onMouseLeave={onMouseLeave}
           className={className.button}
         >
           Book Session
-        </a>
+        </button>
       </div>
     </div>
   );

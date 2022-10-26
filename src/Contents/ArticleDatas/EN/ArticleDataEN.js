@@ -65,34 +65,90 @@ const ArticleDataEN = {
     The hope is that this will change your reaction to anger triggers. Instead of feeling overwhelmed and angry, you should feel calmer and more relaxed. Feeling calmer in stressful situations helps you to think more clearly so you can react in a more appropriate way.
     Anger management hypnotherapy can also help with some of the symptoms of anger. For example, if you are suffering from anxiety, stress or depression, hypnotherapy can be helpful.`,
     titleC1: "How to deal with anger: Self-help tips:",
-    c1: `1. Get to know your triggers
-    Understanding what situations make you feel angry is key. By recognizing when you are likely to feel angry, you can be prepared. To do this, start taking notes when you feel angry. Try to note the following:
-    -- What was the situation?
-    -- Was there another person involved?
-    -- What did they say/do to make you feel angry?
-    -- How did you feel at the time?
-    -- How did you behave?
-    -- How did you feel after the incident?
-    After a while, you should start to notice some patterns emerging. Perhaps you get angry when you feel belittled, or maybe you feel angrier after the situation because you couldn't express yourself at the time.
-    Talk through your notes with your hypnotherapist, as this can help them work with you to understand the underlying reason behind your anger. Just recognizing these patterns can be an enormous help.
-    `,
-    c2: `2. Give yourself some time
-    A simple way to help you manage your anger when a trigger situation arises is to give yourself some time before you react. This allows you to really think about how you react, rather than reacting instinctively. Try the following suggestions to see if they help:
-    -- Take some deep breaths - breathing out for longer than you breathe in can help to calm you.
-    -- Count to 10 - a simple act that can give you enough time to calm yourself before you react.
-    -- Do something else - instead of reacting, try to distract yourself by doing something else. If you can, try to channel that energy into something creative.
-    Listen to calming music/sounds - create a calming playlist and listen to it when you start to feel angry.
-    Try a few different distraction techniques and see what works best for you. Again, this is something you can discuss with your hypnotherapist as they may have some alternative suggestions.
-    `,
+    c1: (
+      <>
+        1. Get to know your triggers
+        <br />
+        Understanding what situations make you feel angry is key. By recognizing
+        when you are likely to feel angry, you can be prepared. To do this,
+        start taking notes when you feel angry. Try to note the following:
+        <br />
+        <ul className="list-disc pl-10">
+          <li>What was the situation?</li>
+          <li>Was there another person involved?</li>
+          <li>What did they say/do to make you feel angry?</li>
+          <li>How did you feel at the time?</li>
+          <li>How did you behave?</li>
+          <li>How did you feel after the incident?</li>
+        </ul>
+        <br />
+        After a while, you should start to notice some patterns emerging.
+        Perhaps you get angry when you feel belittled, or maybe you feel angrier
+        after the situation because you couldn't express yourself at the time.
+        Talk through your notes with your hypnotherapist, as this can help them
+        work with you to understand the underlying reason behind your anger.
+        Just recognizing these patterns can be an enormous help.
+      </>
+    ),
+    c2: (
+      <>
+        2. Give yourself some time
+        <br />
+        A simple way to help you manage your anger when a trigger situation
+        arises is to give yourself some time before you react. This allows you
+        to really think about how you react, rather than reacting instinctively.
+        Try the following suggestions to see if they help:
+        <br />
+        <ul className="list-disc pl-10">
+          <li>
+            Take some deep breaths - breathing out for longer than you breathe
+            in can help to calm you.
+          </li>
+          <li>
+            Count to 10 - a simple act that can give you enough time to calm
+            yourself before you react.
+          </li>
+          <li>
+            Do something else - instead of reacting, try to distract yourself by
+            doing something else. If you can, try to channel that energy into
+            something creative.
+          </li>
+          <li>
+            Listen to calming music/sounds - create a calming playlist and
+            listen to it when you start to feel angry.
+          </li>
+        </ul>
+        <br />
+        Try a few different distraction techniques and see what works best for
+        you. Again, this is something you can discuss with your hypnotherapist
+        as they may have some alternative suggestions.
+      </>
+    ),
 
-    c3: `3. Try some relaxation techniques
-    Stress and anger tend to go hand in hand. Many people find reducing their stress levels helps them to keep their anger under control. Relaxation techniques challenge the physical aspects of stress and anger. This can help you refrain from lashing out or behaving violently when you get angry. Try some of the following techniques when you are feeling stressed:
-    -- Meditation
-    -- Visualization
-    -- Yoga
-    Breathing exercises
-    One of the ways hypnotherapy for anger can help is by triggering the body's relaxation response. During a hypnotherapy session, you will fall into a deeply relaxed state. It is at this point that the hypnotherapist offers suggestions to help control your anger.
-    `,
+    c3: (
+      <>
+        3. Try some relaxation techniques
+        <br />
+        Stress and anger tend to go hand in hand. Many people find reducing
+        their stress levels helps them to keep their anger under control.
+        Relaxation techniques challenge the physical aspects of stress and
+        anger. This can help you refrain from lashing out or behaving violently
+        when you get angry. Try some of the following techniques when you are
+        feeling stressed:
+        <br />
+        <ul className="list-disc pl-10">
+          <li>Meditation</li>
+          <li>Visualization</li>
+          <li>Yoga</li>
+          <li>Breathing exercises</li>
+        </ul>
+        <br />
+        One of the ways hypnotherapy for anger can help is by triggering the
+        body's relaxation response. During a hypnotherapy session, you will fall
+        into a deeply relaxed state. It is at this point that the hypnotherapist
+        offers suggestions to help control your anger.
+      </>
+    ),
   },
 
   section_3: {
@@ -104,36 +160,60 @@ const ArticleDataEN = {
     Phobias usually start while we are young. However, any traumatic experience we endure, such as serious accidents or injuries, can cause phobias in adulthood.
     There are two main categories of phobias:
     `,
-    c2: `Social Phobias – fears involving other people or situations such as:
-    -- Public speaking
-    -- Performance anxiety
-    -- Embarrassment in public, such as eating
-    -- General social phobia, known as social anxiety disorder
-    -- Specific social phobias, i.e. cases of anxiety triggered only in specific situations such as being unable to urinate in a public bathroom.
-    
-    Specific phobias – a fear of a single specific panic trigger such as:
-    -- Spiders
-    -- Dogs
-    -- Elevators
-    -- Water
-    -- Flying
-    -- Death
-    -- Many, many more
-    Phobias can be severe in some individuals while others can simply avoid their fear trigger and have mild anxiety over that fear. Most understand that they suffer from an irrational fear, but they feel powerless in being able to overcome their instinctual panic reaction.
-    `,
+    c2: (
+      <>
+        Social Phobias – fears involving other people or situations such as:
+        <ul className="list-disc">
+          <li>Public speaking</li>
+          <li>Performance anxiety </li>
+          <li>Embarrassment in public, such as eating </li>
+          <li>General social phobia, known as social anxiety disorder </li>
+          <li>
+            Specific social phobias, i.e. cases of anxiety triggered only in
+            specific situations such as being unable to urinate in a public
+            bathroom.
+          </li>
+        </ul>
+        Specific phobias – a fear of a single specific panic trigger such as:
+        <ul className="list-disc">
+          <li>Spiders</li>
+          <li>Dogs</li>
+          <li>Elevators</li>
+          <li>Water</li>
+          <li>Flying </li>
+          <li>Death </li>
+          <li>Many, many more </li>
+        </ul>
+        Phobias can be severe in some individuals while others can simply avoid
+        their fear trigger and have mild anxiety over that fear. Most understand
+        that they suffer from an irrational fear, but they feel powerless in
+        being able to overcome their instinctual panic reaction.
+      </>
+    ),
     titleC3: "What are the 10 Most Common Phobias?",
-    c3: `
-    1. Arachnophobia – the fear of spiders.
-    2. Social Phobia – the fear of being evaluated negatively in social situations i.e. public speaking.
-    3. Aerophobia – the fear of flying.
-    4. Agoraphobia – the fear of any place or situation where escape is difficult.
-    5. Claustrophobia – the fear of being trapped in small confined spaces such as hallways or elevators.
-    6. Acrophobia – the fear of heights.
-    7. Emetophobia – the fear of vomit.
-    8. Carcinophobia – the fear of cancer.
-    9. Brontophobia – the fear of thunder and lightning.
-    10. Necrophobia – the fear of death.
-    `,
+    c3: (
+      <ul className="list-decimal">
+        <li>Arachnophobia – the fear of spiders.</li>
+        <li>
+          Social Phobia – the fear of being evaluated negatively in social
+          situations i.e. public speaking.
+        </li>
+        <li>Aerophobia – the fear of flying.</li>
+        <li>
+          Agoraphobia – the fear of any place or situation where escape is
+          difficult.
+        </li>
+        <li>
+          Claustrophobia – the fear of being trapped in small confined spaces
+          such as hallways or elevators.
+        </li>
+        <li> Acrophobia – the fear of heights.</li>
+        <li> Emetophobia – the fear of vomit.</li>
+        <li> Carcinophobia – the fear of cancer.</li>
+        <li> Brontophobia – the fear of thunder and lightning.</li>
+        <li> Necrophobia – the fear of death.</li>
+      </ul>
+    ),
 
     titleC4: "Ending a Life Full of Irrational Fear is Possible",
 
@@ -147,35 +227,62 @@ const ArticleDataEN = {
   section_4: {
     image: Post4,
     title: "Couple Therapy",
-    opening: `
-The most common caused of Couple’s Argumentation :
-1. Financial
-2. Being Parents / Children
-3. Housework
-4. Affair 
-5. Over Protective / Jealousy
-6. Career
-7. Snoring and other sleeping habits
-
-Even a simple matter such as leaving the wet towel can cause tension in a relationship. When couples should go to therapy together to cure the conflicts? 
-    `,
+    opening: (
+      <>
+        The most common caused of Couple’s Argumentation :
+        <br />
+        <ul className="list-decimal pl-10">
+          <li>1. Financial </li>
+          <li>2. Being Parents / Children </li>
+          <li>3. Housework </li>
+          <li>4. Affair </li>
+          <li>5. Over Protective / Jealousy </li>
+          <li>6. Career </li>
+          <li>7. Snoring and other sleeping habits </li>
+        </ul>
+        <br />
+        Even a simple matter such as leaving the wet towel can cause tension in
+        a relationship.
+        <br /> When couples should go to therapy together to cure the conflicts?
+      </>
+    ),
     titleC1: `Signs you should go to couples therapy:`,
-    c1: `
-    -- Poor communication with your partner
-    -- Feelings of boredom or numbness about your relationship
-    -- Wanting to learn how to have healthy conflict
-    -- Having the same fight over and over again without resolution
-    -- A desire to improve your relationship
-    -- Feeling distant from your partner
-    -- Feeling like you're not getting something you need (for example, time or affection)
-    -- Tackling a big life event (like moving, a new job, or a tough decision)
-    -- Managing the transition from couple-hood to new parenthood
-    -- Managing the transition from parenthood to empty nesting
-    -- The presence of a betrayal (an affair or unfaithfulness)
-    -- Considering a divorce or wondering if you should break up
-    -- A desire to set a strong foundation before marriage (premarital counseling)
-    -- Feeling too attached to one another (codependency)
-    -- The presence of past traumas that show up in your relationship`,
+    c1: (
+      <>
+        <ul className="list-disc pl-10">
+          <li> Poor communication with your partner </li>
+          <li> Feelings of boredom or numbness about your relationship </li>
+          <li> Wanting to learn how to have healthy conflict </li>
+          <li> Having the same fight over and over again without resolution</li>
+          <li> A desire to improve your relationship </li>
+          <li> Feeling distant from your partner </li>
+          <li>
+            {" "}
+            Feeling like you're not getting something you need (for example,
+            time or affection){" "}
+          </li>
+          <li>
+            {" "}
+            Tackling a big life event (like moving, a new job, or a tough
+            decision){" "}
+          </li>
+          <li> Managing the transition from couple-hood to new parenthood </li>
+          <li> Managing the transition from parenthood to empty nesting </li>
+          <li> The presence of a betrayal (an affair or unfaithfulness) </li>
+          <li> Considering a divorce or wondering if you should break up </li>
+          <li>
+            {" "}
+            A desire to set a strong foundation before marriage (premarital
+            counseling){" "}
+          </li>
+          <li> Feeling too attached to one another (codependency) </li>
+          <li>
+            {" "}
+            The presence of past traumas that show up in your relationship
+          </li>
+        </ul>
+      </>
+    ),
 
     c2: `By hypnosis, the point of view of both partners can be changed in order to enable the healing of their conflicts and  become a healthy and positive relationship.
 
@@ -268,4 +375,4 @@ Even a simple matter such as leaving the wet towel can cause tension in a relati
   },
 };
 
-export default ArticleDataEN;
+export { ArticleDataEN };

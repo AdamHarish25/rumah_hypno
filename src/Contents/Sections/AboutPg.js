@@ -2,7 +2,7 @@ import { AboutPageDataEN } from "../EN/DataEN";
 import DropdownList from "../Components/Dropdown/DropdownList";
 import { AboutPageDataID } from "../ID/DataID";
 
-const AboutPg = ({ language = "en" }) => {
+const AboutPg = ({ language = "en", setScrollTo }) => {
   const className = {
     container: "w-screen h-auto py-10",
     spacing: "space-y-5 font-inter",
@@ -13,7 +13,7 @@ const AboutPg = ({ language = "en" }) => {
     image: "w-fit h-fit",
     listBox: "list-none space-y-5",
     listContainer: "h-full w-fit flex justify-center items-center",
-    link: "font-bold hover:underline",
+    link: "font-bold hover:underline cursor-pointer",
 
     profile: {
       outerContainer:
@@ -47,6 +47,10 @@ const AboutPg = ({ language = "en" }) => {
         "w-3 h-2 lg:w-4 lg:h-4 rounded-full border-2 lg:border-4 border-blue-400 bg-blue-600",
       list: "flex items-center gap-5",
     },
+  };
+
+  const onclickScrollTo = (value) => {
+    setScrollTo(value);
   };
 
   return (
@@ -153,9 +157,12 @@ const AboutPg = ({ language = "en" }) => {
             <br />
             <br />
             {language === "en" ? "Meet the team" : "Temui Tim Kami"}{" "}
-            <a className={className.link} href="#Booking">
+            <span
+              className={className.link}
+              onClick={() => onclickScrollTo("Booking")}
+            >
               {language === "en" ? "Here" : "Disini"}
-            </a>
+            </span>
           </p>
         </div>
       </div>

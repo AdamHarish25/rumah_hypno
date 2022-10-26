@@ -29,7 +29,7 @@ const AboutPageDataEN = {
   content1: {
     title: "Who Are We?",
     description:
-      "Rumah Hypno is a Family Hypnotherapy Clinic located in South Jakarta. We provide therapy for various complaints of  Psychological and Physical caused by Psychological Imbalances (Psychosomatic). Such as Addiction to gadgets/ Alcohol/ Cigarettes, Depression, Stress, Difficulty Focusing, HypnoSlimming, Couple Therapy, Inner Child, Trauma, Emotional Control, or other Psychometric disorders. With Professional Therapists, we do the best for you.",
+      "Rumah Hypno is a family hypnotherapy clinic located in south jakarta. We provide therapy for various complaints of  psychological and physical caused by psychological imbalances (psychosomatic). Such as addiction to gadgets/ alcohol/ cigarettes, depression, stress, difficulty focusing, hypnoslimming, couple therapy, inner child, trauma, emotional control, or other psychometric disorders. With professional therapists, we do the best for you.",
     image: Content1,
   },
   profile: {
@@ -72,7 +72,7 @@ const AboutPageDataEN = {
   content2: {
     title: "What is Hypnotherapy ?",
     description:
-      "Hypnotherapy consists of two words, hypnosis and therapy, meaning the clinical therapy by using special techniques in hypnosis stage.Hypnosis is a state of relaxed awareness. You will be physically relaxed but mentally alert. In this state, your subconscious mind is most receptive to hypnotic suggestion. You are in full control throughout. Hypnosis has been demonstrated in numerous studies and scientific research world wide for several decades as an effective treatment for a wide range of issues such as childhood trauma, self and couple conflict, stress management, etc.",
+      "Hypnotherapy consists of two words, hypnosis and therapy, meaning the clinical therapy by using special techniques in hypnosis stage.hypnosis is a state of relaxed awareness. You will be physically relaxed but mentally alert. In this state, your subconscious mind is most receptive to hypnotic suggestion. You are in full control throughout. Hypnosis has been demonstrated in numerous studies and scientific research world wide for several decades as an effective treatment for a wide range of issues such as childhood trauma, self and couple conflict, stress management, etc.",
     image: Content2,
   },
 

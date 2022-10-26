@@ -5,6 +5,7 @@ import Section1 from "./ArticlePages/Section1";
 import PostsPg from "./PostsPg";
 import ArticleFooter from "../Components/Footer/ArticleFooter";
 import MaintenancePage from "./UnderMaintenance";
+import Section2 from "./ArticlePages/Section2";
 
 const Articles = ({ language = "en" }) => {
   var homeLanguage;
@@ -13,14 +14,16 @@ const Articles = ({ language = "en" }) => {
     language.toLowerCase() === "EN".toLowerCase() ||
     language.toLowerCase() === "ENGLISH".toLowerCase() ||
     language.toLowerCase() === "English".toLowerCase() ||
-    language.toLowerCase() === "Eng".toLowerCase()
+    language.toLowerCase() === "Eng".toLowerCase() ||
+    language.toLowerCase() === "en".toLowerCase()
   ) {
     homeLanguage = "en";
   } else if (
     language.toLowerCase() === "ID".toLowerCase() ||
     language.toLowerCase() === "INDONESIA".toLowerCase() ||
     language.toLowerCase() === "Ind".toLowerCase() ||
-    language.toLowerCase() === "Indonesia".toLowerCase()
+    language.toLowerCase() === "Indonesia".toLowerCase() ||
+    language.toLowerCase() === "in".toLowerCase()
   ) {
     homeLanguage = "id";
   }
@@ -34,10 +37,13 @@ const Articles = ({ language = "en" }) => {
       <Routes>
         <Route path="/*" exact element={<PostsPg language={homeLanguage} />} />
 
-        <Route path="*/section_1" element={<Section1 />} />
+        <Route
+          path="*/section_1"
+          element={<Section1 language={homeLanguage} />}
+        />
         <Route
           path="*/section_2"
-          element={<MaintenancePage language={homeLanguage} />}
+          element={<Section2 language={homeLanguage} />}
         />
         <Route
           path="*/section_3"
