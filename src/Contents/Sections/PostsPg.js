@@ -45,7 +45,12 @@ const PostsPg = ({ language = "en" }) => {
           ({ image, postTitle, id, link }) => {
             return (
               <div key={id} className={className.post}>
-                <img src={image} alt="posts Img" className={className.image} />
+                <img
+                  loading={"lazy"}
+                  src={image}
+                  alt="posts Img"
+                  className={className.image}
+                />
                 <h1 className={className.postTitle}>
                   <div className={className.yellowLine} /> {postTitle}
                 </h1>

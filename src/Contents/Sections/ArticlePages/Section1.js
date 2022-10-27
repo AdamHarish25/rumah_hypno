@@ -13,7 +13,6 @@ const Section1 = ({ language = "en" }) => {
     description: "w-fit lg:w-3/4",
   };
 
-
   return (
     <div className={className.container}>
       <div className={className.titleBox}>
@@ -26,6 +25,7 @@ const Section1 = ({ language = "en" }) => {
       </div>
       <div className={className.imageBox}>
         <img
+          loading={"lazy"}
           src={(language === "en" ? sectionData1EN : sectionDataID1).image}
           alt="An Img by freepik"
         />

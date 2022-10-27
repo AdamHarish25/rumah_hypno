@@ -26,6 +26,7 @@ const Section2 = ({ language = "en" }) => {
       </div>
       <div className={className.imageBox}>
         <img
+          loading={"lazy"}
           src={(language === "en" ? sectionData2EN : sectionDataID2).image}
           className={className.img}
           alt="An Img by freepik"

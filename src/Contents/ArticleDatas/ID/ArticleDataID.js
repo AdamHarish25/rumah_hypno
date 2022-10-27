@@ -1,13 +1,13 @@
-import Post1 from "../../Attachments/Images/post-1.jpg";
-import Post2 from "../../Attachments/Images/post-2.jpg";
-import Post3 from "../../Attachments/Images/post-3.jpg";
-import Post4 from "../../Attachments/Images/post-4.jpg";
-import Post5 from "../../Attachments/Images/post-5.jpg";
-import Post6 from "../../Attachments/Images/post-6.jpg";
-import Post7 from "../../Attachments/Images/post-7.jpg";
-import Post8 from "../../Attachments/Images/post-8.jpg";
-import Post9 from "../../Attachments/Images/post-9.jpg";
-import Post10 from "../../Attachments/Images/post-10.jpg";
+import Post1 from "../../Attachments/Images/post-1.webp";
+import Post2 from "../../Attachments/Images/post-2.webp";
+import Post3 from "../../Attachments/Images/post-3.webp";
+import Post4 from "../../Attachments/Images/post-4.webp";
+import Post5 from "../../Attachments/Images/post-5.webp";
+import Post6 from "../../Attachments/Images/post-6.webp";
+import Post7 from "../../Attachments/Images/post-7.webp";
+import Post8 from "../../Attachments/Images/post-8.webp";
+import Post9 from "../../Attachments/Images/post-9.webp";
+import Post10 from "../../Attachments/Images/post-10.webp";
 
 const sectionDataID1 = {
   image: Post1,
