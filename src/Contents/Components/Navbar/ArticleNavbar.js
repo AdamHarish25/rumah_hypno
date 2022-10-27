@@ -57,17 +57,15 @@ const ArticleNavbar = ({ language = "en" /* "id" or "en" */ }) => {
   return (
     <div className={className.container}>
       <div className={className.desktopDisplay}>
-        <Link to="/">
+        <Link to="..">
           <img src={logo} alt="Logo Here" className={className.img} />
         </Link>
         <ul className={className.ul1}>
           <li>
-            <Link to="/">{language === "en" ? "Home" : "Beranda"}</Link>
+            <Link to="..">{language === "en" ? "Home" : "Beranda"}</Link>
           </li>
           <li>
-            <Link to="../Articles">
-              {language === "en" ? "Articles" : "Artikel"}
-            </Link>
+            <Link to=".">{language === "en" ? "Articles" : "Artikel"}</Link>
           </li>
         </ul>
       </div>
@@ -88,12 +86,10 @@ const ArticleNavbar = ({ language = "en" /* "id" or "en" */ }) => {
         >
           <ul className={className.ul2}>
             <li>
-              <Link to="/">{language === "en" ? "Home" : "Beranda"}</Link>
+              <Link to="..">{language === "en" ? "Home" : "Beranda"}</Link>
             </li>
             <li>
-              <Link to="../Articles">
-                {language === "en" ? "Articles" : "Artikel"}
-              </Link>
+              <Link to=".">{language === "en" ? "Articles" : "Artikel"}</Link>
             </li>
             <li></li>
           </ul>

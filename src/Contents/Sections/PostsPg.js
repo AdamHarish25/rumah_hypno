@@ -12,8 +12,8 @@ const PostsPg = ({ language = "en" }) => {
       expand ? "h-auto" : "h-screen"
     } transform duration-200 relative`,
     innerBox:
-      "w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10",
-    post: `w-fit h-fit p-10 space-y-5 font-inter group`,
+      "w-full h-full grid grid-cols-1 place-items-center lg:grid-cols-2 xl:grid-cols-3 gap-10",
+    post: `w-full h-full p-10 space-y-5 font-inter group`,
     yellowLine: "w-6 h-1 bg-yellow-300",
     postTitle: "font-bold flex items-center gap-5",
     link: "flex items-center gap-5 transform duration-300 group-hover:gap-7",
@@ -25,7 +25,7 @@ const PostsPg = ({ language = "en" }) => {
     }`,
     button:
       "w-auto h-fit p-5 gap-6 bg-blue-500 text-white rounded-br-[80px] rounded-tl-[80px] hover:rounded-br-none hover:rounded-tl-none hover:rounded-xl  hover:shadow-xl transform duration-200 flex items-center",
-    image: "w-[450px] h-[450px] object-cover",
+    image: "w-full lg:w-[500px] h-[500px] object-cover",
   };
 
   return (
