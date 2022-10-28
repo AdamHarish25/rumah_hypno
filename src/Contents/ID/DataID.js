@@ -182,95 +182,59 @@ const TreatmentsPageDataID = {
   section: "Treatments",
   list1: [
     {
-      title: "Terapi Pasangan",
+      title: "Hypno Parenting",
     },
     {
-      title: "Hipnoslimming",
+      title: "Hypno Slimming",
     },
     {
-      title: "Hipnosis Orang Tua",
+      title: "Hypno Inner Child",
     },
     {
-      title: "Hipnosis untuk Siswa",
+      title: "Couple Therapy",
     },
     {
-      title: "Manajemen kemarahan",
+      title: "Pengendalian Emosi",
     },
     {
-      title: "Pengambilan Jiwa",
+      title: "Meningkatkan Percaya Diri",
     },
     {
-      title: "Trauma Masa Kecil",
-    },
-    {
-      title: "Duka Mendalam",
-    },
-    {
-      title: "Pengabaian",
-    },
-    {
-      title: "Fobia",
+      title: "Meningkatkan Fokus",
     },
   ],
   list2: [
     {
-      title: "Trauma",
+      title: "Meningkatkan Skill Public Speaking",
     },
     {
-      title: "Berhenti Merokok",
+      title: "Mengatasi Gangguan Kesulitan Belajar",
     },
     {
-      title: "Kecemasan",
+      title: "Mengatasi Stress",
     },
     {
-      title: "Menekankan",
+      title: "Mengatasi Depresi",
     },
     {
-      title: "Kesedihan yang mendalam",
-    },
-    {
-      title: "Depresi",
-    },
-    {
-      title: "Kecanduan (Alkohol, Seks, dll.)",
-    },
-    {
-      title: "Kepercayaan diri",
-    },
-    {
-      title: "Berbicara di depan umum",
+      title: "Mengatasi Fobia",
     },
   ],
   list3: [
     {
-      title: "Masalah Penyalahgunaan",
+      title: "Mengatasi Trauma",
     },
     {
-      title: "Masalah Seksual",
+      title: "Mengatasi Kesedihan Mendalam",
     },
     {
-      title: "Melepaskan Energi Negatif",
+      title: "Mengatasi Overthinking",
     },
     {
-      title: "Rilis Roh",
+      title: "Mengatasi Kecanduan (Rokok, Alkohol, DLL.)",
     },
     {
-      title: "Motivasi",
-    },
-    {
-      title: "Perilaku obsesif",
-    },
-    {
-      title: "Insomnia",
-    },
-    {
-      title: "Takut Terbang",
-    },
-    {
-      title: "Serangan panik",
-    },
-    {
-      title: "Gangguan Psikometrik Lainnya...",
+      title: "Mengatasi Gangguan Psikosomatik Lainnya",
     },
   ],
 };

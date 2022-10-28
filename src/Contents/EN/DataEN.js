@@ -183,95 +183,59 @@ const TreatmentsPageDataEN = {
   section: "Treatments",
   list1: [
     {
-      title: "Couple Therapy",
+      title: "Hypno Parenting",
     },
     {
       title: "Hypno Slimming",
     },
     {
-      title: "Hypno Parenting",
+      title: "Hypno Inner Child",
     },
     {
-      title: "Hypnosis For Students",
+      title: "Couple Therapy",
     },
     {
       title: "Anger Management",
     },
     {
-      title: "Soul Retrieval",
+      title: "Increase Self-Confidence",
     },
     {
-      title: "Inner Child",
-    },
-    {
-      title: "Grief",
-    },
-    {
-      title: "Abandonment",
-    },
-    {
-      title: "Phobias",
+      title: "Increase Focus",
     },
   ],
   list2: [
     {
-      title: "Trauma",
+      title: "Increase Public Speaking Skill",
     },
     {
-      title: "Smoking Cessation",
+      title: "Improve Learning Difficulties",
     },
     {
-      title: "Anxiety",
+      title: "Stress Release",
     },
     {
-      title: "Stress",
+      title: "Depression Healing",
     },
     {
-      title: "Deep Sadness",
-    },
-    {
-      title: "Depression",
-    },
-    {
-      title: "Addictions (Alcohol, Sex, Etc.)",
-    },
-    {
-      title: "Confidence",
-    },
-    {
-      title: "Public Speaking",
+      title: "Phobia Healing",
     },
   ],
   list3: [
     {
-      title: "Abuse issues",
+      title: "Trauma Healing",
     },
     {
-      title: "Sexual Issues",
+      title: "Deep Sadness Healing",
     },
     {
-      title: "Releasing Negative Energy",
+      title: "Overthinking Healing",
     },
     {
-      title: "Spirit Release",
+      title: "Addiction Healing (Smoking, Alcohol, etc.)",
     },
     {
-      title: "Motivation",
-    },
-    {
-      title: "Obsessive Behaviour",
-    },
-    {
-      title: "Insomnia",
-    },
-    {
-      title: "Fear of Flying",
-    },
-    {
-      title: "Panic Attack",
-    },
-    {
-      title: "Other Psychometric Disorder",
+      title: "Other Psychosomatic Disorders",
     },
   ],
 };
