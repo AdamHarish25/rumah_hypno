@@ -4,11 +4,11 @@ import maintenance from "../Attachments/Images/maintenance.png";
 const MaintenancePage = ({ language = "en" }) => {
   const className = {
     container: "h-screen w-screen justify-center items-center font-Poppins",
-    image: "w-[500px] h-[300px]",
+    image: "w-fit lg:w-[500px] h-fit lg:h-[300px]",
     innerBox:
       "h-full w-full p-10 text-center flex flex-col justify-center space-y-5",
     imgBox: "w-full flex justify-center",
-    h1: "text-3xl",
+    h1: "text-base md:text-xl lg:text-3xl",
   };
 
   return (

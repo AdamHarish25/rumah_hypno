@@ -8,7 +8,7 @@ const PostsPg = ({ language = "en" }) => {
   const [expand, setExpand] = useState(false);
 
   const className = {
-    container: `bg-bgVector bg-contain bg-center bg-no-repeat w-screen py-20 overflow-y-hidden ${
+    container: `bg-bgVector bg-contain bg-center bg-no-repeat w-screen overflow-y-hidden ${
       expand ? "h-auto" : "h-screen"
     } transform duration-200 relative`,
     innerBox:
@@ -19,7 +19,7 @@ const PostsPg = ({ language = "en" }) => {
     link: "flex items-center gap-5 transform duration-300 group-hover:gap-7",
     sectionTitle: "font-medium text-blue-500",
     title: "font-bold text-2xl lg:text-4xl",
-    titleBox: "w-full h-fit text-center",
+    titleBox: "w-full h-fit text-center px-5",
     buttonBox: `w-full h-fit flex justify-center items-center inset-x-0 bottom-0 py-5 mt-10 ${
       expand ? "backdrop-blur-none" : "backdrop-blur-sm absolute"
     }`,

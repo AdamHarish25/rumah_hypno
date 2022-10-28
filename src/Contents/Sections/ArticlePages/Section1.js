@@ -3,7 +3,7 @@ import { sectionDataID1 } from "../../ArticleDatas/ID/ArticleDataID";
 
 const Section1 = ({ language = "en" }) => {
   const className = {
-    container: "w-screen h-auto font-inter mt-20 p-10 space-y-5",
+    container: "w-screen h-auto font-inter mt-20 px-5 md:px-10 pb-20 space-y-5",
     titleBox: "w-full h-fit flex justify-center text-center text-black",
     title: "font-bold text-xl lg:text-3xl",
     section_1: "text-blue-500 font-bold text-sm",

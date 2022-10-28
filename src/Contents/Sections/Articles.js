@@ -30,54 +30,61 @@ const Articles = ({ language = "en" }) => {
 
   const className = {
     container: "w-screen h-auto overflow-y-auto",
+    routeContainer: "w-screen h-full pt-32",
   };
 
   return (
     <div className={className.container}>
-      <Routes>
-        <Route path="/*" exact element={<PostsPg language={homeLanguage} />} />
+      <div className={className.routeContainer}>
+        <Routes>
+          <Route
+            path="/*"
+            exact
+            element={<PostsPg language={homeLanguage} />}
+          />
 
-        <Route
-          path="*/section_1"
-          element={<Section1 language={homeLanguage} />}
-        />
-        <Route
-          path="*/section_2"
-          element={<Section2 language={homeLanguage} />}
-        />
-        <Route
-          path="*/section_3"
-          element={<MaintenancePage language={homeLanguage} />}
-        />
-        <Route
-          path="*/section_4"
-          element={<MaintenancePage language={homeLanguage} />}
-        />
-        <Route
-          path="*/section_5"
-          element={<MaintenancePage language={homeLanguage} />}
-        />
-        <Route
-          path="*/section_6"
-          element={<MaintenancePage language={homeLanguage} />}
-        />
-        <Route
-          path="*/section_7"
-          element={<MaintenancePage language={homeLanguage} />}
-        />
-        <Route
-          path="*/section_8"
-          element={<MaintenancePage language={homeLanguage} />}
-        />
-        <Route
-          path="*/section_9"
-          element={<MaintenancePage language={homeLanguage} />}
-        />
-        <Route
-          path="*/section_10"
-          element={<MaintenancePage language={homeLanguage} />}
-        />
-      </Routes>
+          <Route
+            path="*/section_1"
+            element={<Section1 language={homeLanguage} />}
+          />
+          <Route
+            path="*/section_2"
+            element={<Section2 language={homeLanguage} />}
+          />
+          <Route
+            path="*/section_3"
+            element={<MaintenancePage language={homeLanguage} />}
+          />
+          <Route
+            path="*/section_4"
+            element={<MaintenancePage language={homeLanguage} />}
+          />
+          <Route
+            path="*/section_5"
+            element={<MaintenancePage language={homeLanguage} />}
+          />
+          <Route
+            path="*/section_6"
+            element={<MaintenancePage language={homeLanguage} />}
+          />
+          <Route
+            path="*/section_7"
+            element={<MaintenancePage language={homeLanguage} />}
+          />
+          <Route
+            path="*/section_8"
+            element={<MaintenancePage language={homeLanguage} />}
+          />
+          <Route
+            path="*/section_9"
+            element={<MaintenancePage language={homeLanguage} />}
+          />
+          <Route
+            path="*/section_10"
+            element={<MaintenancePage language={homeLanguage} />}
+          />
+        </Routes>
+      </div>
 
       <ArticleFooter />
       <ArticleNavbar language={homeLanguage} />
