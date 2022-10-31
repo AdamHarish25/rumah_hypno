@@ -6,6 +6,9 @@ import PostsPg from "./PostsPg";
 import ArticleFooter from "../Components/Footer/ArticleFooter";
 import MaintenancePage from "./UnderMaintenance";
 import Section2 from "./ArticlePages/Section2";
+import Section3 from "./ArticlePages/Section3";
+import Section4 from "./ArticlePages/Section4";
+import Section5 from "./ArticlePages/Section5";
 
 const Articles = ({ language = "en" }) => {
   var homeLanguage;
@@ -53,15 +56,15 @@ const Articles = ({ language = "en" }) => {
           />
           <Route
             path="*/section_3"
-            element={<MaintenancePage language={homeLanguage} />}
+            element={<Section3 language={homeLanguage} />}
           />
           <Route
             path="*/section_4"
-            element={<MaintenancePage language={homeLanguage} />}
+            element={<Section4 language={homeLanguage} />}
           />
           <Route
             path="*/section_5"
-            element={<MaintenancePage language={homeLanguage} />}
+            element={<Section5 language={homeLanguage} />}
           />
           <Route
             path="*/section_6"

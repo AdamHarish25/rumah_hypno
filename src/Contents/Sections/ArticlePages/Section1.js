@@ -1,4 +1,4 @@
-import { sectionData1EN } from "../../ArticleDatas/EN/ArticleDataEN";
+import { sectionDataEN1 } from "../../ArticleDatas/EN/ArticleDataEN";
 import { sectionDataID1 } from "../../ArticleDatas/ID/ArticleDataID";
 
 const Section1 = ({ language = "en" }) => {
@@ -11,6 +11,7 @@ const Section1 = ({ language = "en" }) => {
     imageBox: "w-full h-fit flex justify-center",
     descriptionsBox: "w-full h-auto flex justify-center px-5 text-start",
     description: "w-fit lg:w-3/4",
+    conversationList: "space-y-3",
   };
 
   return (
@@ -19,45 +20,47 @@ const Section1 = ({ language = "en" }) => {
         <div className={className.spacingBox}>
           <h2 className={className.section_1}>Section 1</h2>
           <h1 className={className.title}>
-            {(language === "en" ? sectionData1EN : sectionDataID1).title}
+            {(language === "en" ? sectionDataEN1 : sectionDataID1).title}
           </h1>
         </div>
       </div>
       <div className={className.imageBox}>
         <img
           loading={"lazy"}
-          src={(language === "en" ? sectionData1EN : sectionDataID1).image}
+          src={(language === "en" ? sectionDataEN1 : sectionDataID1).image}
           alt="An Img by freepik"
         />
       </div>
       <div className={className.descriptionsBox}>
         <p className={className.description}>
           <br />
-          {(language === "en" ? sectionData1EN : sectionDataID1).opening}
+          {(language === "en" ? sectionDataEN1 : sectionDataID1).opening}
 
           <br />
           <br />
 
           <strong>
-            {(language === "en" ? sectionData1EN : sectionDataID1).titleC1}
+            {(language === "en" ? sectionDataEN1 : sectionDataID1).titleC1}
           </strong>
 
           <br />
           <br />
 
-          {(language === "en" ? sectionData1EN : sectionDataID1).C1.map(
-            (data) => (
-              <p>
-                {data.A} <br />
-                {data.B} <br />
-              </p>
-            )
-          )}
+          <div className={className.conversationList}>
+            {(language === "en" ? sectionDataEN1 : sectionDataID1).C1.map(
+              (data) => (
+                <p>
+                  {data.A} <br />
+                  {data.B} <br />
+                </p>
+              )
+            )}
+          </div>
 
           <br />
           <br />
 
-          {(language === "en" ? sectionData1EN : sectionDataID1).c2}
+          {(language === "en" ? sectionDataEN1 : sectionDataID1).c2}
         </p>
       </div>
     </div>
