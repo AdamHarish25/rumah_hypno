@@ -11,19 +11,15 @@ import {
 import { Link } from "react-router-dom";
 import Logo from "../../Attachments/Images/RumahHypnoLogo.png";
 
-const ArticleFooter = () => {
+const ArticleFooter = ({ language = "en" }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [stateText, setStateText] = useState("Bahasa");
+  var stateText = "Bahasa";
 
-  const dropdownEN = () => {
-    setDropdownOpen(!dropdownOpen);
-    setStateText("English");
-  };
-
-  const dropdownID = () => {
-    setDropdownOpen(!dropdownOpen);
-    setStateText("Bahasa");
-  };
+  if (language === "en") {
+    stateText = "English";
+  } else {
+    stateText = "Bahasa";
+  }
 
   const className = {
     container: "mt-10 w-screen h-fit bg-black text-white p-5 font-inter",
@@ -57,7 +53,9 @@ const ArticleFooter = () => {
           <ul className={className.dropdownMenu}>
             <li>
               <Link
-                onClick={dropdownEN}
+                onClick={() => {
+                  setDropdownOpen(!dropdownOpen);
+                }}
                 className={className.dropdownItem}
                 to="../Articles/en/"
                 replace={true}
@@ -67,7 +65,9 @@ const ArticleFooter = () => {
             </li>
             <li>
               <Link
-                onClick={dropdownID}
+                onClick={() => {
+                  setDropdownOpen(!dropdownOpen);
+                }}
                 className={className.dropdownItem}
                 to="../Articles/id/"
                 replace={true}

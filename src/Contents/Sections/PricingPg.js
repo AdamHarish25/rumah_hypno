@@ -4,7 +4,7 @@ import { PricingPageDataID } from "../ID/DataID";
 const PricingPg = ({ language = "en" }) => {
   const className = {
     container:
-      "w-screen h-auto xl:h-screen py-10 bg-bgVector bg-center bg-contain bg-repeat-space md:bg-no-repeat p-10 xl:p-0 xl:py-10 space-y-7",
+      "w-screen h-auto xl:h-screen py-10 bg-bgVector bg-center bg-contain bg-repeat-space md:bg-no-repeat px-10 xl:px-0 xl:py-16 space-y-7",
     titleBox: "text-center font-inter ",
     innerBox:
       "w-full h-fit grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 p-5 sm:p-10 place-items-center",
@@ -104,19 +104,6 @@ const PricingPg = ({ language = "en" }) => {
           </p>
         </div>
       </div>
-
-      <h1 className={className.promo}>
-        {
-          (language === "en" ? PricingPageDataEn : PricingPageDataID).offer
-            .Title
-        }{" "}
-        <br />
-        <br className="block lg:hidden" />
-        {
-          (language === "en" ? PricingPageDataEn : PricingPageDataID).offer
-            .content
-        }
-      </h1>
     </div>
   );
 };

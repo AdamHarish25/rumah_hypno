@@ -1,5 +1,5 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import { AboutPageDataEN } from "../EN/DataEN";
-import DropdownList from "../Components/Dropdown/DropdownList";
 import { AboutPageDataID } from "../ID/DataID";
 
 const AboutPg = ({ language = "en", setScrollTo }) => {
@@ -14,6 +14,7 @@ const AboutPg = ({ language = "en", setScrollTo }) => {
     listBox: "list-none space-y-5",
     listContainer: "h-full w-fit flex justify-center items-center",
     link: "font-bold hover:underline cursor-pointer",
+    desktopOnlyImg: "hidden lg:block w-fit h-fit",
 
     profile: {
       outerContainer:
@@ -168,42 +169,57 @@ const AboutPg = ({ language = "en", setScrollTo }) => {
       </div>
 
       <div className={className.content3}>
-        <div className={className.spacingWlists}>
-          <div className={className.spacing}>
-            <h1 className={className.sectionTitle}>
-              {(language === "en" ? AboutPageDataEN : AboutPageDataID).section}
-            </h1>
-            <h2 className={className.title}>
-              {
-                (language === "en" ? AboutPageDataEN : AboutPageDataID).content3
-                  .title
-              }
-            </h2>
-            <p className={className.description}>
-              {
-                (language === "en" ? AboutPageDataEN : AboutPageDataID).content3
-                  .description
-              }
-            </p>
-          </div>
-          <div>
-            <ul className={className.listBox}>
-              {(language === "en"
-                ? AboutPageDataEN
-                : AboutPageDataID
-              ).content3.lists.map(({ list, content }) => {
-                return <DropdownList title={list} content={content} />;
-              })}
-            </ul>
-          </div>
+        <div className={className.spacing}>
+          <h1 className={className.sectionTitle}>
+            {(language === "en" ? AboutPageDataEN : AboutPageDataID).section}
+          </h1>
+          <h2 className={className.title}>
+            {
+              (language === "en" ? AboutPageDataEN : AboutPageDataID).content3
+                .title
+            }
+          </h2>
+          <p className={className.description}>
+            {
+              (language === "en" ? AboutPageDataEN : AboutPageDataID).content3
+                .description
+            }
+            <br />
+            <br />
+            {language === "en" ? (
+              <p>
+                Let's book your session and choose our package{" "}
+                <span
+                  onClick={() => {
+                    onclickScrollTo("Treatments");
+                  }}
+                  className={className.link}
+                >
+                  below
+                </span>
+              </p>
+            ) : (
+              <p>
+                Yuk book sesi kamu dan pilih paket kami{" "}
+                <span
+                  onClick={() => {
+                    onclickScrollTo("Treatments");
+                  }}
+                  className={className.link}
+                >
+                  dibawah
+                </span>
+              </p>
+            )}
+          </p>
         </div>
         <img
           src={
             (language === "en" ? AboutPageDataEN : AboutPageDataID).content3
               .image
           }
+          alt="just an image"
           className={className.image}
-          alt="Oh for real!? another Img???"
         />
       </div>
 
@@ -225,23 +241,16 @@ const AboutPg = ({ language = "en", setScrollTo }) => {
             }
           </p>
         </div>
-        <div className={className.listContainer}>
-          <ul className={className.listBox}>
-            {(language === "en"
-              ? AboutPageDataEN
-              : AboutPageDataID
-            ).content4.lists.map((data) => {
-              return (
-                <DropdownList
-                  title={data.list}
-                  content={data.content}
-                  key={data.id}
-                />
-              );
-            })}
-          </ul>
-        </div>
+        <img
+          src={
+            (language === "en" ? AboutPageDataEN : AboutPageDataID).content4
+              .image
+          }
+          className={className.desktopOnlyImg}
+          alt="just an image"
+        />
       </div>
+
       <div className={className.content5.container}>
         <img
           src={

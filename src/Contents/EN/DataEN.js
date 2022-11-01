@@ -4,6 +4,7 @@ import Content1 from "../Attachments/Images/Content1.png";
 import ProfilePhoto from "../Attachments/Images/ProfilePhoto.jpeg";
 import Content2 from "../Attachments/Images/Content2.png";
 import Content3 from "../Attachments/Images/Content3.png";
+import Content4 from "../Attachments/Images/Content4.png";
 import Content5 from "../Attachments/Images/Content5.png";
 import Post1 from "../Attachments/Images/post-1.webp";
 import Post2 from "../Attachments/Images/post-2.webp";
@@ -28,13 +29,24 @@ const AboutPageDataEN = {
   section: "About",
   content1: {
     title: "Who Are We?",
-    description:
-      "Rumah Hypno is a family hypnotherapy clinic located in south jakarta. We provide therapy for various complaints of  psychological and physical caused by psychological imbalances (psychosomatic). Such as addiction to gadgets/ alcohol/ cigarettes, depression, stress, difficulty focusing, hypnoslimming, couple therapy, inner child, trauma, emotional control, or other psychometric disorders. With professional therapists, we do the best for you.",
+    description: (
+      <>
+        Rumah Hypno is a family hypnotherapy clinic located in south jakarta. We
+        provide therapy for various complaints of psychological and physical
+        caused by psychological imbalances (psychosomatic). Such as addiction to
+        gadgets/ alcohol/ cigarettes, depression, stress, difficulty focusing,
+        hypnoslimming, couple therapy, inner child, trauma, emotional control,
+        or other psychometric disorders.
+        <br />
+        <br />
+        With professional therapists, we do the best for you.
+      </>
+    ),
     image: Content1,
   },
   profile: {
     title: "Profile",
-    name: "MELANIE IVONE S.Kom CH.,CHt.,CPHt",
+    name: "MELANIE IVONE CH.,CHt.,CPHt",
     description1: (
       <>
         Born and raised in Jakarta, graduated from the University of Indonesia
@@ -71,70 +83,80 @@ const AboutPageDataEN = {
 
   content2: {
     title: "What is Hypnotherapy ?",
-    description:
-      "Hypnotherapy consists of two words, hypnosis and therapy, meaning the clinical therapy by using special techniques in hypnosis stage.hypnosis is a state of relaxed awareness. You will be physically relaxed but mentally alert. In this state, your subconscious mind is most receptive to hypnotic suggestion. You are in full control throughout. Hypnosis has been demonstrated in numerous studies and scientific research world wide for several decades as an effective treatment for a wide range of issues such as childhood trauma, self and couple conflict, stress management, etc.",
+    description: (
+      <>
+        Everyone has their own worries about something. However, some people
+        worry so much that it can be seen that they have mental health-related
+        problems. In fact, the problem has escalated into an anxiety disorder or
+        anxiety. This disorder must be treated immediately so that it does not
+        continue to develop.
+        <br />
+        One way to overcome mental health problems is with hypnotherapy. This
+        method is called effective for calming the mind so that all problems
+        related to worry, because through hypnotherapy techniques allow a person
+        to be able to access the subconscious which stores all memories, values,
+        principles, beliefs (trust system) which is a source of consideration in
+        making decisions. make decisions or sources of consideration in acting.
+      </>
+    ),
     image: Content2,
   },
 
   content3: {
-    title: "What Techniques Are Used in Hypnotherapy?",
-    description:
-      "During a hypnotherapy session, people are guided through a process to induce a trance-like state that helps them focus their minds, respond more readily to suggestions, and become deeply relaxed. Hypnotherapy utilizes the heightened awareness of the hypnotic state to help you focus on a problem more deeply.",
+    title: "Benefits Of Hypnotherapy",
+    description: (
+      <>
+        Hypnotherapy can provide the potential to get better by treating medical
+        conditions without the need for additional treatment.
+        <br />
+        Medical experts include hypnotherapy as a safe treatment option with
+        minimal side effects. This method may not work for everyone and is often
+        referred to as complementary therapy.
+        <br />
+        <br />
+        A person receiving this therapy can experience several benefits, such as
+        an increased sense of overall well-being, improved mood, and a feeling
+        of hopelessness. Hypnotherapy can be used to treat several conditions,
+        such as chronic pain, concentration problems, smoking control, and of
+        course mental health.
+        <br />
+        <br />
+        This therapy can be effective in helping a person reduce or control
+        feelings of anxiety, stress, and sadness for the better. Hypnotherapy is
+        also used to treat some negative behaviors that can make depression
+        worse. Some of these behaviors may develop into something dangerous and
+        even interfere with daily activities.
+        <br />
+        If you feel you are in a bad mental state, immediately consult your
+        problem with a hypnotherapist so we can help you get better.
+      </>
+    ),
     image: Content3,
-    lists: [
-      {
-        id: 1,
-        list: "Relaxation",
-        content:
-          "You will be guided by the hypnotherapist to visualize yourself in a state of peacefulness and relaxation, even when confronting a problematic behavior or the object of your fears.",
-      },
-      {
-        id: 2,
-        list: "Suggestion",
-        content:
-          "Your hypnotherapist may make gentle suggestions for behavior changes that can help you conquer your issue. For example, you may be taught to see yourself as a supportive advisor during a phobic reaction, thus learning to trust yourself and your ability to get through the situation.",
-      },
-      {
-        id: 3,
-        list: "Coping Skills",
-        content:
-          "You may be taught certain cognitive-behavioral coping skills, such as guided imagery and the STOP! technique, that you can use when confronting fears or anxieties.",
-      },
-      {
-        id: 4,
-        list: "Exploration of past experiences",
-        content:
-          "You may even be encouraged to talk about the first time you experienced the behavior or problem that you are trying to overcome and how you felt at that moment.",
-      },
-    ],
   },
 
   content4: {
-    title: "Benefits Of Hypnotherapy",
-    description:
-      "Some people may experience dramatic results with hypnotherapy. In other cases, people may simply feel very relaxed. Some of the benefits of hypnotherapy may include:",
-    lists: [
-      {
-        id: 1,
-        list: "Awareness",
-        content:
-          "Some people remain fully aware during the entire experience. They recall everything that happens and are even able to have conversations while under hypnosis. Other people may experience states of relaxation that are so deep that they may even feel detached from what is happening.",
-      },
-      {
-        id: 2,
-        list: "Focus",
-        content:
-          "Most of the time, we are distracted by our surroundings. Whether the TV is blaring, your kids are demanding attention or your spouse wants to talk, it can be difficult to fully focus on yourself. Our conscious minds are also cluttered. You may be worried about paying a bill, concerned about an upcoming project, or planning tonight’s dinner. The therapy session is intended to break through these day-to-day concerns and allow you to focus completely on the problem at hand.",
-      },
-      {
-        id: 3,
-        list: "Relaxation",
-        content:
-          "In the hypnotic state, you are deeply relaxed. Your conscious mind is quieted, allowing your unconscious mind to deeply focus on your issue. You are also calmer, and therefore more receptive to facing your problems or fears.",
-      },
-    ],
-    addition:
-      "Most hypnotherapists utilize a series of calming messages, such as 'you are safe' and 'no one can harm you' to reassure their clients that during hypnosis they can objectively face their problems without having a panicked reaction.",
+    title: "How Hypnotherapy Works",
+    description: (
+      <>
+        This therapy session is generally done between 60-90 minutes. The
+        therapist will use a variety of relaxation techniques to guide the
+        person into entering a hypnotic state. When this happens, you are
+        certainly still in a conscious state, but the body becomes more relaxed
+        and the mind is more responsive to suggestions from the therapist.
+        <br />
+        <br />
+        Various suggestions will be made by the therapist depending on the
+        condition or disorder that is trying to be overcome.
+        <br />
+        <br />
+        Hypnotherapy can help to get rid of unwanted or unhealthy habits and
+        replace them with something better. One thing that can be done is to
+        increase the ability to control pain or anxiety, so that bad thought
+        patterns can be eliminated so that the problem of depression is
+        resolved.
+      </>
+    ),
+    image: Content4,
   },
 
   content5: {
@@ -163,19 +185,6 @@ const AboutPageDataEN = {
       "While it may help people cope with problems related to stress and anxiety, it may be best applied when used in conjunction with first-line treatments such as cognitive behavioral therapy (CBT) and medications.",
     addition2:
       "The results of a study published in the May 2021 issue of the Journal of Affective Disorders found that hypnotherapy was not less effective than CBT for treating mild to moderate depression. The results indicated that where CBT led to a 38.5% reduction in symptom severity, hypnotherapy resulted in a 44.6% reduction.",
-  },
-};
-
-const BookingPageDataEN = {
-  adultUrl: {
-    title: "Intake for Adult",
-    url: "https://forms.gle/uvoNYgY1J8DAAzQr8",
-    image: "bg-adultBook",
-  },
-  childrenUrl: {
-    title: "Intake for Children",
-    url: "https://forms.gle/FZv12AxZGsV79e3t8",
-    image: "bg-childrenBook",
   },
 };
 
@@ -243,18 +252,18 @@ const TreatmentsPageDataEN = {
 const PricingPageDataEn = {
   pricing1: {
     Title: "Ceria 1",
-    Price: "$64.13",
+    Price: "IDR 1,000,000",
     Benefits: "Booking 1 Session Only",
   },
   pricing2: {
     Title: "Ceria 2",
-    Price: "$115.47",
+    Price: "IDR 1,800,000",
     Benefits: "Booking for 2 Sessions",
   },
   pricing3: {
     Title: "Ceria 3",
-    NormalPrice: "$160.29",
-    PriceNow: "$64.11",
+    NormalPrice: "IDR 2,500,000",
+    PriceNow: "IDR 1.000.000",
     Benefits: (
       <>
         Booking 3 Sessions
@@ -389,7 +398,6 @@ export {
   MainPageDataEN,
   AboutPageDataEN,
   TreatmentsPageDataEN,
-  BookingPageDataEN,
   PricingPageDataEn,
   FaqPageDataEn,
   PostsPageDataEn,

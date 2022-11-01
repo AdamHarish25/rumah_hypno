@@ -5,7 +5,7 @@ const ContactPg = ({ language = "en" }) => {
   const className = {
     container: "w-screen h-[150vh] lg:h-screen pt-10",
     titleBox: "h-fit w-full text-center font-inter",
-    sectionTitle: "text-blue-500 font-bold text-sm",
+    sectionTitle: "text-blue-500 font-medium text-sm",
     title: "text-3xl lg:text-4xl font-bold",
     contactBox:
       "w-full h-full p-10 xl:p-20 grid grid-cols-1 lg:grid-cols-2 gap-10",

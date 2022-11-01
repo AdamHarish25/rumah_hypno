@@ -4,6 +4,7 @@ import Content1 from "../Attachments/Images/Content1.png";
 import ProfilePhoto from "../Attachments/Images/ProfilePhoto.jpeg";
 import Content2 from "../Attachments/Images/Content2.png";
 import Content3 from "../Attachments/Images/Content3.png";
+import Content4 from "../Attachments/Images/Content4.png";
 import Content5 from "../Attachments/Images/Content5.png";
 import Post1 from "../Attachments/Images/post-1.webp";
 import Post2 from "../Attachments/Images/post-2.webp";
@@ -28,13 +29,24 @@ const AboutPageDataID = {
   section: "Tentang",
   content1: {
     title: "Siapa Kita?",
-    description:
-      "Rumah Hypno adalah klinik hipnoterapi keluarga yang berlokasi di Jakarta Selatan. Kami melayani terapi berbagai keluhan psikis maupun fisik ringan yang diakibatkan oleh ketidakseimbangan psikologis (psikosomatis). Seperti kecanduan gadget/ alkohol/ rokok, depresi, stress, sulit focus, hypnoslimming, couple therapy, inner child, trauma, pengendalian emosi, atau gangguan psikometri lainnya. Bersama terapis yang professional, kami lakukan yang terbaik untuk anda.",
+    description: (
+      <>
+        Rumah Hypno adalah klinik hipnoterapi keluarga yang berlokasi di Jakarta
+        Selatan. Kami melayani terapi berbagai keluhan psikis maupun fisik
+        ringan yang diakibatkan oleh ketidakseimbangan psikologis
+        (psikosomatis), seperti kecanduan gadget/ alkohol/ rokok, depresi,
+        stress, sulit focus, hypnoslimming, couple therapy, inner child, trauma,
+        pengendalian emosi, atau gangguan psikometri lainnya.
+        <br />
+        <br />
+        Bersama terapis yang professional, kami lakukan yang terbaik untuk anda.
+      </>
+    ),
     image: Content1,
   },
   profile: {
     title: "Profile",
-    name: "MELANIE IVONE S.Kom CH.,CHt.,CPHt",
+    name: "MELANIE IVONE CH.,CHt.,CPHt",
     description1: (
       <>
         dilahirkan dan dibesarkan Di Jakarta, lulus dari Universitas Indonesia
@@ -72,68 +84,86 @@ const AboutPageDataID = {
 
   content2: {
     title: "Apa itu Hipnoterapi?",
-    description: `Hipnoterapi terdiri dari dua kata, hipnosis dan terapi, yang berarti terapi klinis dengan menggunakan teknik khusus dalam hipnosis. Hipnosis adalah keadaan kesadaran yang rileks. Anda akan rileks secara fisik tetapi waspada secara mental. Dalam keadaan ini, pikiran bawah sadar Anda dengan sangat mudah menerima sugesti hipnosis. Anda memegang kendali penuh selama Hipnosis berlangsung. Hipnosis telah digunakan dalam berbagai penelitian dan penelitian ilmiah di seluruh dunia selama beberapa dekade sebagai cara yang efektif untuk berbagai masalah seperti trauma masa kecil, konflik diri dan pasangan, pengendalian emosi, dll.`,
+    description: (
+      <>
+        Setiap orang tentu memiliki rasa khawatirnya sendiri terhadap suatu hal.
+        Namun, beberapa orang memiliki rasa khawatir yang berlebihan sehingga
+        dapat dikategorikan sudah mengalami masalah terkait kesehatan mental.
+        Bahkan, masalah tersebut sudah meningkat menjadi gangguan kecemasan atau
+        anxiety. Gangguan tersebut harus segera mendapatkan penanganan agar
+        tidak terus berkembang.
+        <br /> Salah satu cara untuk mengatasi masalah dari kesehatan mental
+        adalah dengan hipnoterapi. Metode ini disebut ampuh untuk membuat
+        pikiran menjadi tenang sehingga segala masalah yang berhubungan dengan
+        rasa khawatir, karena melalui teknik hypnotherapy memungkinkan seseorang
+        untuk dapat me gakses alam bawah sadar yang menyimpan segala memori,
+        nilai- nilai, prinsip, kepercayaan ( believe system) yang menjadi sumber
+        pertimbangan dalam mengambil keputusan atau sumber pertimbangan dalam
+        bertindak.
+      </>
+    ),
     image: Content2,
   },
 
   content3: {
-    title: "Teknik apa yang biasa dipakai untuk Hipnoterapi?",
-    description:
-      "Selama sesi hipnoterapi, klien dipandu melalui proses untuk menginduksi keadaan seperti trance yang membantu mereka memfokuskan pikiran mereka, lebih siap menanggapi saran, dan menjadi sangat santai. Hipnoterapi memanfaatkan kesadaran tinggi dari keadaan hipnosis untuk membantu Anda fokus pada masalah lebih dalam.",
+    title: "Manfaat Hipnoterapi",
+    description: (
+      <>
+        Hipnoterapi dapat memberikan potensi agar menjadi lebih baik dengan
+        melakukan perawatan terkait kondisi medis tanpa membutuhkan pengobatan
+        tambahan.
+        <br />
+        Ahli medis memasukkan hipnoterapi sebagai pilihan pengobatan yang aman
+        dengan efek samping sangat minim. Mungkin cara ini tidak berhasil untuk
+        semua orang dan kerap disebut sebagai terapi pelengkap.
+        <br />
+        <br />
+        Seseorang yang mendapatkan terapi ini dapat merasakan beberapa manfaat,
+        seperti meningkatnya rasa kesejahteraan secara menyeluruh, memperbaiki
+        suasana hati, dan menghadirkan perasaan yang penuh dengan harapan.
+        Hipnoterapi ini dapat digunakan untuk mengatasi beberapa kondisi,
+        seperti sakit kronis, masalah konsentrasi, kontrol merokok, dan tentu
+        saja kesehatan mental.
+        <br />
+        <br />
+        Terapi ini dapat efektif untuk membantu seseorang mengurangi atau
+        mengendalikan perasaan cemas, stres, dan sedih agar menjadi lebih baik.
+        Hipnoterapi juga digunakan untuk mengatasi beberapa perilaku negatif
+        yang dapat membuat depresi menjadi semakin buruk. Beberapa perilaku ini
+        mungkin saja dapat berkembang menjadi sesuatu yang berbahaya bahkan
+        mengganggu aktivitas harian.
+        <br />
+        Apabila kamu merasa dalam kondisi mental yang kurang baik, segera
+        konsultasikan permasalahan kamu kepada seorang hipnoterapis agar kami
+        bisa membantu kamu menjadi lebih baik.
+      </>
+    ),
     image: Content3,
-    lists: [
-      {
-        id: 1,
-        list: "Relaksasi",
-        content:
-          "Anda akan dipandu oleh hipnoterapis untuk memvisualisasikan diri Anda dalam keadaan damai dan rileks, bahkan saat menghadapi perilaku bermasalah atau objek ketakutan Anda.",
-      },
-      {
-        id: 2,
-        list: "Sugesti/Saran",
-        content:
-          "Ahli hipnoterapi Anda dapat memberikan saran lembut untuk perubahan perilaku yang dapat membantu Anda mengatasi masalah Anda. Misalnya, Anda mungkin diajarkan untuk melihat diri Anda sebagai penasihat yang mendukung selama reaksi fobia, sehingga belajar untuk mempercayai diri sendiri dan kemampuan Anda untuk melewati situasi tersebut.",
-      },
-      {
-        id: 3,
-        list: "Keterampilan mengatasi",
-        content:
-          "Anda mungkin diajari keterampilan mengatasi perilaku kognitif tertentu, seperti imajinasi terbimbing dan STOP! teknik, yang dapat Anda gunakan saat menghadapi ketakutan atau kecemasan.",
-      },
-      {
-        id: 4,
-        list: "Eksplorasi pengalaman masa lalu",
-        content:
-          "Anda bahkan mungkin didorong untuk berbicara tentang pertama kali Anda mengalami perilaku atau masalah yang Anda coba atasi dan bagaimana perasaan Anda saat itu.",
-      },
-    ],
   },
 
   content4: {
-    title: "Manfaat Hipnoterapi",
-    description:
-      "Beberapa orang mungkin mengalami hasil yang dramatis dengan hipnoterapi. Dalam kasus lain, orang mungkin merasa sangat santai. Beberapa manfaat hipnoterapi mungkin termasuk:",
-    lists: [
-      {
-        id: 1,
-        list: "Kesadaran",
-        content:
-          "Beberapa orang tetap sadar sepenuhnya selama seluruh pengalaman. Mereka mengingat semua yang terjadi dan bahkan dapat melakukan percakapan saat berada di bawah hipnosis. Orang lain mungkin mengalami keadaan relaksasi yang begitu dalam sehingga mereka bahkan mungkin merasa terlepas dari apa yang sedang terjadi",
-      },
-      {
-        id: 2,
-        list: "Fokus",
-        content:
-          "Sebagian besar waktu, kita terganggu oleh lingkungan kita. Apakah TV menyala, anak-anak Anda menuntut perhatian atau pasangan Anda ingin berbicara, mungkin sulit untuk sepenuhnya fokus pada diri sendiri. Pikiran sadar kita juga berantakan. Anda mungkin khawatir tentang membayar tagihan, khawatir tentang proyek yang akan datang, atau merencanakan makan malam malam ini. Sesi terapi dimaksudkan untuk memecahkan masalah sehari-hari ini dan memungkinkan Anda untuk fokus sepenuhnya pada masalah yang dihadapi",
-      },
-      {
-        id: 3,
-        list: "Relaksasi",
-        content:
-          "Dalam keadaan hipnosis, Anda sangat rileks. Pikiran sadar Anda diheningkan, memungkinkan pikiran bawah sadar Anda untuk sangat fokus pada masalah Anda. Anda juga lebih tenang, dan karena itu lebih mudah menerima masalah atau ketakutan Anda",
-      },
-    ],
-    addition: `Kebanyakan hipnoterapis menggunakan serangkaian pesan yang menenangkan, seperti "Anda aman" dan "tidak ada yang dapat membahayakan Anda" untuk meyakinkan klien mereka bahwa selama hipnosis mereka dapat secara objektif menghadapi masalah mereka tanpa reaksi panik.`,
+    title: "Cara Dilakukannya Hipnoterapi",
+    description: (
+      <>
+        Sesi terapi ini umumnya dilakukan antara 60- 90 menit. Terapis akan
+        menggunakan berbagai macam teknik relaksasi untuk memandu seseorang agar
+        dapat memasuki keadaan hipnosis. Saat hal tersebut terjadi, kamu tentu
+        masih dalam keadaan sadar, tetapi tubuh menjadi lebih rileks dan pikiran
+        lebih responsif terhadap saran dari terapis.
+        <br />
+        <br />
+        Berbagai saran yang akan dikatakan oleh terapis tergantung dari kondisi
+        atau gangguan yang coba untuk diatasi.
+        <br />
+        <br />
+        Hipnoterapi dapat membantu untuk menghilangkan kebiasaan yang tidak
+        diinginkan atau tidak sehat dan menggantikannya dengan sesuatu yang
+        lebih baik. Salah satu hal yang dapat dilakukan adalah meningkatkan
+        kemampuan untuk mengontrol rasa sakit atau cemas, sehingga pola pikir
+        yang buruk dapat dihilangkan agar masalah depresi teratasi.
+      </>
+    ),
+    image: Content4,
   },
 
   content5: {
@@ -162,19 +192,6 @@ const AboutPageDataID = {
       "Meskipun dapat membantu orang mengatasi masalah yang berkaitan dengan stres dan kecemasan, ini mungkin paling baik diterapkan bila digunakan bersama dengan perawatan lini pertama seperti terapi perilaku kognitif (CBT) dan obat-obatan.",
     addition2:
       "Hasil penelitian yang diterbitkan dalam Journal of Affective Disorders edisi Mei 2021 menemukan bahwa hipnoterapi tidak kalah efektifnya dengan CBT untuk mengobati depresi ringan hingga sedang. Hasilnya menunjukkan bahwa di mana CBT menyebabkan pengurangan 38,5% dalam keparahan gejala, hipnoterapi menghasilkan pengurangan 44,6%.",
-  },
-};
-
-const BookingPageDataID = {
-  adultUrl: {
-    title: "Intake for Adult (Indonesian Version)",
-    url: "https://forms.gle/JMoqJHeUbi26EQ9N9",
-    image: "bg-adultBook",
-  },
-  childrenUrl: {
-    title: "Intake for Children (Indonesian Version)",
-    url: "https://forms.gle/Rw8QPYGT9PpPdPhe9",
-    image: "bg-childrenBook",
   },
 };
 
@@ -387,7 +404,6 @@ export {
   MainPageDataID,
   AboutPageDataID,
   TreatmentsPageDataID,
-  BookingPageDataID,
   PricingPageDataID,
   FaqPageDataID,
   PostsPageDataID,

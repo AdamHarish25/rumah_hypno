@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slider-container {
+    position: relative;
+    padding: 10px auto 0px auto;
+    display: grid;
+    width: 90vw;
+    height: 85vh;
+}
+
+/* Style each slide */
+.slide {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.photo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translatex(-50%) translateY(-50%);
+    width: 60vw;
+    max-height: fit-content;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+    .slider-container {
+        position: relative;
+        margin: 50px auto 20px auto;
+        display: grid;
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .photo {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translatex(-50%) translateY(-50%);
+        width: 90vw;
+        height: fit-content;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .photo {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translatex(-50%) translateY(-50%);
+        width: 50vw;
+        max-height: fit-content;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    opacity: 1;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -22px;
+    background: #ccc;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 100%;
+    transition: 0.6s ease;
+    border: none;
+    display: grid;
+    place-items: center;
+}
+
+/* Position the "next" button to the right */
+.next {
+    right: 0;
+}
+
+.prev {
+    left: 0;
+}
+
+/* On hover, add a semi-transparent black background */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 166, 255);
+    border-radius: 30px 0 30px 0;
+}
+
+.next.hide,
+.prev.hide {
+    opacity: 0.3;
+}
+
+/* The dots indicator */
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 100%;
+    display: inline-block;
+    transition: 1s;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+.active {
+    border-radius: 100px 0 100px 0;
+    background-color: rgb(0, 166, 255);
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 601px) {
+    .active,
+    .dot:hover {
+        border-radius: 100px 0 100px 0;
+        background-color: rgb(0, 166, 255);
+        font-weight: bold;
+    }
+}
+
+/* Fading animation */
+.fade {
+    animation-name: scale;
+    animation-duration: 1.5s;
+}
+
+@keyframes scale {
+    from {
+        scale: 0.8;
+        opacity: 0.4;
+    }
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}

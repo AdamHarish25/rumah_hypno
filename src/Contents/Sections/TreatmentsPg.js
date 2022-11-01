@@ -17,7 +17,7 @@ const TreatmentsPg = ({ language = "en", setScrollTo }) => {
   const className = {
     container: "w-screen h-auto xl:h-screen my-10 space-y-10 font-inter",
     innerBox:
-      "w-full h-fit grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 place-items-center",
+      "w-full h-fit grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 place-items-center px-10",
     sectionTitle: "font-medium text-blue-500",
     titleBox: "text-center",
     title: "font-bold text-2xl md:text-3xl xl:text-4xl",

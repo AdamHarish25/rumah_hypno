@@ -1,12 +1,12 @@
+/* eslint-disable no-const-assign */
 /* eslint-disable react/jsx-no-target-blank */
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import {
   FaChevronDown,
   FaChevronUp,
   FaFacebook,
   FaInstagram,
   FaTiktok,
-  FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -14,17 +14,13 @@ import Logo from "../../Attachments/Images/RumahHypnoLogo.png";
 
 const Footer = ({ language = "en" }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [stateText, setStateText] = useState("Bahasa");
+  var stateText = "Bahasa";
 
-  const dropdownEN = () => {
-    setDropdownOpen(!dropdownOpen);
-    setStateText("English");
-  };
-
-  const dropdownID = () => {
-    setDropdownOpen(!dropdownOpen);
-    setStateText("Bahasa");
-  };
+  if (language === "en") {
+    stateText = "English";
+  } else {
+    stateText = "Bahasa";
+  }
 
   const className = {
     container: "mt-10 w-screen h-fit bg-black text-white p-5 font-inter",
@@ -58,7 +54,9 @@ const Footer = ({ language = "en" }) => {
           <ul className={className.dropdownMenu}>
             <li>
               <Link
-                onClick={dropdownEN}
+                onClick={() => {
+                  setDropdownOpen(!dropdownOpen);
+                }}
                 className={className.dropdownItem}
                 to="../en"
               >
@@ -67,7 +65,9 @@ const Footer = ({ language = "en" }) => {
             </li>
             <li>
               <Link
-                onClick={dropdownID}
+                onClick={() => {
+                  setDropdownOpen(!dropdownOpen);
+                }}
                 className={className.dropdownItem}
                 to="../id"
               >

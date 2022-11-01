@@ -89,7 +89,7 @@ const Articles = ({ language = "en" }) => {
         </Routes>
       </div>
 
-      <ArticleFooter />
+      <ArticleFooter language={homeLanguage} />
       <ArticleNavbar language={homeLanguage} />
     </div>
   );
