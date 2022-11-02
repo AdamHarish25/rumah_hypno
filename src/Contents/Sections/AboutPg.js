@@ -42,7 +42,7 @@ const AboutPg = ({ language = "en", setScrollTo }) => {
     content5: {
       container:
         "w-full h-fit p-10 lg:p-16 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20",
-      description: "text-[#656464] space-y-10 text-sm lg:text-base",
+      description: "text-[#656464] text-sm lg:text-base",
       descriptionLists: "text-black space-y-5",
       listDots:
         "w-3 h-2 lg:w-4 lg:h-4 rounded-full border-2 lg:border-4 border-blue-400 bg-blue-600",
@@ -277,29 +277,10 @@ const AboutPg = ({ language = "en", setScrollTo }) => {
                   .description
               }
             </span>
-            <ul className={className.content5.descriptionLists}>
-              {(language === "en"
-                ? AboutPageDataEN
-                : AboutPageDataID
-              ).content5.list.map((data) => {
-                return (
-                  <li className={className.content5.list} key={data.id}>
-                    <div className={className.content5.listDots} />
-                    {data.title}
-                  </li>
-                );
-              })}
-            </ul>
             <p>
               {
                 (language === "en" ? AboutPageDataEN : AboutPageDataID).content5
-                  .addition1
-              }
-            </p>
-            <p>
-              {
-                (language === "en" ? AboutPageDataEN : AboutPageDataID).content5
-                  .addition2
+                  .addition
               }
             </p>
           </p>

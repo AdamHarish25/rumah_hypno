@@ -9,6 +9,11 @@ import Section2 from "./ArticlePages/Section2";
 import Section3 from "./ArticlePages/Section3";
 import Section4 from "./ArticlePages/Section4";
 import Section5 from "./ArticlePages/Section5";
+import Section6 from "./ArticlePages/Section6";
+import Section7 from "./ArticlePages/Section7";
+import Section8 from "./ArticlePages/Section8";
+import Section9 from "./ArticlePages/Section9";
+import Section10 from "./ArticlePages/Section10";
 
 const Articles = ({ language = "en" }) => {
   var homeLanguage;
@@ -68,23 +73,23 @@ const Articles = ({ language = "en" }) => {
           />
           <Route
             path="*/section_6"
-            element={<MaintenancePage language={homeLanguage} />}
+            element={<Section6 language={homeLanguage} />}
           />
           <Route
             path="*/section_7"
-            element={<MaintenancePage language={homeLanguage} />}
+            element={<Section7 language={homeLanguage} />}
           />
           <Route
             path="*/section_8"
-            element={<MaintenancePage language={homeLanguage} />}
+            element={<Section8 language={homeLanguage} />}
           />
           <Route
             path="*/section_9"
-            element={<MaintenancePage language={homeLanguage} />}
+            element={<Section9 language={homeLanguage} />}
           />
           <Route
             path="*/section_10"
-            element={<MaintenancePage language={homeLanguage} />}
+            element={<Section10 language={homeLanguage} />}
           />
         </Routes>
       </div>

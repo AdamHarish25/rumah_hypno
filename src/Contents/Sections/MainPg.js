@@ -6,7 +6,7 @@ import {
 
 const MainPg = ({ language = "en" }) => {
   const className = {
-    Container: `h-screen w-screen bg-gradient-to-br from-white to-[#9fcafe] flex items-center justify-center`,
+    Container: `h-auto w-screen py-10 bg-gradient-to-br from-white to-[#9fcafe] flex items-center justify-center`,
   };
 
   return (

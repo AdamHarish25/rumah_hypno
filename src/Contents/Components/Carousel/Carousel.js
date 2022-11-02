@@ -1,4 +1,4 @@
-import { Children, useEffect } from "react";
+import { useEffect } from "react";
 import { useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "./Carousel.css";
@@ -61,11 +61,11 @@ const Carousel = ({ data }) => {
     const currentTouch = e.touches[0].clientX;
     const diff = touchDown - currentTouch;
 
-    if (diff > 5) {
+    if (diff > 10) {
       next();
     }
 
-    if (diff < -5) {
+    if (diff < -10) {
       prev();
     }
 

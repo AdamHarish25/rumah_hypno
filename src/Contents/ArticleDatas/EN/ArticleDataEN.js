@@ -603,7 +603,8 @@ const sectionDataEN10 = {
       <br />
       However hypnosis requires three components (Faymonville et al., 2006):
       <br />
-      <ul className="list-disc pl-10 space-y-2">
+      <br />
+      <ul className="list-disc pl-10 space-y-4">
         <li>
           Absorption – to become fully involved in the imaginative experience
         </li>

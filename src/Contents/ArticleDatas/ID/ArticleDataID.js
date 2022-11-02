@@ -630,8 +630,10 @@ const sectionDataID10 = {
       eksternal.
       <br />
       bagaimanapun, Hipnosis membutuhkan tiga komponen (Faymonville et al.,
-      2006): <br />
-      <ul className="list-disc pl-10 space-y-2">
+      2006):
+      <br />
+      <br />
+      <ul className="list-disc pl-10 space-y-4">
         <li>
           Penyerapan – untuk sepenuhnya terlibat dalam pengalaman imajinatif
         </li>

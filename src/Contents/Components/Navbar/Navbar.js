@@ -3,7 +3,7 @@ import logo from "../../Attachments/Images/RumahHypnoLogo.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Navbar = ({ language = "en", setScrollTo}) => {
+const Navbar = ({ language = "en", setScrollTo }) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [navbar, setNavbar] = useState(false);
 
@@ -56,7 +56,9 @@ const Navbar = ({ language = "en", setScrollTo}) => {
         <img src={logo} alt="Logo Here" className={className.img} />
         <ul className={className.ul1}>
           <li>
-            <button onClick={() => onclickScrollTo("main")}>Home</button>
+            <button onClick={() => onclickScrollTo("main")}>
+              {language === "en" ? "Home" : "Beranda"}
+            </button>
           </li>
           <li>
             <button onClick={() => onclickScrollTo("About")}>

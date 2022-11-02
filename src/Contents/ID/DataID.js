@@ -167,31 +167,16 @@ const AboutPageDataID = {
   },
 
   content5: {
-    title: "Seberapa efektif kah Hipnoterapi?",
+    title: "Apakah Hipnoterapi efektif?",
     image: Content5,
-    description:
-      "Efektivitas dan dampak hipnoterapi dapat bervariasi berdasarkan individu dan bagaimana perawatan digunakan. Hipnoterapi telah terbukti memiliki beberapa tingkat kemanjuran untuk aplikasi tertentu, terutama:",
-    list: [
-      {
-        id: 1,
-        title:
-          "Pengurangan rasa sakit dan kontrol selama prosedur gigi dan persalinan",
-      },
-      {
-        id: 2,
-        title:
-          "Pengurangan mual dan muntah pada individu yang dirawat karena kanker dengan kemoterapi.",
-      },
-      {
-        id: 3,
-        title:
-          "Pengurangan keparahan gejala yang terkait dengan sindrom iritasi usus besar (IBS)",
-      },
-    ],
-    addition1:
-      "Meskipun dapat membantu orang mengatasi masalah yang berkaitan dengan stres dan kecemasan, ini mungkin paling baik diterapkan bila digunakan bersama dengan perawatan lini pertama seperti terapi perilaku kognitif (CBT) dan obat-obatan.",
-    addition2:
-      "Hasil penelitian yang diterbitkan dalam Journal of Affective Disorders edisi Mei 2021 menemukan bahwa hipnoterapi tidak kalah efektifnya dengan CBT untuk mengobati depresi ringan hingga sedang. Hasilnya menunjukkan bahwa di mana CBT menyebabkan pengurangan 38,5% dalam keparahan gejala, hipnoterapi menghasilkan pengurangan 44,6%.",
+    description: `Sebuah penelitian pada tahun 2019 yang dilakukan oleh mahasiswa di
+    Universitas Islam Walisongo Semarang Jurusan Psikoterapi, telah membuktikan
+    bahwa Hipnoterapi efektif untuk mengurangi gejala kecemasan yang dialami
+    oleh ibu hamil.`,
+    addition: `Sebuah penelitian pada tahun 2019 yang dilakukan oleh mahasiswa di
+      Universitas Islam Walisongo Semarang Jurusan Psikoterapi, telah membuktikan
+      bahwa Hipnoterapi efektif untuk mengurangi gejala kecemasan yang dialami
+      oleh ibu hamil.`,
   },
 };
 

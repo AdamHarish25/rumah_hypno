@@ -160,31 +160,16 @@ const AboutPageDataEN = {
   },
 
   content5: {
-    title: "How Effective is Hypnotherapy",
+    title: "Is Hypnotherapy effective?",
     image: Content5,
-    description:
-      "The effectiveness and impact of hypnotherapy can vary based on the individual and how the treatment is used. Hypnotherapy has been shown to have some degree of efficacy for certain applications, particularly:",
-    list: [
-      {
-        id: 1,
-        title:
-          "Pain reduction and control during dental procedures and childbirth.",
-      },
-      {
-        id: 2,
-        title:
-          "Reduction in nausea and vomiting in individuals being treated for cancer with chemotherapy.",
-      },
-      {
-        id: 3,
-        title:
-          "Reduction in the severity of symptoms associated with irritable bowel syndrome (IBS)",
-      },
-    ],
-    addition1:
-      "While it may help people cope with problems related to stress and anxiety, it may be best applied when used in conjunction with first-line treatments such as cognitive behavioral therapy (CBT) and medications.",
-    addition2:
-      "The results of a study published in the May 2021 issue of the Journal of Affective Disorders found that hypnotherapy was not less effective than CBT for treating mild to moderate depression. The results indicated that where CBT led to a 38.5% reduction in symptom severity, hypnotherapy resulted in a 44.6% reduction.",
+    description: `A 2019 study conducted by students at
+      Walisongo Islamic University Semarang, Department of Psychotherapy, has proven
+      that Hypnotherapy is effective for reducing the symptoms of anxiety experienced
+      by pregnant women.`,
+    addition: `Hypnotherapy is proven to be effective in helping people overcome problems that
+      associated with stress and has also been shown to be effective in reducing weight,
+      and make a person have a healthier lifestyle with a mindset
+      better.`,
   },
 };
 
