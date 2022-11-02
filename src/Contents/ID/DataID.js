@@ -167,7 +167,7 @@ const AboutPageDataID = {
   },
 
   content5: {
-    title: "Apakah Hipnoterapi efektif?",
+    title: "Seberapa Efektif kah Hipnoterapi?",
     image: Content5,
     description: `Sebuah penelitian pada tahun 2019 yang dilakukan oleh mahasiswa di
     Universitas Islam Walisongo Semarang Jurusan Psikoterapi, telah membuktikan

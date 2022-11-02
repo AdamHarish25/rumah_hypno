@@ -160,7 +160,7 @@ const AboutPageDataEN = {
   },
 
   content5: {
-    title: "Is Hypnotherapy effective?",
+    title: "How effective is Hypnotherapy",
     image: Content5,
     description: `A 2019 study conducted by students at
       Walisongo Islamic University Semarang, Department of Psychotherapy, has proven
