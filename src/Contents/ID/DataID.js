@@ -173,10 +173,10 @@ const AboutPageDataID = {
     Universitas Islam Walisongo Semarang Jurusan Psikoterapi, telah membuktikan
     bahwa Hipnoterapi efektif untuk mengurangi gejala kecemasan yang dialami
     oleh ibu hamil.`,
-    addition: `Sebuah penelitian pada tahun 2019 yang dilakukan oleh mahasiswa di
-      Universitas Islam Walisongo Semarang Jurusan Psikoterapi, telah membuktikan
-      bahwa Hipnoterapi efektif untuk mengurangi gejala kecemasan yang dialami
-      oleh ibu hamil.`,
+    addition: `Hipnoterapi terbukti efektif membantu orang mengatasi masalah yang
+    berkaitan dengan stress dan juga terbukti efektif mengurangi berat badan,
+    serta menjadikan seseorang memiliki pola hidup lebih sehat dengan mindset
+    yang lebih baik.`,
   },
 };
 
