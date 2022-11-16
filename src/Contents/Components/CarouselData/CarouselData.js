@@ -4,6 +4,12 @@ import Carousel2ID from "../../Attachments/Images/Carousel/Carousel2ID.jpeg";
 import Carousel2EN from "../../Attachments/Images/Carousel/Carousel2EN.jpg";
 import Carousel3ID from "../../Attachments/Images/Carousel/Carousel3ID.jpg";
 import Carousel3EN from "../../Attachments/Images/Carousel/Carousel3EN.jpg";
+import Carousel2_1 from "../../Attachments/Video/first.mp4";
+import Carousel2_2 from "../../Attachments/Video/second.mp4";
+import Carousel2_3 from "../../Attachments/Video/third.mp4";
+import Carousel2_4 from "../../Attachments/Video/fourth.mp4";
+
+
 
 const CarouselDataID = [
   {
@@ -41,4 +47,23 @@ const CarouselDataEN = [
   },
 ];
 
-export { CarouselDataID, CarouselDataEN };
+const Carousel2Data = [
+  {
+    id: "v1",
+    src: Carousel2_1,
+  },
+  {
+    id: "v2",
+    src: Carousel2_2,
+  },
+  {
+    id: "v3",
+    src: Carousel2_3,
+  },
+  {
+    id: "v4",
+    src: Carousel2_4,
+  },
+];
+
+export { CarouselDataID, CarouselDataEN, Carousel2Data };

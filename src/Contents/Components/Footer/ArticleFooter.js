@@ -36,6 +36,7 @@ const ArticleFooter = ({ language = "en" }) => {
     dropdownBox: `w-60 relative ${dropdownOpen ? "h-fit" : "h-16"}`,
     dropdownItem:
       "w-full rounded-xl h-fit p-3 hover:bg-blue-700 transition-opacity duration-300",
+    icon: "w-[20px] h-auto",
   };
 
   return (
@@ -78,22 +79,22 @@ const ArticleFooter = ({ language = "en" }) => {
           </ul>
         </div>
         <ul className={className.ul}>
-          <li>
+          {/* <li>
             <a
               target={"_blank"}
               rel="noopener"
               href="https://www.instagram.com"
             >
-              <FaInstagram />
+              <FaInstagram className={className.icon}/>
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               target={"_blank"}
               rel="noopener"
               href="https://www.Tiktok.com/@rumahhypnomelanie"
             >
-              <FaTiktok />
+              <FaTiktok className={className.icon}/>
             </a>
           </li>
           <li>
@@ -102,14 +103,14 @@ const ArticleFooter = ({ language = "en" }) => {
               rel="noopener"
               href="https://wa.me/628111555073"
             >
-              <FaWhatsapp />
+              <FaWhatsapp className={className.icon}/>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a target={"_blank"} rel="noopener" href="https://www.Facebook.com">
-              <FaFacebook />
+              <FaFacebook className={className.icon}/>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

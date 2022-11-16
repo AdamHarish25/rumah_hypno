@@ -4,7 +4,7 @@ import pageNFImg from "../Attachments/Images/404.png";
 const PageNotFound = ({}) => {
   const className = {
     container: "w-screen h-screen grid place-items-center",
-    img: "w-fit h-[350px]",
+    img: "w-fit h-fit lg:h-[350px]",
     innerBox: "w-fit h-fit space-y-5 text-center",
     title: "font-bold font-Poppins text-2xl lg:text-4xl",
     link: "text-base text-white w-fit h-fit p-3 rounded-tl-2xl rounded-br-2xl bg-blue-400 font-semibold transform duration-700 hover:bg-gradient-to-br from-white/40 to-blue-400",

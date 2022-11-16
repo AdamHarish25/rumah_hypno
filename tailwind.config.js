@@ -39,6 +39,7 @@ module.exports = {
           "url('./Contents/Attachments/Images/childrenBooking.jpg')",
         hypnosis: "url('./Contents/Attachments/Images/hypnosis.png')",
         bgVector: "url('./Contents/Attachments/Images/bgVector.png')",
+        background: "url('./Contents/Attachments/Images/background.png')",
       },
     },
   },

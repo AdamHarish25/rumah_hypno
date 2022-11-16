@@ -1,4 +1,4 @@
-import { FaMap, FaTiktok, FaWhatsapp } from "react-icons/fa";
+import { FaLocationArrow, FaMap, FaTiktok, FaWhatsapp } from "react-icons/fa";
 
 /* eslint-disable jsx-a11y/iframe-has-title */
 const ContactPg = ({ language = "en" }) => {
@@ -12,7 +12,8 @@ const ContactPg = ({ language = "en" }) => {
     map: "w-full h-screen lg:h-full border-0",
     ul: "space-y-5 text-xl lg:text-2xl",
     ulBox: "flex items-center",
-    links: "flex gap-5  md:gap-10 text-sm lg:text-base items-center",
+    links: "flex gap-5 md:gap-10 text-sm lg:text-base items-center",
+    icon: "w-[20px] h-auto",
   };
 
   return (
@@ -35,7 +36,7 @@ const ContactPg = ({ language = "en" }) => {
                 className={className.links}
                 href="https://wa.me/628111555073"
               >
-                <FaWhatsapp /> 08111555073
+                <FaWhatsapp className={className.icon}/> 08111555073
               </a>
             </li>
             <li>
@@ -45,10 +46,9 @@ const ContactPg = ({ language = "en" }) => {
                 className={className.links}
                 href="https://goo.gl/maps/nFqbCFcUzKBRu6936"
               >
-                <FaMap />
+                <FaLocationArrow className={className.icon}/>
                 <p>
-                  Graha Mustika Ratu 6th Floor Gatot Subroto Street Kav.74-75
-                  South Jakarta 12870
+                  {language === "en" ? `Graha Mustika Ratu 6th Floor Gatot Subroto Street Kav.74-75 South Jakarta 12870` : `Graha Mustika Ratu, Lantai 6, Jalan Gatot Subroto No.74-75, Jakarta Selatan, 12870`}
                 </p>
               </a>
             </li>
@@ -59,7 +59,7 @@ const ContactPg = ({ language = "en" }) => {
                 className={className.links}
                 href="https://www.tiktok.com/@rumahhypnomelanie"
               >
-                <FaTiktok /> @rumahhypnomelanie
+                <FaTiktok className={className.icon}/> @rumahhypnomelanie
               </a>
             </li>
           </ul>

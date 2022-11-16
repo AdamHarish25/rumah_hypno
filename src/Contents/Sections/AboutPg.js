@@ -271,12 +271,13 @@ const AboutPg = ({ language = "en", setScrollTo }) => {
             }
           </h2>
           <p className={className.content5.description}>
-            <span>
+            <p>
               {
                 (language === "en" ? AboutPageDataEN : AboutPageDataID).content5
                   .description
               }
-            </span>
+            </p>
+            <br/>
             <p>
               {
                 (language === "en" ? AboutPageDataEN : AboutPageDataID).content5
