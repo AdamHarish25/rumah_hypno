@@ -12,7 +12,7 @@ const ContactPg = ({ language = "en" }) => {
     map: "w-full h-screen lg:h-full border-0",
     ul: "space-y-5 text-xl lg:text-2xl",
     ulBox: "flex items-center",
-    links: "flex gap-5 md:gap-10 text-sm lg:text-base items-center",
+    links: "flex gap-5 md:gap-10 text-base items-center",
     icon: "w-[20px] h-auto",
   };
 

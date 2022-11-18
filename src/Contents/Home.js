@@ -7,6 +7,7 @@ import ContactPg from "./Sections/ContactPg";
 import FaqPg from "./Sections/FaqPg";
 import MainPg from "./Sections/MainPg";
 import PricingPg from "./Sections/PricingPg";
+import Testimonial from "./Sections/Testimonial";
 import TreatmentsPg from "./Sections/TreatmentsPg";
 
 const Home = ({ language = "en" }) => {
@@ -44,6 +45,7 @@ const Home = ({ language = "en" }) => {
       <Navbar language={homeLanguage} setScrollTo={setScrollTo} />
 
       <MainPg language={homeLanguage} />
+      <Testimonial language={homeLanguage}/>
       <AboutPg language={homeLanguage} setScrollTo={setScrollTo} />
       <TreatmentsPg language={homeLanguage} setScrollTo={setScrollTo} />
       <BookingPg language={homeLanguage} />

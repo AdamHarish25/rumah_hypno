@@ -16,7 +16,7 @@ const Navbar = ({ language = "en", setScrollTo }) => {
   };
 
   const changeBackground = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 200) {
       setNavbar(true);
     } else {
       setNavbar(false);
@@ -31,7 +31,7 @@ const Navbar = ({ language = "en", setScrollTo }) => {
 
   const className = {
     container: `fixed inset-x-0 h-fit px-0 lg:px-7 py-4 z-50 ${
-      navbar ? "bg-white shadow-md" : "bg-white/40 shadow-none"
+      navbar ? "bg-white shadow-md" : "bg-transparent shadow-none"
     } transform duration-300`,
     desktopDisplay: "w-full hidden lg:flex justify-around items-center",
     mobileDisplay: `w-full grid place-items-center lg:hidden transform duration-200 ${
