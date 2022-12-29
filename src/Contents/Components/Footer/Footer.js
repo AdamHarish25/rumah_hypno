@@ -78,15 +78,15 @@ const Footer = ({ language = "en" }) => {
           </ul>
         </div>
         <ul className={className.ul}>
-          {/* <li>
+          <li>
             <a
               target={"_blank"}
               rel="noopener"
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/rumahhypnomelanie"
             >
               <FaInstagram className={className.icon}/>
             </a>
-          </li> */}
+          </li>
           <li>
             <a
               target={"_blank"}
@@ -105,11 +105,6 @@ const Footer = ({ language = "en" }) => {
               <FaWhatsapp className={className.icon}/>
             </a>
           </li>
-          {/* <li>
-            <a target={"_blank"} rel="noopener" href="https://www.Facebook.com">
-              <FaFacebook className={className.icon}/>
-            </a>
-          </li> */}
         </ul>
       </div>
     </div>

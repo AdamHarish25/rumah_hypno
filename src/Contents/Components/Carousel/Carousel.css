@@ -86,14 +86,16 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+    padding: 10px 0px;
   }
   
   .dot {
     cursor: pointer;
-    height: 30px;
-    width: 30px;
+    height: 15px;
+    width: 15px;
     margin: 0 5px;
     background-color: #ccc;
+    filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
     border-radius: 100%;
     display: inline-block;
     transition: 1s;

@@ -105,7 +105,7 @@ const Carousel = (props) => {
             {children}
           </div>
           <div className="dots">
-            {data.map((carData, index) => (
+            {data.map((carData) => (
               <span
                 key={carData.id}
                 className={
@@ -113,7 +113,7 @@ const Carousel = (props) => {
                 }
                 onClick={() => setCurrentIndex(data.indexOf(carData))}
               >
-                {index + 1}
+
               </span>
             ))}
           </div>

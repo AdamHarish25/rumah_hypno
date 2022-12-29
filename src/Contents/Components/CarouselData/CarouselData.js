@@ -8,6 +8,7 @@ import Carousel2_1 from "../../Attachments/Video/first.mp4";
 import Carousel2_2 from "../../Attachments/Video/second.mp4";
 import Carousel2_3 from "../../Attachments/Video/third.mp4";
 import Carousel2_4 from "../../Attachments/Video/fourth.mp4";
+import Carousel2_5 from "../../Attachments/Video/fifth.mp4";
 
 
 
@@ -63,6 +64,10 @@ const Carousel2Data = [
   {
     id: "v4",
     src: Carousel2_4,
+  },
+  {
+    id: "v5",
+    src: Carousel2_5,
   },
 ];
 

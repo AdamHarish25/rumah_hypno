@@ -6,9 +6,9 @@ import {
 
 const MainPg = ({ language = "en" }) => {
   const className = {
-    Container: `h-[130vh] lg:h-auto w-screen pb-10 pt-36 bg-gradient-to-br from-white to-[#9fcafe] flex flex-col justify-center  xl:justify-center`,
-    imgBox: "w-screen h-auto flex justify-center items-center",
-    img: "w-[85vw] md:w-[70vw] lg:w-[75vw] 2xl:w-[70vw] h-fit rounded-[20px] object-contain"
+    Container: `h-screen lg:h-auto w-screen pb-10 pt-36 bg-gradient-to-br from-white to-[#9fcafe] flex flex-col justify-center  xl:justify-center`,
+    imgBox: "w-screen h-auto flex justify-center items-center px-10",
+    img: "w-[750px] 2xl:w-[950px] h-fit rounded-[20px] object-contain"
   };
 
   return (
