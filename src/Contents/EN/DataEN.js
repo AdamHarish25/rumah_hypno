@@ -247,11 +247,11 @@ const PricingPageDataEn = {
   },
   pricing3: {
     Title: "Ceria 3",
-    NormalPrice: "IDR 2,500,000",
-    PriceNow: "IDR 1.000.000",
+    NormalPrice: "IDR 4,000,000",
+    PriceNow: "IDR 1.500.000",
     Benefits: (
       <>
-        Booking 3 Sessions
+        Booking 4 Sessions
         <br />
         Discount for a "Limited" Time
       </>

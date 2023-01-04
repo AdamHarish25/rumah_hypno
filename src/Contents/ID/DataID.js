@@ -254,11 +254,11 @@ const PricingPageDataID = {
   },
   pricing3: {
     Title: "Ceria 3",
-    NormalPrice: "IDR 2,500,000",
-    PriceNow: "IDR 1.000.000",
+    NormalPrice: "IDR 4,000,000",
+    PriceNow: "IDR 1.500.000",
     Benefits: (
       <>
-        3 Sesi
+        4 Sesi
         <br />
         Diskon untuk waktu yang terbatas
       </>
