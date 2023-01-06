@@ -1,5 +1,4 @@
 import { cloneElement, useRef } from "react";
-import { FaPause, FaPlay } from "react-icons/fa";
 import Carousel from "../Components/Carousel/Carousel";
 import { Carousel2Data } from "../Components/CarouselData/CarouselData";
 
@@ -28,26 +27,6 @@ const Testimonial = ({language = "en"}) => {
             ref: videoRef,
         })
     }
-
-    const VideoControl = ({id, className, buttonId}) => {
-        function play() {
-            var video = document.getElementById("#Video");
-            var button = document.getElementById(buttonId);
-           if (video.paused) {
-              video.play();
-              button.textContent = <FaPause/>;
-           } else {
-              video.pause();
-              button.textContent = <FaPlay/>;
-           }
-        }
-        return cloneElement(<button/>, {
-            className: className,
-            id: buttonId,
-            onClick: play(),
-            value: <FaPlay/>,
-        })
-    } 
     
 
     return <div className={className.container}>
@@ -61,9 +40,9 @@ const Testimonial = ({language = "en"}) => {
             {
                 Carousel2Data.map((data, index) => {
                     return <div key={data.id} className={className.vidBox}>
-                        <VideoComp src={data.src} className={className.vid} id="Video"/>
-                        {/* <VideoControl buttonId="play" className={className.playButton}/> */}
-                        {/* {console.log(<VideoComp/>)} */}
+                        {
+                            data.type === "video" ? <VideoComp src={ data.src } className={ className.vid } id="Video" /> : <img src={ data.src } alt="screenshots" className={ className.vid } />
+                        }
                     </div>
                 })
             }
