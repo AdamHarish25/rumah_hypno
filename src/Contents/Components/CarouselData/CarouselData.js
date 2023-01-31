@@ -14,6 +14,7 @@ import Carousel2_5 from "../../Attachments/Video/fifth.mp4";
 import Carousel1 from "../../Attachments/Images/Carousel2/Carousel1.jpg";
 import Carousel2 from "../../Attachments/Images/Carousel2/Carousel2.jpg";
 import Carousel3 from "../../Attachments/Images/Carousel2/Carousel3.jpg";
+import Carousel4 from "../../Attachments/Images/Carousel2/Carousel4.jpg";
 
 
 
@@ -103,6 +104,11 @@ const Carousel2Data = [
   {
     id: "p3",
     src: Carousel3,
+    type: "photo",
+  },
+  {
+    id: "p4",
+    src: Carousel4,
     type: "photo",
   },
 ];
