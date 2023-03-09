@@ -5,6 +5,7 @@ import AboutPg from "./Sections/AboutPg";
 import BookingPg from "./Sections/BookingPg";
 import ContactPg from "./Sections/ContactPg";
 import FaqPg from "./Sections/FaqPg";
+import HelpButton from "./Sections/HelpButton";
 import MainPg from "./Sections/MainPg";
 import PricingPg from "./Sections/PricingPg";
 import Testimonial from "./Sections/Testimonial";
@@ -43,7 +44,8 @@ const Home = ({ language = "en" }) => {
   return (
     <div className="w-screen h-auto overflow-x-hidden">
       <Navbar language={homeLanguage} setScrollTo={setScrollTo} />
-
+      <HelpButton />
+      
       <MainPg language={homeLanguage} />
       <Testimonial language={homeLanguage}/>
       <AboutPg language={homeLanguage} setScrollTo={setScrollTo} />
