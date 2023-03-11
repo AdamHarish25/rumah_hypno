@@ -4,8 +4,6 @@ import Carousel2ID from "../../Attachments/Images/Carousel/Carousel2ID.jpeg";
 import Carousel2EN from "../../Attachments/Images/Carousel/Carousel2EN.jpg";
 import Carousel3ID from "../../Attachments/Images/Carousel/Carousel3ID.jpg";
 import Carousel3EN from "../../Attachments/Images/Carousel/Carousel3EN.jpg";
-import Carousel4EN from "../../Attachments/Images/Carousel/Carousel4EN.jpg";
-import Carousel4ID from "../../Attachments/Images/Carousel/Carousel4ID.jpg";
 import Carousel2_1 from "../../Attachments/Video/first.mp4";
 import Carousel2_2 from "../../Attachments/Video/second.mp4";
 import Carousel2_3 from "../../Attachments/Video/third.mp4";
@@ -35,11 +33,7 @@ const CarouselDataID = [
     alt: "Photo-3",
     src: Carousel3ID,
   },
-  {
-    id: "p4",
-    alt: "Photo-4",
-    src: Carousel4ID,
-  },
+
 ];
 
 const CarouselDataEN = [
@@ -57,11 +51,6 @@ const CarouselDataEN = [
     id: "p3",
     alt: "Photo-3",
     src: Carousel3EN,
-  },
-  {
-    id: "p4",
-    alt: "Photo-4",
-    src: Carousel4EN,
   },
 ];
 
